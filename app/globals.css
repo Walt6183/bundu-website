@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy:  #0F2040;
+  --color-teal:  #079BB8;
+  --color-amber: #E8921A;
+  --color-ink:   #1a1a2e;
+  --color-light: #f5f7fa;
+  --color-muted: #6b7280;
+  --font-heading: var(--font-heading-var), Georgia, serif;
+  --font-body: var(--font-body-var), system-ui, sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { color: var(--color-ink); background: white; font-family: var(--font-body); }
+  h1,h2,h3,h4 { font-family: var(--font-heading); }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center px-6 py-3 bg-teal text-white font-medium rounded-lg hover:bg-navy transition-colors duration-200;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center px-6 py-3 border-2 border-teal text-teal font-medium rounded-lg hover:bg-teal hover:text-white transition-colors duration-200;
+  }
+  .btn-amber {
+    @apply inline-flex items-center px-6 py-3 bg-amber text-white font-medium rounded-lg hover:opacity-90 transition-opacity duration-200;
+  }
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-200;
+  }
+  .section { @apply py-16 px-4 max-w-6xl mx-auto; }
+  .section-narrow { @apply py-16 px-4 max-w-3xl mx-auto; }
+}

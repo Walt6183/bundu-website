@@ -15,7 +15,7 @@ export async function middleware(request: NextRequest) {
   }
 
   // Maintenance-Modus via Umgebungsvariable prüfen
-  const maintenanceMode = process.env.MAINTENANCE_MODE === 'true'
+  const maintenanceMode = true // TEMPORÄR AKTIVIERT — via Hermes
 
   if (maintenanceMode) {
     const url = request.nextUrl.clone()

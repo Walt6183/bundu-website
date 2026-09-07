@@ -1,12 +1,5 @@
-import Navigation from '@/components/layout/Navigation'
-import Footer from '@/components/layout/Footer'
+import { redirect } from 'next/navigation'
 
 export default function WebsiteLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <>
-      <Navigation />
-      <main>{children}</main>
-      <Footer />
-    </>
-  )
+  redirect('/maintenance')
 }

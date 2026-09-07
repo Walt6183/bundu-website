@@ -14,8 +14,8 @@ export async function middleware(request: NextRequest) {
     return NextResponse.next()
   }
 
-  // Maintenance-Modus via Umgebungsvariable prüfen
-  const maintenanceMode = process.env.MAINTENANCE_MODE === 'true'
+  // Maintenance-Modus aktiv
+  const maintenanceMode = true
 
   if (maintenanceMode) {
     const url = request.nextUrl.clone()

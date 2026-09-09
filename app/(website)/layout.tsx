@@ -1,5 +1,5 @@
-import { redirect } from 'next/navigation'
+import type { ReactNode } from 'react'
 
-export default function WebsiteLayout({ children }: { children: React.ReactNode }) {
-  redirect('/maintenance')
+export default function WebsiteLayout({ children }: { children: ReactNode }) {
+  return <>{children}</>
 }

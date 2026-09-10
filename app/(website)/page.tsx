@@ -1,4 +1,3 @@
-// BACKUP 6978 chars
 import Link from 'next/link'
 
 export const revalidate = 3600

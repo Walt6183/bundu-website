@@ -25,16 +25,21 @@ export default function Footer() {
             <address className="text-sm text-gray-300 not-italic space-y-1">
               <p>Klosterstrasse 5</p>
               <p>CH-5626 Bremgarten</p>
-              <p className="mt-2"><a href="tel:+41555056203" className="hover:text-teal">+41 (0)55 505 62 03</a></p>
+              <p className="mt-2"><a href="tel:+415****6203" className="hover:text-teal">+41 (0)55 505 62 03</a></p>
               <p><a href="mailto:info@bundu.ch" className="hover:text-teal">info@bundu.ch</a></p>
             </address>
           </div>
         </div>
-        <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-          <p>© 2026 B&U BundU. Alle Rechte vorbehalten.</p>
-          <div className="flex gap-4 mt-4 md:mt-0">
-            <Link href="/impressum" className="hover:text-teal">Impressum</Link>
-            <Link href="/datenschutz" className="hover:text-teal">Datenschutz</Link>
+        <div className="border-t border-gray-700 mt-8 pt-6">
+          <p className="text-xs text-gray-400 leading-relaxed mb-6">
+            <strong className="text-gray-300">KI-Transparenzhinweis:</strong> Zur Unterstützung unserer Prozesse nutzen wir teilweise Künstliche Intelligenz. Durch den Einsatz rein lokaler Sprachmodelle gewährleisten wir maximale Datensicherheit und die Einhaltung der DSGVO sowie des Schweizer Datenschutzgesetzes (DSG), da keine Daten an externe Cloud-Anbieter übermittelt werden.
+          </p>
+          <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
+            <p>© 2026 B&U BundU. Alle Rechte vorbehalten.</p>
+            <div className="flex gap-4 mt-4 md:mt-0">
+              <Link href="/impressum" className="hover:text-teal">Impressum</Link>
+              <Link href="/datenschutz" className="hover:text-teal">Datenschutz</Link>
+            </div>
           </div>
         </div>
       </div>

@@ -55,14 +55,24 @@ export default function DatenschutzPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-navy mb-3">7. Ihre Rechte</h2>
+            <h2 className="text-2xl font-bold text-navy mb-3">7. Nutzung von Künstlicher Intelligenz (KI)</h2>
+            <p className="text-gray-700">
+              Zur Optimierung unserer Beratungsleistungen und zur Unterstützung unserer internen Arbeitsabläufe setzen wir punktuell Technologien der Künstlichen Intelligenz ein.
+            </p>
+            <p className="text-gray-700 mt-3">
+              Um höchste Sicherheitsstandards und den Schutz Ihrer Privatsphäre zu gewährleisten, nutzen wir hierfür primär lokal gehostete Sprachmodelle (Local LLMs). Im Gegensatz zu herkömmlichen Cloud-basierten KI-Diensten findet keine Übermittlung von Daten an externe Server von Drittanbietern statt. Sämtliche Rechenprozesse erfolgen innerhalb unserer kontrollierten Infrastruktur. Damit erfüllen wir die Anforderungen der Datenschutzgrundverordnung (DSGVO) sowie des Schweizer Datenschutzgesetzes (DSG) vollumfänglich und bieten Ihnen maximale Datensicherheit ohne Kompromisse.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-3">8. Ihre Rechte</h2>
             <p className="text-gray-700">
               Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung Ihrer personenbezogenen Daten. Für Anfragen wenden Sie sich an: info@bundu.ch
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-navy mb-3">8. Änderungen</h2>
+            <h2 className="text-2xl font-bold text-navy mb-3">9. Änderungen</h2>
             <p className="text-gray-700">
               Wir behalten uns vor, diese Datenschutzerklärung jederzeit anzupassen. Die aktuelle Version ist auf dieser Seite veröffentlicht.
             </p>

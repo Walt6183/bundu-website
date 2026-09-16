@@ -55,12 +55,18 @@ export default function DatenschutzPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-navy mb-3">7. Nutzung von Künstlicher Intelligenz (KI)</h2>
+            <h2 className="text-2xl font-bold text-navy mb-3">7. Transparenzhinweis: Einsatz von Künstlicher Intelligenz</h2>
             <p className="text-gray-700">
-              Zur Optimierung unserer Beratungsleistungen und zur Unterstützung unserer internen Arbeitsabläufe setzen wir punktuell Technologien der Künstlichen Intelligenz ein.
+              Bei B&U BundU setzen wir teilweise unterstützend Künstliche Intelligenz ein, etwa bei der Aufbereitung von Inhalten oder internen Arbeitsabläufen. Dabei ist uns Transparenz und der Schutz Ihrer Daten besonders wichtig.
             </p>
             <p className="text-gray-700 mt-3">
-              Um höchste Sicherheitsstandards und den Schutz Ihrer Privatsphäre zu gewährleisten, nutzen wir hierfür primär lokal gehostete Sprachmodelle (Local LLMs). Im Gegensatz zu herkömmlichen Cloud-basierten KI-Diensten findet keine Übermittlung von Daten an externe Server von Drittanbietern statt. Sämtliche Rechenprozesse erfolgen innerhalb unserer kontrollierten Infrastruktur. Damit erfüllen wir die Anforderungen der Datenschutzgrundverordnung (DSGVO) sowie des Schweizer Datenschutzgesetzes (DSG) vollumfänglich und bieten Ihnen maximale Datensicherheit ohne Kompromisse.
+              Die von uns verwendete KI läuft auf einem lokal betriebenen Sprachmodell. Das bedeutet, dass die Verarbeitung nicht über externe Cloud-Dienste amerikanischer oder anderer ausländischer Anbieter erfolgt, sondern auf eigener, lokal kontrollierter Infrastruktur. Es werden dabei keine Daten an Dritte übermittelt oder auf Servern ausserhalb unseres Einflussbereichs gespeichert.
+            </p>
+            <p className="text-gray-700 mt-3">
+              Dieses Vorgehen entspricht den Anforderungen der EU-Datenschutz-Grundverordnung (DSGVO) sowie dem revidierten Schweizer Datenschutzgesetz (DSG). Ihre Daten bleiben damit vollumfänglich unter unserer Kontrolle und werden ausschliesslich zweckgebunden im Rahmen unserer Beratungs- und Coaching-Tätigkeit verarbeitet.
+            </p>
+            <p className="text-gray-700 mt-3">
+              Bei Fragen zum Datenschutz oder zu unserem Einsatz von KI können Sie sich jederzeit an uns wenden.
             </p>
           </section>
 

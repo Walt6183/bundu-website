@@ -65,9 +65,6 @@ export default function DatenschutzPage() {
             <p className="text-gray-700 mt-3">
               Dieses Vorgehen entspricht den Anforderungen der EU-Datenschutz-Grundverordnung (DSGVO) sowie dem revidierten Schweizer Datenschutzgesetz (DSG). Ihre Daten bleiben damit vollumfänglich unter unserer Kontrolle und werden ausschliesslich zweckgebunden im Rahmen unserer Beratungs- und Coaching-Tätigkeit verarbeitet.
             </p>
-            <p className="text-gray-700 mt-3">
-              Bei Fragen zum Datenschutz oder zu unserem Einsatz von KI können Sie sich jederzeit an uns wenden.
-            </p>
           </section>
 
           <section>

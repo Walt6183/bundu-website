@@ -27,7 +27,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-wrap gap-4">
             <Link href="/angebote" className="bg-teal text-white font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block">Alle Angebote</Link>
-            <Link href="/kontakt" className="border-2 border-white text-white font-bold px-8 py-3 rounded-lg hover:bg-white hover:text-navy transition-colors inline-block">Kostenlos anfragen</Link>
+            <a href="https://bookings.cloud.microsoft/book/BUBundUBeratung@WalterUehli.onmicrosoft.com/?ismsaljsauthenabled" target="_blank" rel="noopener noreferrer" className="border-2 border-white text-white font-bold px-8 py-3 rounded-lg hover:bg-white hover:text-navy transition-colors inline-block">Kostenlos anfragen</a>
           </div>
         </div>
       </section>
@@ -103,9 +103,9 @@ export default function HomePage() {
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="text-3xl font-bold mb-4">Bereit für den nächsten Schritt?</h2>
           <p className="text-xl mb-8 opacity-90">Das kostenlose Erstgespräch ist unverbindlich und dauert 15 Minuten.</p>
-          <Link href="/kontakt" className="bg-white text-amber font-bold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors inline-block">
+          <a href="https://bookings.cloud.microsoft/book/BUBundUBeratung@WalterUehli.onmicrosoft.com/?ismsaljsauthenabled" target="_blank" rel="noopener noreferrer" className="bg-white text-amber font-bold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors inline-block">
             Jetzt kostenlos Erstgespräch buchen
-          </Link>
+          </a>
         </div>
       </section>
     </>

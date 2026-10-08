@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
     domains: ['cdn.sanity.io'],
   },
   transpilePackages: ['@sanity/ui', '@sanity/icons', '@sanity/vision'],
+  experimental: {
+    turbopack: false,
+  },
 }
 
 export default nextConfig

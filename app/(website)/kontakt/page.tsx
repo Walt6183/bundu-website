@@ -59,6 +59,24 @@ export default function KontaktPage() {
 
         <div className="grid lg:grid-cols-3 gap-12">
           <div className="lg:col-span-2">
+
+            {/* Kostenloses Erstgespräch buchen */}
+            <div className="bg-white rounded-2xl shadow-md p-8 mb-8">
+              <h2 className="text-2xl font-bold text-navy mb-2">Kostenloses Erstgespräch buchen</h2>
+              <p className="text-gray-600 mb-6">Wählen Sie direkt einen freien Termin aus – unverbindlich, 15 Minuten, online.</p>
+              <div className="rounded-xl overflow-hidden border border-gray-200" style={{ height: '640px' }}>
+                <iframe
+                  src="https://bookings.cloud.microsoft/book/BUBundUBeratung@WalterUehli.onmicrosoft.com/?ismsaljsauthenabled"
+                  title="Erstgespräch buchen"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 'none', minHeight: '640px' }}
+                  allow="camera; microphone"
+                />
+              </div>
+            </div>
+
+            {/* Nachricht senden */}
             <div className="bg-white rounded-2xl shadow-md p-8 mb-8">
               <h2 className="text-2xl font-bold text-navy mb-6">Nachricht senden</h2>
 
@@ -142,6 +160,7 @@ export default function KontaktPage() {
               )}
             </div>
 
+            {/* Kursanmeldung */}
             <div className="bg-white rounded-2xl shadow-md p-8">
               <h2 className="text-2xl font-bold text-navy mb-6">Kursanmeldung</h2>
 
@@ -212,8 +231,9 @@ export default function KontaktPage() {
             </div>
           </div>
 
+          {/* Kontaktdaten Sidebar */}
           <div className="lg:col-span-1">
-            <div className="bg-gray-50 rounded-2xl p-6">
+            <div className="bg-gray-50 rounded-2xl p-6 sticky top-8">
               <h3 className="text-xl font-bold text-navy mb-6">Kontaktdaten</h3>
               <div className="space-y-4">
                 <div>

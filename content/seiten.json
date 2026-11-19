@@ -1,0 +1,6648 @@
+{
+ "seiten": {
+  "/eltern/": {
+   "titel": "Bereich Eltern",
+   "quelle": "texte-eltern-v1.md",
+   "title": "Für Eltern | B&U BundU®",
+   "description": "Online Eltern-Coaching für Eltern von Kindern zwischen 6 und 16. Mit Walter Uehli, über 30 Jahre Sozialpädagogik. Erstgespräch 15 Minuten kostenlos.",
+   "anrede": "",
+   "abschnitte": [
+    {
+     "name": "1. Kopf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "Dachzeile",
+       "wert": "Für Eltern",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für Eltern"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "H1",
+       "wert": "Wenn es zu Hause nicht mehr weitergeht.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Wenn es zu Hause nicht mehr weitergeht."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Unterzeile",
+       "wert": "Für Eltern von Kindern zwischen 6 und 16. Du besprichst deine Lage online mit Walter Uehli, 60 Minuten je Sitzung, und nimmst eine Aufgabe mit bis zur nächsten Sitzung.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für Eltern von Kindern zwischen 6 und 16. Du besprichst deine Lage online mit Walter Uehli, 60 Minuten je Sitzung, und nimmst eine Aufgabe mit bis zur nächsten Sitzung."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Kleintext unter dem CTA",
+       "wert": "15 Minuten, kostenlos und unverbindlich.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "15 Minuten, kostenlos und unverbindlich."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Foto",
+       "wert": "[PLATZHALTER: Foto `portrait-arbeitsplatz-02.webp`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Foto `portrait-arbeitsplatz-02.webp`"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "foto",
+         "datei": "portrait-arbeitsplatz-02.webp",
+         "roh": "Foto `portrait-arbeitsplatz-02.webp`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "alt",
+       "wert": "Walter Uehli am Schreibtisch mit Headset, vor ihm Bildschirm und Maus",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli am Schreibtisch mit Headset, vor ihm Bildschirm und Maus"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "2. Womit du kommst",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Womit du kommst",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Womit du kommst"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Vielleicht weisst du gerade nicht mehr weiter. Vielleicht hast du Angst, die Beziehung zu deinem Kind zu verlieren. Und die Ratschläge von Freunden, Eltern und Grosseltern machen es nicht leichter.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Vielleicht weisst du gerade nicht mehr weiter. Vielleicht hast du Angst, die Beziehung zu deinem Kind zu verlieren. Und die Ratschläge von Freunden, Eltern und Grosseltern machen es nicht leichter."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Zweiter Absatz",
+       "wert": "Im Coaching geht es darum, dass du wieder weisst, was du tust und was du lässt. Und dass die Beziehung zu deinem Kind dabei hält.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Im Coaching geht es darum, dass du wieder weisst, was du tust und was du lässt. Und dass die Beziehung zu deinem Kind dabei hält."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Dritter Absatz",
+       "wert": "Im Coaching bekommst du Beratung in Erziehungsfragen, keine Therapie und keine Diagnose.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Im Coaching bekommst du Beratung in Erziehungsfragen, keine Therapie und keine Diagnose."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Kasten, abgesetzt, direkt unter dem Abschnitt (Krisenhinweis)",
+       "wert": "Ist gerade jemand in Gefahr, warte nicht auf ein Erstgespräch. In der Schweiz erreichst du die Sanität unter 144, die Polizei unter 117 und den Elternnotruf rund um die Uhr unter 0848 35 45 55. Die Nummern für Deutschland, Österreich und Südtirol findest du auf der Kontaktseite. [PLATZHALTER: Links `tel:144`, `tel:117`, `tel:+41848354555`, Link `/eltern/kontakt/` auf den Abschnitt \"Wenn jemand in Gefahr ist\"]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Ist gerade jemand in Gefahr, warte nicht auf ein Erstgespräch. In der Schweiz erreichst du die Sanität unter 144, die Polizei unter 117 und den Elternnotruf rund um die Uhr unter 0848 35 45 55. Die Nummern für Deutschland, Österreich und Südtirol findest du auf der "
+        },
+        {
+         "t": "link",
+         "s": "Kontaktseite",
+         "href": "/eltern/kontakt/#gefahr"
+        },
+        {
+         "t": "text",
+         "s": "."
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "tel:144",
+          "tel:117",
+          "tel:+41848354555",
+          "/eltern/kontakt/"
+         ],
+         "roh": "Links `tel:144`, `tel:117`, `tel:+41848354555`, Link `/eltern/kontakt/` auf den Abschnitt \"Wenn jemand in Gefahr ist\""
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "3. Was es für Eltern gibt",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Was es für Eltern gibt",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Was es für Eltern gibt"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "gruppe",
+       "name": "Kachel 1: Online Eltern-Coaching"
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Einzeln und online, 60 Minuten je Sitzung, mit einer Aufgabe bis zur nächsten Sitzung.",
+       "kinder": [],
+       "gruppe": "Kachel 1: Online Eltern-Coaching",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Einzeln und online, 60 Minuten je Sitzung, mit einer Aufgabe bis zur nächsten Sitzung."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Preiszeile",
+       "wert": "Erstgespräch kostenlos. Einzelsitzung CHF 135, 5er-Paket CHF 620, 10er-Paket CHF 1'150.",
+       "kinder": [],
+       "gruppe": "Kachel 1: Online Eltern-Coaching",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch kostenlos. Einzelsitzung CHF 135, 5er-Paket CHF 620, 10er-Paket CHF 1'150."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Zum Eltern-Coaching [PLATZHALTER: Link `/eltern/coaching/`]",
+       "kinder": [],
+       "gruppe": "Kachel 1: Online Eltern-Coaching",
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Zum Eltern-Coaching",
+         "href": "/eltern/coaching/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/eltern/coaching/"
+         ],
+         "roh": "Link `/eltern/coaching/`"
+        }
+       ]
+      },
+      {
+       "k": "gruppe",
+       "name": "Kachel 2: kleinste Kachel, unter der Kachel Online Eltern-Coaching, ohne eigene Überschrift"
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Online-Kurse für Eltern sind in Vorbereitung, noch ohne Thema, Termin und Preis.",
+       "kinder": [],
+       "gruppe": "Kachel 2: kleinste Kachel, unter der Kachel Online Eltern-Coaching, ohne eigene Überschrift",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Online-Kurse für Eltern sind in Vorbereitung, noch ohne Thema, Termin und Preis."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Link",
+       "wert": "Zum Stand der Kurse [PLATZHALTER: Link `/eltern/kurse/`]",
+       "kinder": [],
+       "gruppe": "Kachel 2: kleinste Kachel, unter der Kachel Online Eltern-Coaching, ohne eigene Überschrift",
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Zum Stand der Kurse",
+         "href": "/eltern/kurse/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/eltern/kurse/"
+         ],
+         "roh": "Link `/eltern/kurse/`"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "4. Person",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Mit wem du sprichst",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Mit wem du sprichst"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Walter Uehli bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen. Er ist Coach für Neue Autorität (Weiterbildung von 115 Stunden am Systemischen Institut für Neue Autorität®, 2019). Neue Autorität ist eine Haltung in der Erziehung nach Haim Omer: Präsenz statt Kontrolle und Beziehung statt Strafe.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen. Er ist Coach für Neue Autorität (Weiterbildung von 115 Stunden am Systemischen Institut für Neue Autorität®, 2019). Neue Autorität ist eine Haltung in der Erziehung nach Haim Omer: Präsenz statt Kontrolle und Beziehung statt Strafe."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Link",
+       "wert": "Mehr über Walter Uehli [PLATZHALTER: Link `/walter-uehli/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Mehr über Walter Uehli",
+         "href": "/walter-uehli/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/walter-uehli/"
+         ],
+         "roh": "Link `/walter-uehli/`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Foto",
+       "wert": "[PLATZHALTER: Foto `portrait-business-01.webp`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Foto `portrait-business-01.webp`"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "foto",
+         "datei": "portrait-business-01.webp",
+         "roh": "Foto `portrait-business-01.webp`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "alt",
+       "wert": "Walter Uehli, Porträt vor weissem Hintergrund",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli, Porträt vor weissem Hintergrund"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "5. Aufruf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Der erste Schritt dauert 15 Minuten.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Der erste Schritt dauert 15 Minuten."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Im Erstgespräch schilderst du, was zu Hause los ist, und erfährst, ob das Coaching passt. Es kostet nichts und verpflichtet zu nichts.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Im Erstgespräch schilderst du, was zu Hause los ist, und erfährst, ob das Coaching passt. Es kostet nichts und verpflichtet zu nichts."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "/eltern/coaching/": {
+   "titel": "Online Eltern-Coaching",
+   "quelle": "texte-eltern-v1.md",
+   "title": "Online Eltern-Coaching | B&U BundU®",
+   "description": "Online Eltern-Coaching: 60 Minuten für CHF 135, Pakete ab CHF 620, mit einer Aufgabe bis zur nächsten Sitzung. Erstgespräch 15 Minuten kostenlos.",
+   "anrede": "",
+   "abschnitte": [
+    {
+     "name": "1. Kopf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "Dachzeile",
+       "wert": "Online Eltern-Coaching",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Online Eltern-Coaching"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "H1",
+       "wert": "60 Minuten online und eine Aufgabe bis zur nächsten Sitzung.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "60 Minuten online und eine Aufgabe bis zur nächsten Sitzung."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Unterzeile",
+       "wert": "Für Eltern von Kindern zwischen 6 und 16. Du besprichst deine Lage im Video-Call mit Walter Uehli und nimmst eine Aufgabe mit, die du bis zur nächsten Sitzung ausprobierst.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für Eltern von Kindern zwischen 6 und 16. Du besprichst deine Lage im Video-Call mit Walter Uehli und nimmst eine Aufgabe mit, die du bis zur nächsten Sitzung ausprobierst."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Kleintext unter dem CTA",
+       "wert": "15 Minuten, kostenlos und unverbindlich.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "15 Minuten, kostenlos und unverbindlich."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Foto",
+       "wert": "[PLATZHALTER: Foto `portrait-arbeitsplatz-02.webp`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Foto `portrait-arbeitsplatz-02.webp`"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "foto",
+         "datei": "portrait-arbeitsplatz-02.webp",
+         "roh": "Foto `portrait-arbeitsplatz-02.webp`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "alt",
+       "wert": "Walter Uehli am Schreibtisch mit Headset, vor ihm Bildschirm und Maus",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli am Schreibtisch mit Headset, vor ihm Bildschirm und Maus"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "2. Für wen",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Für wen",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für wen"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Für Mütter, Väter und andere Bezugspersonen von Kindern zwischen 6 und 16 Jahren. Du kannst dich auch allein melden.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für Mütter, Väter und andere Bezugspersonen von Kindern zwischen 6 und 16 Jahren. Du kannst dich auch allein melden."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Zweiter Absatz",
+       "wert": "Das Coaching setzt bei dir an, nicht bei deinem Kind. Gemeinsam arbeitet ihr an dem, was du tust und was du lässt.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Das Coaching setzt bei dir an, nicht bei deinem Kind. Gemeinsam arbeitet ihr an dem, was du tust und was du lässt."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Dritter Absatz",
+       "wert": "Du bekommst Beratung in Erziehungsfragen, keine Therapie und keine Diagnose.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Du bekommst Beratung in Erziehungsfragen, keine Therapie und keine Diagnose."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "3. Anlass",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Womit Eltern kommen",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Womit Eltern kommen"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Mit einem Alltag, in dem es immer wieder eskaliert. Mit einer Beziehung zum Jugendlichen, die zu kippen droht. Oder weil sich die Schule gemeldet hat. Oft kommt alles zusammen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Mit einem Alltag, in dem es immer wieder eskaliert. Mit einer Beziehung zum Jugendlichen, die zu kippen droht. Oder weil sich die Schule gemeldet hat. Oft kommt alles zusammen."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "4. Ablauf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "So läuft es",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "So läuft es"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Erstgespräch.",
+       "text": "15 Minuten online, kostenlos und unverbindlich. Du schilderst kurz deine Lage, und ihr klärt, ob das Coaching passt und wie viele Sitzungen sinnvoll sind.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "15 Minuten online, kostenlos und unverbindlich. Du schilderst kurz deine Lage, und ihr klärt, ob das Coaching passt und wie viele Sitzungen sinnvoll sind."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Sitzung.",
+       "text": "60 Minuten im Video-Call über coachingspace.net. Gemeinsam geht ihr durch, was zu Hause passiert ist.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "60 Minuten im Video-Call über coachingspace.net. Gemeinsam geht ihr durch, was zu Hause passiert ist."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Aufgabe.",
+       "text": "Nach jeder Sitzung nimmst du eine Aufgabe mit bis zur nächsten. Am Anfang ist es oft eine Beobachtung: Du schreibst auf, was wann passiert. Später werden die Aufgaben konkreter.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "Nach jeder Sitzung nimmst du eine Aufgabe mit bis zur nächsten. Am Anfang ist es oft eine Beobachtung: Du schreibst auf, was wann passiert. Später werden die Aufgaben konkreter."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Zwischen den Sitzungen.",
+       "text": "Kurze Rückfragen schickst du per Nachricht. Material und Übungen bekommst du mit.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "Kurze Rückfragen schickst du per Nachricht. Material und Übungen bekommst du mit."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Vier Wochen nach der letzten Sitzung, nur bei einem Paket.",
+       "text": "Hast du ein 5er- oder 10er-Paket gebucht, folgt vier Wochen nach der letzten Sitzung des Pakets auf Wunsch ein Gespräch von höchstens 30 Minuten, in dem ihr schaut, wo du stehst. Es ist im Paketpreis inbegriffen. Zur Einzelsitzung gehört dieses Gespräch nicht.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "Hast du ein 5er- oder 10er-Paket gebucht, folgt vier Wochen nach der letzten Sitzung des Pakets auf Wunsch ein Gespräch von höchstens 30 Minuten, in dem ihr schaut, wo du stehst. Es ist im Paketpreis inbegriffen. Zur Einzelsitzung gehört dieses Gespräch nicht."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Satz unter dem Ablauf",
+       "wert": "Was du in der Sitzung erzählst, bleibt in der Sitzung.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Was du in der Sitzung erzählst, bleibt in der Sitzung."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "5. Haltung",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Die Haltung dahinter",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Die Haltung dahinter"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Das Coaching folgt der Neuen Autorität nach Haim Omer: Präsenz statt Kontrolle und Beziehung statt Strafe. Dazu gehört, nicht im ersten Ärger zu reagieren, sondern dann, wenn du selbst wieder ruhig bist.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Das Coaching folgt der Neuen Autorität nach Haim Omer: Präsenz statt Kontrolle und Beziehung statt Strafe. Dazu gehört, nicht im ersten Ärger zu reagieren, sondern dann, wenn du selbst wieder ruhig bist."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Zweiter Absatz",
+       "wert": "Strafen, Drohen und Machtkämpfe gehören nicht dazu.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Strafen, Drohen und Machtkämpfe gehören nicht dazu."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "6. Grenzen",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Was das Coaching nicht ist",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Was das Coaching nicht ist"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Keine Therapie und keine Diagnose.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Keine Therapie und keine Diagnose."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Keine Krisen- und Notfallhilfe. Ist jemand in Gefahr, wende dich sofort an eine dieser Stellen:",
+       "kinder": [
+        {
+         "wert": "In der Schweiz:",
+         "kinder": [
+          {
+           "wert": "Sanität: 144",
+           "kinder": [],
+           "wert_teile": [
+            {
+             "t": "text",
+             "s": "Sanität: 144"
+            }
+           ],
+           "wert_ph": []
+          },
+          {
+           "wert": "Polizei: 117",
+           "kinder": [],
+           "wert_teile": [
+            {
+             "t": "text",
+             "s": "Polizei: 117"
+            }
+           ],
+           "wert_ph": []
+          },
+          {
+           "wert": "Für Kinder und Jugendliche: 147, kostenlos, vertraulich, rund um die Uhr (147.ch)",
+           "kinder": [],
+           "wert_teile": [
+            {
+             "t": "text",
+             "s": "Für Kinder und Jugendliche: 147, kostenlos, vertraulich, rund um die Uhr (147.ch)"
+            }
+           ],
+           "wert_ph": []
+          },
+          {
+           "wert": "Elternnotruf: 0848 35 45 55, rund um die Uhr, für Eltern, weitere Bezugspersonen und Fachpersonen (elternnotruf.ch)",
+           "kinder": [],
+           "wert_teile": [
+            {
+             "t": "text",
+             "s": "Elternnotruf: 0848 35 45 55, rund um die Uhr, für Eltern, weitere Bezugspersonen und Fachpersonen (elternnotruf.ch)"
+            }
+           ],
+           "wert_ph": []
+          }
+         ],
+         "wert_teile": [
+          {
+           "t": "text",
+           "s": "In der Schweiz:"
+          }
+         ],
+         "wert_ph": []
+        },
+        {
+         "wert": "In Deutschland: Polizei 110, Rettungsdienst und Feuerwehr 112, Kinder- und Jugendtelefon 116 111, Elterntelefon 0800 111 0550 (Nummer gegen Kummer)",
+         "kinder": [],
+         "wert_teile": [
+          {
+           "t": "text",
+           "s": "In Deutschland: Polizei 110, Rettungsdienst und Feuerwehr 112, Kinder- und Jugendtelefon 116 111, Elterntelefon 0800 111 0550 (Nummer gegen Kummer)"
+          }
+         ],
+         "wert_ph": []
+        },
+        {
+         "wert": "In Österreich: Polizei 133, Rettung 144, Feuerwehr 122, europäische Notrufnummer 112, für Kinder und Jugendliche 147",
+         "kinder": [],
+         "wert_teile": [
+          {
+           "t": "text",
+           "s": "In Österreich: Polizei 133, Rettung 144, Feuerwehr 122, europäische Notrufnummer 112, für Kinder und Jugendliche 147"
+          }
+         ],
+         "wert_ph": []
+        },
+        {
+         "wert": "In Italien (Südtirol): europäische Notrufnummer 112",
+         "kinder": [],
+         "wert_teile": [
+          {
+           "t": "text",
+           "s": "In Italien (Südtirol): europäische Notrufnummer 112"
+          }
+         ],
+         "wert_ph": []
+        },
+        {
+         "wert": "[PLATZHALTER: Links `tel:144`, `tel:117`, `tel:147`, `tel:+41848354555`, `https://147.ch`, `https://elternnotruf.ch`, `tel:110`, `tel:112`, `tel:116111`, `tel:08001110550`, `tel:133`, `tel:122`]",
+         "kinder": [],
+         "wert_teile": [
+          {
+           "t": "text",
+           "s": ""
+          }
+         ],
+         "wert_ph": [
+          {
+           "art": "link",
+           "ziele": [
+            "tel:144",
+            "tel:117",
+            "tel:147",
+            "tel:+41848354555",
+            "https://147.ch",
+            "https://elternnotruf.ch",
+            "tel:110",
+            "tel:112",
+            "tel:116111",
+            "tel:08001110550",
+            "tel:133",
+            "tel:122"
+           ],
+           "roh": "Links `tel:144`, `tel:117`, `tel:147`, `tel:+41848354555`, `https://147.ch`, `https://elternnotruf.ch`, `tel:110`, `tel:112`, `tel:116111`, `tel:08001110550`, `tel:133`, `tel:122`"
+          }
+         ]
+        }
+       ],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Keine Krisen- und Notfallhilfe. Ist jemand in Gefahr, wende dich sofort an eine dieser Stellen:"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Keine Zusage, nach wie vielen Sitzungen es zu Hause ruhiger wird. Du kannst jede Sitzung einzeln buchen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Keine Zusage, nach wie vielen Sitzungen es zu Hause ruhiger wird. Du kannst jede Sitzung einzeln buchen."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "7. Preise",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Preise",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Preise"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "tabelle",
+       "kopf": [
+        "Leistung",
+        "Dauer",
+        "Preis"
+       ],
+       "zeilen": [
+        [
+         "Erstgespräch",
+         "15 Minuten",
+         "kostenlos"
+        ],
+        [
+         "Einzelsitzung",
+         "60 Minuten",
+         "CHF 135"
+        ],
+        [
+         "5er-Paket",
+         "5 × 60 Minuten",
+         "CHF 620"
+        ],
+        [
+         "10er-Paket",
+         "10 × 60 Minuten",
+         "CHF 1'150"
+        ]
+       ],
+       "gruppe": null
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Im 5er-Paket kostet eine Sitzung CHF 124, im 10er-Paket CHF 115. Die Sitzung selbst ist dieselbe, nur der Preis ändert sich. Es kommt keine Mehrwertsteuer dazu.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Im 5er-Paket kostet eine Sitzung CHF 124, im 10er-Paket CHF 115. Die Sitzung selbst ist dieselbe, nur der Preis ändert sich. Es kommt keine Mehrwertsteuer dazu."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Pakete",
+       "wert": "Ein Paket zahlst du im Voraus. Es gilt ein Jahr ab Kauf. Sitzungen, die du in diesem Jahr nicht nutzt, verfallen. Zu jedem Paket gehört auf Wunsch ein Gespräch vier Wochen nach der letzten Sitzung, höchstens 30 Minuten und im Paketpreis inbegriffen. Bei einer Einzelsitzung gibt es dieses Gespräch nicht.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Ein Paket zahlst du im Voraus. Es gilt ein Jahr ab Kauf. Sitzungen, die du in diesem Jahr nicht nutzt, verfallen. Zu jedem Paket gehört auf Wunsch ein Gespräch vier Wochen nach der letzten Sitzung, höchstens 30 Minuten und im Paketpreis inbegriffen. Bei einer Einzelsitzung gibt es dieses Gespräch nicht."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "8. Person",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Mit wem du sprichst",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Mit wem du sprichst"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Walter Uehli bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen. Bis 31. Juli 2026 war er Gesamtleiter der Schule Friedheim, einer Einrichtung mit Platz für 32 Kinder und Jugendliche. Er ist Coach für Neue Autorität (Weiterbildung von 115 Stunden am Systemischen Institut für Neue Autorität®, 2019) und hat das Basic Training bei Haim Omer absolviert.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen. Bis 31. Juli 2026 war er Gesamtleiter der Schule Friedheim, einer Einrichtung mit Platz für 32 Kinder und Jugendliche. Er ist Coach für Neue Autorität (Weiterbildung von 115 Stunden am Systemischen Institut für Neue Autorität®, 2019) und hat das Basic Training bei Haim Omer absolviert."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Zweiter Absatz",
+       "wert": "Er kennt den Alltag mit Kindern und Jugendlichen aus der Schulsozialarbeit, aus Wohngruppen und aus der Leitung einer Schule. Und er hat die Teams geführt, die jeden Tag mit diesen Kindern arbeiten.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Er kennt den Alltag mit Kindern und Jugendlichen aus der Schulsozialarbeit, aus Wohngruppen und aus der Leitung einer Schule. Und er hat die Teams geführt, die jeden Tag mit diesen Kindern arbeiten."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Link",
+       "wert": "Mehr über Walter Uehli [PLATZHALTER: Link `/walter-uehli/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Mehr über Walter Uehli",
+         "href": "/walter-uehli/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/walter-uehli/"
+         ],
+         "roh": "Link `/walter-uehli/`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Foto",
+       "wert": "[PLATZHALTER: Foto `portrait-business-01.webp`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Foto `portrait-business-01.webp`"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "foto",
+         "datei": "portrait-business-01.webp",
+         "roh": "Foto `portrait-business-01.webp`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "alt",
+       "wert": "Walter Uehli, Porträt vor weissem Hintergrund",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli, Porträt vor weissem Hintergrund"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "9. Aufruf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Du musst nicht wissen, wo du anfangen sollst.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Du musst nicht wissen, wo du anfangen sollst."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Im Erstgespräch schilderst du in 15 Minuten, was zu Hause los ist. Danach entscheidest du, ob eine Sitzung folgt. Das Erstgespräch kostet nichts.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Im Erstgespräch schilderst du in 15 Minuten, was zu Hause los ist. Danach entscheidest du, ob eine Sitzung folgt. Das Erstgespräch kostet nichts."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "/eltern/kurse/": {
+   "titel": "Online-Kurse für Eltern",
+   "quelle": "texte-eltern-v1.md",
+   "title": "Online-Kurse für Eltern | B&U BundU®",
+   "description": "Die Online-Kurse für Eltern sind in Vorbereitung. Bis dahin gibt es das Online Eltern-Coaching mit Walter Uehli, Erstgespräch 15 Minuten kostenlos.",
+   "anrede": "",
+   "abschnitte": [
+    {
+     "name": "1. Kopf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "Dachzeile",
+       "wert": "Online-Kurse",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Online-Kurse"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "H1",
+       "wert": "Online-Kurse für Eltern: in Vorbereitung",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Online-Kurse für Eltern: in Vorbereitung"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Ein Thema, einen Termin und einen Preis gibt es noch nicht. Sobald die Kurse stehen, findest du sie hier.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Ein Thema, einen Termin und einen Preis gibt es noch nicht. Sobald die Kurse stehen, findest du sie hier."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "2. Bis dahin",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Wenn du nicht warten willst",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Wenn du nicht warten willst"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Im Online Eltern-Coaching besprichst du deine Lage einzeln mit Walter Uehli, 60 Minuten je Sitzung. Das Erstgespräch dauert 15 Minuten und kostet nichts.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Im Online Eltern-Coaching besprichst du deine Lage einzeln mit Walter Uehli, 60 Minuten je Sitzung. Das Erstgespräch dauert 15 Minuten und kostet nichts."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Zum Eltern-Coaching [PLATZHALTER: Link `/eltern/coaching/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Zum Eltern-Coaching",
+         "href": "/eltern/coaching/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/eltern/coaching/"
+         ],
+         "roh": "Link `/eltern/coaching/`"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "/eltern/kontakt/": {
+   "titel": "Kontakt für Eltern",
+   "quelle": "texte-eltern-v1.md",
+   "title": "Kontakt und Erstgespräch für Eltern | B&U BundU®",
+   "description": "Erstgespräch buchen: 15 Minuten online, kostenlos und unverbindlich. Oder schreib Walter Uehli eine Nachricht.",
+   "anrede": "",
+   "abschnitte": [
+    {
+     "name": "1. Kopf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H1",
+       "wert": "Kontakt und Erstgespräch",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Kontakt und Erstgespräch"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Unterzeile",
+       "wert": "Das Erstgespräch dauert 15 Minuten, findet online statt und kostet nichts. Du schilderst kurz deine Lage. Passt das Coaching nicht, sagt dir Walter Uehli das im Erstgespräch.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Das Erstgespräch dauert 15 Minuten, findet online statt und kostet nichts. Du schilderst kurz deine Lage. Passt das Coaching nicht, sagt dir Walter Uehli das im Erstgespräch."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Foto",
+       "wert": "[PLATZHALTER: Foto `portrait-business-01.webp`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Foto `portrait-business-01.webp`"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "foto",
+         "datei": "portrait-business-01.webp",
+         "roh": "Foto `portrait-business-01.webp`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "alt",
+       "wert": "Walter Uehli, Porträt vor weissem Hintergrund",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli, Porträt vor weissem Hintergrund"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "2. Erstgespräch buchen",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Erstgespräch buchen",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "15 Minuten online, kostenlos und unverbindlich.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "15 Minuten online, kostenlos und unverbindlich."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "3. Wenn jemand in Gefahr ist",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Wenn jemand in Gefahr ist",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Wenn jemand in Gefahr ist"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Dann ruf sofort eine dieser Stellen an. Ein Erstgespräch kannst du buchen, sobald es wieder ruhiger ist.",
+       "kinder": [
+        {
+         "wert": "In der Schweiz: Sanität 144, Polizei 117, für Kinder und Jugendliche 147 (147.ch), Elternnotruf 0848 35 45 55, rund um die Uhr (elternnotruf.ch)",
+         "kinder": [],
+         "wert_teile": [
+          {
+           "t": "text",
+           "s": "In der Schweiz: Sanität 144, Polizei 117, für Kinder und Jugendliche 147 (147.ch), Elternnotruf 0848 35 45 55, rund um die Uhr (elternnotruf.ch)"
+          }
+         ],
+         "wert_ph": []
+        },
+        {
+         "wert": "In Deutschland: Polizei 110, Rettungsdienst und Feuerwehr 112, Kinder- und Jugendtelefon 116 111, Elterntelefon 0800 111 0550 (Nummer gegen Kummer)",
+         "kinder": [],
+         "wert_teile": [
+          {
+           "t": "text",
+           "s": "In Deutschland: Polizei 110, Rettungsdienst und Feuerwehr 112, Kinder- und Jugendtelefon 116 111, Elterntelefon 0800 111 0550 (Nummer gegen Kummer)"
+          }
+         ],
+         "wert_ph": []
+        },
+        {
+         "wert": "In Österreich: Polizei 133, Rettung 144, Feuerwehr 122, europäische Notrufnummer 112, für Kinder und Jugendliche 147",
+         "kinder": [],
+         "wert_teile": [
+          {
+           "t": "text",
+           "s": "In Österreich: Polizei 133, Rettung 144, Feuerwehr 122, europäische Notrufnummer 112, für Kinder und Jugendliche 147"
+          }
+         ],
+         "wert_ph": []
+        },
+        {
+         "wert": "In Italien (Südtirol): europäische Notrufnummer 112",
+         "kinder": [],
+         "wert_teile": [
+          {
+           "t": "text",
+           "s": "In Italien (Südtirol): europäische Notrufnummer 112"
+          }
+         ],
+         "wert_ph": []
+        },
+        {
+         "wert": "[PLATZHALTER: Links wie Seite 2]",
+         "kinder": [],
+         "wert_teile": [
+          {
+           "t": "text",
+           "s": ""
+          }
+         ],
+         "wert_ph": [
+          {
+           "art": "link",
+           "ziele": [],
+           "roh": "Links wie Seite 2"
+          }
+         ]
+        }
+       ],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Dann ruf sofort eine dieser Stellen an. Ein Erstgespräch kannst du buchen, sobald es wieder ruhiger ist."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "4. Nachricht schreiben",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Lieber zuerst schreiben",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Lieber zuerst schreiben"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Schreib nur so viel, wie du für den ersten Kontakt möchtest. Alles Weitere besprecht ihr im Erstgespräch. Auf deine Nachricht antwortet Walter Uehli werktags innert 24 Stunden.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Schreib nur so viel, wie du für den ersten Kontakt möchtest. Alles Weitere besprecht ihr im Erstgespräch. Auf deine Nachricht antwortet Walter Uehli werktags innert 24 Stunden."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Formularfelder",
+       "wert": "",
+       "kinder": [
+        {
+         "wert": "Name",
+         "kinder": [],
+         "wert_teile": [
+          {
+           "t": "text",
+           "s": "Name"
+          }
+         ],
+         "wert_ph": []
+        },
+        {
+         "wert": "E-Mail",
+         "kinder": [],
+         "wert_teile": [
+          {
+           "t": "text",
+           "s": "E-Mail"
+          }
+         ],
+         "wert_ph": []
+        },
+        {
+         "wert": "Telefon (freiwillig)",
+         "kinder": [],
+         "wert_teile": [
+          {
+           "t": "text",
+           "s": "Telefon (freiwillig)"
+          }
+         ],
+         "wert_ph": []
+        },
+        {
+         "wert": "Worum geht es? Auswahl: Online Eltern-Coaching · Frage zu den Online-Kursen · Etwas anderes",
+         "kinder": [],
+         "wert_teile": [
+          {
+           "t": "text",
+           "s": "Worum geht es? Auswahl: Online Eltern-Coaching · Frage zu den Online-Kursen · Etwas anderes"
+          }
+         ],
+         "wert_ph": []
+        },
+        {
+         "wert": "Deine Nachricht",
+         "kinder": [],
+         "wert_teile": [
+          {
+           "t": "text",
+           "s": "Deine Nachricht"
+          }
+         ],
+         "wert_ph": []
+        }
+       ],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": ""
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Hinweis Datenschutz",
+       "wert": "[PLATZHALTER: Hinweis zur Datenschutzerklärung, Wortlaut durch die Fachperson (Entscheid S-5)]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Hinweis zur Datenschutzerklärung, Wortlaut durch die Fachperson (Entscheid S-5)"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "flaeche",
+         "roh": "Hinweis zur Datenschutzerklärung, Wortlaut durch die Fachperson (Entscheid S-5)"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Knopf",
+       "wert": "Nachricht senden",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Nachricht senden"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "5. Telefon und E-Mail",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Telefon und E-Mail",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Telefon und E-Mail"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Telefon",
+       "wert": "+41 (0)55 505 62 03 [PLATZHALTER: Link `tel:+41555056203`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "+41 (0)55 505 62 03"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "tel:+41555056203"
+         ],
+         "roh": "Link `tel:+41555056203`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "E-Mail",
+       "wert": "info@bundu.ch [PLATZHALTER: Link `mailto:info@bundu.ch`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "info@bundu.ch"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "mailto:info@bundu.ch"
+         ],
+         "roh": "Link `mailto:info@bundu.ch`"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "/fachwelt/fachpersonen/": {
+   "titel": "Bereichsstart Fachpersonen",
+   "quelle": "texte-fachpersonen-v1.md",
+   "title": "Für Fachpersonen: Online-Coaching | B&U BundU®",
+   "description": "Für Lehrpersonen und Fachpersonen der Sozialpädagogik und Sozialarbeit: Online-Coaching mit Walter Uehli, 60 Minuten CHF 165, 90 Minuten CHF 250. Erstgespräch 30 Minuten kostenlos.",
+   "anrede": "Du in jedem Satz mit Anrede.",
+   "abschnitte": [
+    {
+     "name": "1. Kopf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "Dachzeile",
+       "wert": "Für Fachpersonen",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für Fachpersonen"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "H1",
+       "wert": "Ein Gegenüber für deine Fälle, das Schule und Heim von innen kennt.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Ein Gegenüber für deine Fälle, das Schule und Heim von innen kennt."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Unterzeile",
+       "wert": "Mit Walter Uehli besprichst du einen Fall online, 60 oder 90 Minuten, zu einer Zeit, die du wählst. Er bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Mit Walter Uehli besprichst du einen Fall online, 60 oder 90 Minuten, zu einer Zeit, die du wählst. Er bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Kleintext unter dem CTA",
+       "wert": "30 Minuten, kostenlos und unverbindlich.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "30 Minuten, kostenlos und unverbindlich."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Foto",
+       "wert": "[PLATZHALTER: Foto `portrait-arbeitsplatz-02.webp`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Foto `portrait-arbeitsplatz-02.webp`"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "foto",
+         "datei": "portrait-arbeitsplatz-02.webp",
+         "roh": "Foto `portrait-arbeitsplatz-02.webp`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "alt",
+       "wert": "Walter Uehli am Schreibtisch mit Headset, vor ihm Bildschirm und Maus",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli am Schreibtisch mit Headset, vor ihm Bildschirm und Maus"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "2. Für wen",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Für wen",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für wen"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Für Lehrpersonen und für Fachpersonen der Sozialpädagogik und Sozialarbeit, die einen Fall nicht im eigenen Team besprechen können. Und für dich, wenn du leitest und für dich selbst buchst.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für Lehrpersonen und für Fachpersonen der Sozialpädagogik und Sozialarbeit, die einen Fall nicht im eigenen Team besprechen können. Und für dich, wenn du leitest und für dich selbst buchst."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "3. Angebote",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Was du buchen kannst",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Was du buchen kannst"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "gruppe",
+       "name": "Online-Coaching"
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Du besprichst einen schwierigen Fall, eine Belastung oder eine Frage, die du lieber ausserhalb deines Hauses stellst. Online, 60 oder 90 Minuten, zu einer Zeit, die du wählst, allein oder als Gruppe.",
+       "kinder": [],
+       "gruppe": "Online-Coaching",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Du besprichst einen schwierigen Fall, eine Belastung oder eine Frage, die du lieber ausserhalb deines Hauses stellst. Online, 60 oder 90 Minuten, zu einer Zeit, die du wählst, allein oder als Gruppe."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Preis",
+       "wert": "60 Minuten CHF 165, 90 Minuten CHF 250, 5er-Paket mit 5 × 90 Minuten CHF 1'150. Coaching für ein Team oder eine Gruppe bis 10 Personen: 90 Minuten CHF 320. Für 11 bis 20 Personen kommt ein Zuschlag von 40 Prozent dazu, das sind CHF 448. Mit mehr als 20 Personen ist kein Team-Coaching möglich.",
+       "kinder": [],
+       "gruppe": "Online-Coaching",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "60 Minuten CHF 165, 90 Minuten CHF 250, 5er-Paket mit 5 × 90 Minuten CHF 1'150. Coaching für ein Team oder eine Gruppe bis 10 Personen: 90 Minuten CHF 320. Für 11 bis 20 Personen kommt ein Zuschlag von 40 Prozent dazu, das sind CHF 448. Mit mehr als 20 Personen ist kein Team-Coaching möglich."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Zum Online-Coaching [PLATZHALTER: Link `/fachwelt/fachpersonen/online-coaching/`]",
+       "kinder": [],
+       "gruppe": "Online-Coaching",
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Zum Online-Coaching",
+         "href": "/fachwelt/fachpersonen/online-coaching/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/fachwelt/fachpersonen/online-coaching/"
+         ],
+         "roh": "Link `/fachwelt/fachpersonen/online-coaching/`"
+        }
+       ]
+      },
+      {
+       "k": "gruppe",
+       "name": "Webinare und Workshops"
+      },
+      {
+       "k": "feld",
+       "label": "Status",
+       "wert": "in Entwicklung",
+       "kinder": [],
+       "gruppe": "Webinare und Workshops",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "in Entwicklung"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Noch ohne Thema, ohne Termin und ohne Preis.",
+       "kinder": [],
+       "gruppe": "Webinare und Workshops",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Noch ohne Thema, ohne Termin und ohne Preis."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Zum Stand [PLATZHALTER: Link `/fachwelt/fachpersonen/webinare-workshops/`]",
+       "kinder": [],
+       "gruppe": "Webinare und Workshops",
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Zum Stand",
+         "href": "/fachwelt/fachpersonen/webinare-workshops/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/fachwelt/fachpersonen/webinare-workshops/"
+         ],
+         "roh": "Link `/fachwelt/fachpersonen/webinare-workshops/`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Satz unter den Angeboten",
+       "wert": "Alle Preise in Franken. Es kommt keine Mehrwertsteuer dazu.",
+       "kinder": [],
+       "gruppe": "Webinare und Workshops",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Alle Preise in Franken. Es kommt keine Mehrwertsteuer dazu."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "4. Grenzen",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Was du hier nicht bekommst",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Was du hier nicht bekommst"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Keine Therapie und keine Krisenintervention. In einer akuten Krise ist eine Fachstelle die richtige Adresse.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Keine Therapie und keine Krisenintervention. In einer akuten Krise ist eine Fachstelle die richtige Adresse."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Keine Beurteilung von Mitarbeitenden, keine Personalentscheide, keine Fallführung und keine Gutachten. Die Verantwortung für den Fall bleibt bei dir.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Keine Beurteilung von Mitarbeitenden, keine Personalentscheide, keine Fallführung und keine Gutachten. Die Verantwortung für den Fall bleibt bei dir."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Keine Zusage, dass eine Stelle das Coaching als Pflichtnachweis anerkennt.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Keine Zusage, dass eine Stelle das Coaching als Pflichtnachweis anerkennt."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "5. Person",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Mit wem du arbeitest",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Mit wem du arbeitest"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Walter Uehli bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen. Seine Stationen reichen von der Schulsozialarbeit bis zum Schulheim. Als Pädagogischer Leiter führte er drei Wohngruppen mit je acht Plätzen. Bis 31. Juli 2026 war er Gesamtleiter der Schule Friedheim, einer Einrichtung mit Platz für 32 Kinder und Jugendliche und rund 45 Mitarbeitenden.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen. Seine Stationen reichen von der Schulsozialarbeit bis zum Schulheim. Als Pädagogischer Leiter führte er drei Wohngruppen mit je acht Plätzen. Bis 31. Juli 2026 war er Gesamtleiter der Schule Friedheim, einer Einrichtung mit Platz für 32 Kinder und Jugendliche und rund 45 Mitarbeitenden."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Zweiter Absatz",
+       "wert": "Er ist Coach für Neue Autorität (Weiterbildung von 115 Stunden am Systemischen Institut für Neue Autorität®, 2019) und hat das Basic Training bei Haim Omer gemacht. Neue Autorität ist eine Haltung nach Haim Omer: Präsenz statt Kontrolle und Beziehung statt Strafe. Ausserdem ist er akkreditierter Berater Bündner Standard: Die Stiftung Bündner Standard hat ihn berechtigt, Einrichtungen bei der Einführung dieses Qualitätssystems für den Umgang mit Grenzverletzungen zu begleiten und Teams dazu zu schulen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Er ist Coach für Neue Autorität (Weiterbildung von 115 Stunden am Systemischen Institut für Neue Autorität®, 2019) und hat das Basic Training bei Haim Omer gemacht. Neue Autorität ist eine Haltung nach Haim Omer: Präsenz statt Kontrolle und Beziehung statt Strafe. Ausserdem ist er akkreditierter Berater Bündner Standard: Die Stiftung Bündner Standard hat ihn berechtigt, Einrichtungen bei der Einführung dieses Qualitätssystems für den Umgang mit Grenzverletzungen zu begleiten und Teams dazu zu schulen."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Link",
+       "wert": "Mehr über Walter Uehli [PLATZHALTER: Link `/walter-uehli/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Mehr über Walter Uehli",
+         "href": "/walter-uehli/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/walter-uehli/"
+         ],
+         "roh": "Link `/walter-uehli/`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Foto",
+       "wert": "[PLATZHALTER: Foto `portrait-business-01.webp`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Foto `portrait-business-01.webp`"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "foto",
+         "datei": "portrait-business-01.webp",
+         "roh": "Foto `portrait-business-01.webp`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "alt",
+       "wert": "Walter Uehli, Porträt vor weissem Hintergrund",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli, Porträt vor weissem Hintergrund"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "6. Aufruf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Ein Fall reicht für das Erstgespräch.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Ein Fall reicht für das Erstgespräch."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Du schilderst kurz, worum es geht, und ihr klärt, ob das Online-Coaching passt. Das Gespräch dauert 30 Minuten und kostet nichts.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Du schilderst kurz, worum es geht, und ihr klärt, ob das Online-Coaching passt. Das Gespräch dauert 30 Minuten und kostet nichts."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "/fachwelt/fachpersonen/webinare-workshops/": {
+   "titel": "Webinare und Workshops",
+   "quelle": "texte-fachpersonen-v1.md",
+   "title": "Webinare und Workshops für Fachpersonen: in Entwicklung | B&U BundU®",
+   "description": "Webinare und Workshops für Fachpersonen sind in Entwicklung, noch ohne Thema und Termin. Bis dahin: Online-Coaching mit Walter Uehli, Erstgespräch 30 Minuten kostenlos.",
+   "anrede": "Du in jedem Satz mit Anrede.",
+   "abschnitte": [
+    {
+     "name": "1. Kopf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "Dachzeile",
+       "wert": "Webinare und Workshops",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Webinare und Workshops"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "H1",
+       "wert": "Webinare und Workshops: in Entwicklung.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Webinare und Workshops: in Entwicklung."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Unterzeile",
+       "wert": "Es gibt noch kein Thema, keinen Termin und keinen Preis.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Es gibt noch kein Thema, keinen Termin und keinen Preis."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "2. Geplant",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Was geplant ist",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Was geplant ist"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Webinare online und Workshops vor Ort, für Fachpersonen aus Schule, Heim und Beratung.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Webinare online und Workshops vor Ort, für Fachpersonen aus Schule, Heim und Beratung."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Zweiter Absatz",
+       "wert": "Wer teilnimmt, erhält eine Teilnahmebestätigung. Diese Bestätigung stellt BundU® aus. Eine Anerkennung durch eine andere Stelle ist damit nicht verbunden.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Wer teilnimmt, erhält eine Teilnahmebestätigung. Diese Bestätigung stellt BundU® aus. Eine Anerkennung durch eine andere Stelle ist damit nicht verbunden."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "3. Wie du davon erfährst",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Wie du davon erfährst",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Wie du davon erfährst"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Eine Liste oder einen Newsletter für neue Termine gibt es nicht. Willst du wissen, ob etwas zu deinem Thema geplant ist, frag nach: Nachricht schreiben [PLATZHALTER: Link `/fachwelt/fachpersonen/kontakt/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Eine Liste oder einen Newsletter für neue Termine gibt es nicht. Willst du wissen, ob etwas zu deinem Thema geplant ist, frag nach: "
+        },
+        {
+         "t": "link",
+         "s": "Nachricht schreiben",
+         "href": "/fachwelt/fachpersonen/kontakt/"
+        },
+        {
+         "t": "text",
+         "s": ""
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/fachwelt/fachpersonen/kontakt/"
+         ],
+         "roh": "Link `/fachwelt/fachpersonen/kontakt/`"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "4. Bis dahin",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Was du jetzt schon buchen kannst",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Was du jetzt schon buchen kannst"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Online-Coaching",
+       "wert": "Für dich, einen Fall online besprechen, 60 oder 90 Minuten. Zum Online-Coaching [PLATZHALTER: Link `/fachwelt/fachpersonen/online-coaching/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für dich, einen Fall online besprechen, 60 oder 90 Minuten. "
+        },
+        {
+         "t": "link",
+         "s": "Zum Online-Coaching",
+         "href": "/fachwelt/fachpersonen/online-coaching/"
+        },
+        {
+         "t": "text",
+         "s": ""
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/fachwelt/fachpersonen/online-coaching/"
+         ],
+         "roh": "Link `/fachwelt/fachpersonen/online-coaching/`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Fachinput",
+       "wert": "Für dein Team, 45, 60 oder 90 Minuten in eurer Teamsitzung, gebucht von der Leitung. Zum Fachinput [PLATZHALTER: Link `/fachwelt/institutionen/fachinput/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für dein Team, 45, 60 oder 90 Minuten in eurer Teamsitzung, gebucht von der Leitung. "
+        },
+        {
+         "t": "link",
+         "s": "Zum Fachinput",
+         "href": "/fachwelt/institutionen/fachinput/"
+        },
+        {
+         "t": "text",
+         "s": ""
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/fachwelt/institutionen/fachinput/"
+         ],
+         "roh": "Link `/fachwelt/institutionen/fachinput/`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Kleintext unter dem CTA",
+       "wert": "30 Minuten, kostenlos und unverbindlich.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "30 Minuten, kostenlos und unverbindlich."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    }
+   ]
+  },
+  "/fachwelt/fachpersonen/kontakt/": {
+   "titel": "Kontakt Fachpersonen",
+   "quelle": "texte-fachpersonen-v1.md",
+   "title": "Kontakt für Fachpersonen | B&U BundU®",
+   "description": "Erstgespräch mit Walter Uehli buchen: 30 Minuten online, kostenlos. Oder eine Nachricht zum Online-Coaching schreiben.",
+   "anrede": "Du in jedem Satz mit Anrede.",
+   "abschnitte": [
+    {
+     "name": "1. Kopf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H1",
+       "wert": "Erstgespräch buchen: 30 Minuten, kostenlos.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen: 30 Minuten, kostenlos."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Unterzeile",
+       "wert": "Du schilderst kurz, worum es geht, und ihr klärt, ob das Online-Coaching passt. Das Gespräch findet online statt und ist unverbindlich. Walter Uehli untersteht der Schweigepflicht nach dem Berufsstandard.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Du schilderst kurz, worum es geht, und ihr klärt, ob das Online-Coaching passt. Das Gespräch findet online statt und ist unverbindlich. Walter Uehli untersteht der Schweigepflicht nach dem Berufsstandard."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "2. Termin",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Termin wählen",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Termin wählen"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Wähle einen freien Termin für das Erstgespräch.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Wähle einen freien Termin für das Erstgespräch."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "[PLATZHALTER: Buchungsweg, ein Weg für alle Bereiche]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Buchungsweg, ein Weg für alle Bereiche"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "flaeche",
+         "roh": "Buchungsweg, ein Weg für alle Bereiche"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Kleintext",
+       "wert": "Die Sitzungen selbst finden online über coachingspace.net statt.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Die Sitzungen selbst finden online über coachingspace.net statt."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "3. Nachricht",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Lieber schreiben",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Lieber schreiben"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Auf deine Nachricht antwortet Walter Uehli werktags innert 24 Stunden.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Auf deine Nachricht antwortet Walter Uehli werktags innert 24 Stunden."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Feld",
+       "wert": "Name",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Name"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Feld",
+       "wert": "E-Mail",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "E-Mail"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Feld",
+       "wert": "Telefon (freiwillig)",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Telefon (freiwillig)"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Auswahl \"Worum geht es?\"",
+       "wert": "Online-Coaching · Anderes",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Online-Coaching · Anderes"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Feld",
+       "wert": "Deine Nachricht",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Deine Nachricht"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Hinweis unter dem Formular",
+       "wert": "[PLATZHALTER: Hinweis zum Datenschutz, Wortlaut von der Fachperson nach S-5]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Hinweis zum Datenschutz, Wortlaut von der Fachperson nach S-5"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "flaeche",
+         "roh": "Hinweis zum Datenschutz, Wortlaut von der Fachperson nach S-5"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Knopf",
+       "wert": "Nachricht senden",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Nachricht senden"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Bestätigung nach dem Senden",
+       "wert": "Danke für deine Nachricht. Walter Uehli meldet sich werktags innert 24 Stunden bei dir.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Danke für deine Nachricht. Walter Uehli meldet sich werktags innert 24 Stunden bei dir."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Fehlermeldung",
+       "wert": "Die Nachricht ist nicht angekommen. Versuch es noch einmal oder schreib direkt an info@bundu.ch.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Die Nachricht ist nicht angekommen. Versuch es noch einmal oder schreib direkt an info@bundu.ch."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Kleintext",
+       "wert": "In einer akuten Krise ist eine Fachstelle die richtige Adresse, nicht dieses Formular.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "In einer akuten Krise ist eine Fachstelle die richtige Adresse, nicht dieses Formular."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "4. Kontaktdaten",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "So erreichst du Walter Uehli",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "So erreichst du Walter Uehli"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "B&U BundU® - Inhaber: Walter Uehli | praxiserfahrene Beratung und Unterstützung",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "B&U BundU® - Inhaber: Walter Uehli | praxiserfahrene Beratung und Unterstützung"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Klosterstrasse 5, CH-5626 Bremgarten",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Klosterstrasse 5, CH-5626 Bremgarten"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Telefon +41 (0)55 505 62 03 [PLATZHALTER: Link `tel:+41555056203`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Telefon +41 (0)55 505 62 03"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "tel:+41555056203"
+         ],
+         "roh": "Link `tel:+41555056203`"
+        }
+       ]
+      },
+      {
+       "k": "punkt",
+       "wert": "E-Mail info@bundu.ch",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "E-Mail info@bundu.ch"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    }
+   ]
+  },
+  "/fachwelt/institutionen/": {
+   "titel": "Bereichsstart Institutionen",
+   "quelle": "texte-institutionen-person-v1.md",
+   "title": "Für Einrichtungen: Fortbildung und Begleitung | B&U BundU®",
+   "description": "Inhouse-Fortbildung, Fachinput, STARK im Team und Begleitung beim Bündner Standard für Schulen und Heime. Mit Walter Uehli. Erstgespräch 30 Minuten, kostenlos.",
+   "anrede": "Sie in jedem Satz mit Anrede.",
+   "abschnitte": [
+    {
+     "name": "Kopf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "Dachzeile",
+       "wert": "Für Einrichtungen",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für Einrichtungen"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "H1",
+       "wert": "Fortbildung und Begleitung für Ihr Team, von jemandem, der selbst eine Einrichtung geleitet hat.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Fortbildung und Begleitung für Ihr Team, von jemandem, der selbst eine Einrichtung geleitet hat."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Unterzeile",
+       "wert": "Für Leitungen von Schulen, Heimen und Einrichtungen, die mit Kindern und Jugendlichen arbeiten. Walter Uehli bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für Leitungen von Schulen, Heimen und Einrichtungen, die mit Kindern und Jugendlichen arbeiten. Walter Uehli bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Kleintext unter dem CTA",
+       "wert": "30 Minuten, kostenlos und unverbindlich.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "30 Minuten, kostenlos und unverbindlich."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Foto",
+       "wert": "[PLATZHALTER: Foto `portrait-arbeitsplatz-02.webp`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Foto `portrait-arbeitsplatz-02.webp`"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "foto",
+         "datei": "portrait-arbeitsplatz-02.webp",
+         "roh": "Foto `portrait-arbeitsplatz-02.webp`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "alt",
+       "wert": "Walter Uehli am Schreibtisch mit Headset, vor ihm Bildschirm und Maus",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli am Schreibtisch mit Headset, vor ihm Bildschirm und Maus"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "Vier Angebote",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Welches Angebot zu Ihrem Anlass passt",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Welches Angebot zu Ihrem Anlass passt"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Wegweiser, eine Zeile direkt unter der H2",
+       "wert": "Ein Tag zu einem Thema aus Ihrem Weiterbildungsplan: Inhouse-Fortbildung. 45 bis 90 Minuten in einer Sitzung, die schon steht: Fachinput. Ein bis sechs Monate mit dem ganzen Team, wenn es klemmt oder sich viel ändert: STARK im Team. 12 bis 18 Monate für ein Qualitätssystem für den Umgang mit Grenzverletzungen, auch die Schulung Ihres Teams dazu: Bündner Standard.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Ein Tag zu einem Thema aus Ihrem Weiterbildungsplan: Inhouse-Fortbildung. 45 bis 90 Minuten in einer Sitzung, die schon steht: Fachinput. Ein bis sechs Monate mit dem ganzen Team, wenn es klemmt oder sich viel ändert: STARK im Team. 12 bis 18 Monate für ein Qualitätssystem für den Umgang mit Grenzverletzungen, auch die Schulung Ihres Teams dazu: Bündner Standard."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "gruppe",
+       "name": "Inhouse-Fortbildung"
+      },
+      {
+       "k": "feld",
+       "label": "Anlass",
+       "wert": "In Ihrem Weiterbildungsplan steht ein Tag, das Thema ist gesetzt.",
+       "kinder": [],
+       "gruppe": "Inhouse-Fortbildung",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "In Ihrem Weiterbildungsplan steht ein Tag, das Thema ist gesetzt."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Walter Uehli bereitet einen halben oder ganzen Tag auf Ihr Team vor und führt ihn bei Ihnen vor Ort oder online durch. Themen: Neue Autorität und Deeskalation, Kommunikation im Team, Bündner Standard als Info-Halbtag oder Info-Tag. Neue Autorität ist eine Haltung nach Haim Omer: Präsenz statt Kontrolle und Beziehung statt Strafe.",
+       "kinder": [],
+       "gruppe": "Inhouse-Fortbildung",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli bereitet einen halben oder ganzen Tag auf Ihr Team vor und führt ihn bei Ihnen vor Ort oder online durch. Themen: Neue Autorität und Deeskalation, Kommunikation im Team, Bündner Standard als Info-Halbtag oder Info-Tag. Neue Autorität ist eine Haltung nach Haim Omer: Präsenz statt Kontrolle und Beziehung statt Strafe."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Preis",
+       "wert": "Halbtag CHF 1'600, Ganztag CHF 2'400, bis 60 Personen. Bei Terminen vor Ort kommen Fahrspesen dazu.",
+       "kinder": [],
+       "gruppe": "Inhouse-Fortbildung",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Halbtag CHF 1'600, Ganztag CHF 2'400, bis 60 Personen. Bei Terminen vor Ort kommen Fahrspesen dazu."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Zur Inhouse-Fortbildung [PLATZHALTER: Link `/fachwelt/institutionen/inhouse-fortbildung/`]",
+       "kinder": [],
+       "gruppe": "Inhouse-Fortbildung",
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Zur Inhouse-Fortbildung",
+         "href": "/fachwelt/institutionen/inhouse-fortbildung/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/fachwelt/institutionen/inhouse-fortbildung/"
+         ],
+         "roh": "Link `/fachwelt/institutionen/inhouse-fortbildung/`"
+        }
+       ]
+      },
+      {
+       "k": "gruppe",
+       "name": "Fachinput"
+      },
+      {
+       "k": "feld",
+       "label": "Anlass",
+       "wert": "In Ihrer Teamsitzung, Ihrer Fachgruppe oder an einem Anlass ist Platz für ein Thema, aber nicht für einen ganzen Tag.",
+       "kinder": [],
+       "gruppe": "Fachinput",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "In Ihrer Teamsitzung, Ihrer Fachgruppe oder an einem Anlass ist Platz für ein Thema, aber nicht für einen ganzen Tag."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Walter Uehli hält einen Input von 45, 60 oder 90 Minuten zu einem Thema, das Sie im Erstgespräch festlegen. Die Vorbereitung ist im Preis enthalten.",
+       "kinder": [],
+       "gruppe": "Fachinput",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli hält einen Input von 45, 60 oder 90 Minuten zu einem Thema, das Sie im Erstgespräch festlegen. Die Vorbereitung ist im Preis enthalten."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Preis",
+       "wert": "45 Minuten CHF 220, 60 Minuten CHF 290, 90 Minuten CHF 440. Bei Terminen vor Ort kommen Fahrspesen dazu.",
+       "kinder": [],
+       "gruppe": "Fachinput",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "45 Minuten CHF 220, 60 Minuten CHF 290, 90 Minuten CHF 440. Bei Terminen vor Ort kommen Fahrspesen dazu."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Zum Fachinput [PLATZHALTER: Link `/fachwelt/institutionen/fachinput/`]",
+       "kinder": [],
+       "gruppe": "Fachinput",
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Zum Fachinput",
+         "href": "/fachwelt/institutionen/fachinput/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/fachwelt/institutionen/fachinput/"
+         ],
+         "roh": "Link `/fachwelt/institutionen/fachinput/`"
+        }
+       ]
+      },
+      {
+       "k": "gruppe",
+       "name": "STARK im Team"
+      },
+      {
+       "k": "feld",
+       "label": "Anlass",
+       "wert": "Im Team klemmt es, oder es ändert sich viel: eine neue Leitung, ein neues Team, ein Vorfall.",
+       "kinder": [],
+       "gruppe": "STARK im Team",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Im Team klemmt es, oder es ändert sich viel: eine neue Leitung, ein neues Team, ein Vorfall."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Ein Prozess mit Ihrem ganzen Team, von der Bedarfsanalyse bis zur Auswertung: vier bis sechs Termine, verteilt über ein bis sechs Monate je nach Auftrag. Der Name STARK steht für Sicherheit geben, Talente entdecken, Achtsamkeit üben, Respekt zeigen und Kontakt pflegen.",
+       "kinder": [],
+       "gruppe": "STARK im Team",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Ein Prozess mit Ihrem ganzen Team, von der Bedarfsanalyse bis zur Auswertung: vier bis sechs Termine, verteilt über ein bis sechs Monate je nach Auftrag. Der Name STARK steht für Sicherheit geben, Talente entdecken, Achtsamkeit üben, Respekt zeigen und Kontakt pflegen."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Preis",
+       "wert": "Nach Aufwand und immer mit Kostendach: Das ist der Höchstbetrag in der Offerte, Sie kennen ihn, bevor der Prozess beginnt. Eine Preisspanne nennt Walter Uehli im kostenlosen Erstgespräch.",
+       "kinder": [],
+       "gruppe": "STARK im Team",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Nach Aufwand und immer mit Kostendach: Das ist der Höchstbetrag in der Offerte, Sie kennen ihn, bevor der Prozess beginnt. Eine Preisspanne nennt Walter Uehli im kostenlosen Erstgespräch."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Zu STARK im Team [PLATZHALTER: Link `/fachwelt/institutionen/stark-im-team/`]",
+       "kinder": [],
+       "gruppe": "STARK im Team",
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Zu STARK im Team",
+         "href": "/fachwelt/institutionen/stark-im-team/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/fachwelt/institutionen/stark-im-team/"
+         ],
+         "roh": "Link `/fachwelt/institutionen/stark-im-team/`"
+        }
+       ]
+      },
+      {
+       "k": "gruppe",
+       "name": "Begleitung beim Bündner Standard"
+      },
+      {
+       "k": "feld",
+       "label": "Anlass",
+       "wert": "Sie wollen den Bündner Standard einführen, auf Auflage von Kanton, Aufsicht oder Trägerschaft oder aus eigenem Entschluss.",
+       "kinder": [],
+       "gruppe": "Begleitung beim Bündner Standard",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Sie wollen den Bündner Standard einführen, auf Auflage von Kanton, Aufsicht oder Trägerschaft oder aus eigenem Entschluss."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Walter Uehli begleitet die Einführung als akkreditierter Berater Bündner Standard und prüft die Umsetzung, über 12 bis 18 Monate und mit allen Mitarbeitenden. Akkreditiert hat ihn die Stiftung Bündner Standard: Sie hat ihn berechtigt, Einrichtungen bei der Einführung zu begleiten und Teams zu schulen.",
+       "kinder": [],
+       "gruppe": "Begleitung beim Bündner Standard",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli begleitet die Einführung als akkreditierter Berater Bündner Standard und prüft die Umsetzung, über 12 bis 18 Monate und mit allen Mitarbeitenden. Akkreditiert hat ihn die Stiftung Bündner Standard: Sie hat ihn berechtigt, Einrichtungen bei der Einführung zu begleiten und Teams zu schulen."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Preis",
+       "wert": "Die Preise für Erstanalyse und Begleitung nennt Walter Uehli im kostenlosen Erstgespräch, die Begleitung nach Aufwand mit Kostendach.",
+       "kinder": [],
+       "gruppe": "Begleitung beim Bündner Standard",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Die Preise für Erstanalyse und Begleitung nennt Walter Uehli im kostenlosen Erstgespräch, die Begleitung nach Aufwand mit Kostendach."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Zur Begleitung beim Bündner Standard [PLATZHALTER: Link `/fachwelt/institutionen/buendner-standard/`]",
+       "kinder": [],
+       "gruppe": "Begleitung beim Bündner Standard",
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Zur Begleitung beim Bündner Standard",
+         "href": "/fachwelt/institutionen/buendner-standard/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/fachwelt/institutionen/buendner-standard/"
+         ],
+         "roh": "Link `/fachwelt/institutionen/buendner-standard/`"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Die Person",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Wer zu Ihnen kommt",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Wer zu Ihnen kommt"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Walter Uehli war bis 31. Juli 2026 Gesamtleiter der Schule Friedheim, einer Einrichtung mit Platz für 32 Kinder und Jugendliche und rund 45 Mitarbeitenden. Er ist Coach für Neue Autorität (Weiterbildung von 115 Stunden am Systemischen Institut für Neue Autorität®, 2019) und akkreditierter Berater Bündner Standard.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli war bis 31. Juli 2026 Gesamtleiter der Schule Friedheim, einer Einrichtung mit Platz für 32 Kinder und Jugendliche und rund 45 Mitarbeitenden. Er ist Coach für Neue Autorität (Weiterbildung von 115 Stunden am Systemischen Institut für Neue Autorität®, 2019) und akkreditierter Berater Bündner Standard."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Zweiter Absatz",
+       "wert": "Er kennt beide Seiten: die Arbeit in der Gruppe und die Verantwortung der Leitung.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Er kennt beide Seiten: die Arbeit in der Gruppe und die Verantwortung der Leitung."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Link",
+       "wert": "Mehr über Walter Uehli [PLATZHALTER: Link `/walter-uehli/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Mehr über Walter Uehli",
+         "href": "/walter-uehli/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/walter-uehli/"
+         ],
+         "roh": "Link `/walter-uehli/`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Foto",
+       "wert": "[PLATZHALTER: Foto `portrait-business-01.webp`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Foto `portrait-business-01.webp`"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "foto",
+         "datei": "portrait-business-01.webp",
+         "roh": "Foto `portrait-business-01.webp`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "alt",
+       "wert": "Walter Uehli, Porträt vor weissem Hintergrund",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli, Porträt vor weissem Hintergrund"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "Der erste Schritt",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "So beginnt es",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "So beginnt es"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Im Erstgespräch schildern Sie Ihren Anlass, 30 Minuten lang. Danach erhalten Sie eine Offerte und entscheiden. Das Erstgespräch kostet nichts und verpflichtet zu nichts.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Im Erstgespräch schildern Sie Ihren Anlass, 30 Minuten lang. Danach erhalten Sie eine Offerte und entscheiden. Das Erstgespräch kostet nichts und verpflichtet zu nichts."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Fuss",
+     "knoten": []
+    }
+   ]
+  },
+  "/fachwelt/institutionen/inhouse-fortbildung/": {
+   "titel": "Inhouse-Fortbildung",
+   "quelle": "texte-institutionen-person-v1.md",
+   "title": "Inhouse-Fortbildung für Ihr Team | B&U BundU®",
+   "description": "Ein halber oder ganzer Tag mit Ihrem Team, vor Ort oder online. Halbtag CHF 1'600, Ganztag CHF 2'400, bis 60 Personen. Erstgespräch 30 Minuten, kostenlos.",
+   "anrede": "Sie in jedem Satz mit Anrede.",
+   "abschnitte": [
+    {
+     "name": "1. Kopf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "Dachzeile",
+       "wert": "Inhouse-Fortbildung",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Inhouse-Fortbildung"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "H1",
+       "wert": "Ihr Weiterbildungstag, vorbereitet auf Ihr Team.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Ihr Weiterbildungstag, vorbereitet auf Ihr Team."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Unterzeile",
+       "wert": "Zu einem Thema aus Ihrem Weiterbildungsplan, bei Ihnen vor Ort oder online. Die Vorbereitung ist im Preis enthalten.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Zu einem Thema aus Ihrem Weiterbildungsplan, bei Ihnen vor Ort oder online. Die Vorbereitung ist im Preis enthalten."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Kleintext unter dem CTA",
+       "wert": "30 Minuten, kostenlos und unverbindlich.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "30 Minuten, kostenlos und unverbindlich."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "2. Für wen",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Für wen",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für wen"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Für Teams in Sonderschulen und Schulheimen, in Regelschulen und Kitas, in Heimen und Wohngruppen. Die Leitung bucht den Tag für ihr Team.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für Teams in Sonderschulen und Schulheimen, in Regelschulen und Kitas, in Heimen und Wohngruppen. Die Leitung bucht den Tag für ihr Team."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "3. Themen",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Themen",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Themen"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Neue Autorität und Deeskalation",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Neue Autorität und Deeskalation"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Kommunikation im Team",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Kommunikation im Team"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Bündner Standard als Info-Halbtag oder Info-Tag, ohne die ganze Einführung",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Bündner Standard als Info-Halbtag oder Info-Tag, ohne die ganze Einführung"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Satz unter der Liste",
+       "wert": "Neue Autorität ist eine Haltung nach Haim Omer: Präsenz statt Kontrolle und Beziehung statt Strafe. Ein anderes Thema aus Ihrem Plan besprechen Sie im Erstgespräch. Liegt es ausserhalb dessen, was Walter Uehli anbietet, sagt er es Ihnen dort.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Neue Autorität ist eine Haltung nach Haim Omer: Präsenz statt Kontrolle und Beziehung statt Strafe. Ein anderes Thema aus Ihrem Plan besprechen Sie im Erstgespräch. Liegt es ausserhalb dessen, was Walter Uehli anbietet, sagt er es Ihnen dort."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Hinweis",
+       "wert": "Den Info-Halbtag oder Info-Tag zum Bündner Standard buchen Sie als Inhouse-Fortbildung, zu den Preisen dieser Seite. Führen Sie den Bündner Standard ganz ein, gehört die Schulung Ihres Teams zur Begleitung und hat dort einen eigenen Preis: Zur Begleitung beim Bündner Standard [PLATZHALTER: Link `/fachwelt/institutionen/buendner-standard/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Den Info-Halbtag oder Info-Tag zum Bündner Standard buchen Sie als Inhouse-Fortbildung, zu den Preisen dieser Seite. Führen Sie den Bündner Standard ganz ein, gehört die Schulung Ihres Teams zur Begleitung und hat dort einen eigenen Preis: "
+        },
+        {
+         "t": "link",
+         "s": "Zur Begleitung beim Bündner Standard",
+         "href": "/fachwelt/institutionen/buendner-standard/"
+        },
+        {
+         "t": "text",
+         "s": ""
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/fachwelt/institutionen/buendner-standard/"
+         ],
+         "roh": "Link `/fachwelt/institutionen/buendner-standard/`"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "4. Ablauf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "So läuft es",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "So läuft es"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Erstgespräch.",
+       "text": "30 Minuten, kostenlos. Sie schildern Thema, Team und Rahmen, Walter Uehli klärt mit Ihnen den Bedarf.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "30 Minuten, kostenlos. Sie schildern Thema, Team und Rahmen, Walter Uehli klärt mit Ihnen den Bedarf."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Vorbereitung.",
+       "text": "Walter Uehli bereitet den Tag auf Ihr Team und Ihre Einrichtung vor.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli bereitet den Tag auf Ihr Team und Ihre Einrichtung vor."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Durchführung.",
+       "text": "Ein halber oder ganzer Tag, bei Ihnen vor Ort oder online, mit bis zu 60 Personen.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "Ein halber oder ganzer Tag, bei Ihnen vor Ort oder online, mit bis zu 60 Personen."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Danach.",
+       "text": "Auf Wunsch folgt eine Nachbegleitung. Umfang und Preis klären Sie im Erstgespräch.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "Auf Wunsch folgt eine Nachbegleitung. Umfang und Preis klären Sie im Erstgespräch."
+        }
+       ],
+       "text_ph": []
+      }
+     ]
+    },
+    {
+     "name": "5. Grenzen",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Was die Inhouse-Fortbildung nicht ist",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Was die Inhouse-Fortbildung nicht ist"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Kein Prozess über mehrere Termine. Den gibt es als STARK im Team [PLATZHALTER: Link `/fachwelt/institutionen/stark-im-team/`].",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Kein Prozess über mehrere Termine. Den gibt es als "
+        },
+        {
+         "t": "link",
+         "s": "STARK im Team",
+         "href": "/fachwelt/institutionen/stark-im-team/"
+        },
+        {
+         "t": "text",
+         "s": "."
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/fachwelt/institutionen/stark-im-team/"
+         ],
+         "roh": "Link `/fachwelt/institutionen/stark-im-team/`"
+        }
+       ]
+      },
+      {
+       "k": "punkt",
+       "wert": "Kein Schreiben von Konzepten oder Dokumenten. Das läuft als eigene Beratung nach Aufwand.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Kein Schreiben von Konzepten oder Dokumenten. Das läuft als eigene Beratung nach Aufwand."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Kein Einzelcoaching, keine Mediation, keine Therapie und keine Krisenintervention.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Kein Einzelcoaching, keine Mediation, keine Therapie und keine Krisenintervention."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "6. Preise",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Preise",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Preise"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "tabelle",
+       "kopf": [
+        "Leistung",
+        "Umfang",
+        "Preis"
+       ],
+       "zeilen": [
+        [
+         "Erstgespräch",
+         "30 Minuten",
+         "kostenlos"
+        ],
+        [
+         "Inhouse-Fortbildung, Halbtag",
+         "bis 60 Personen, inklusive Vorbereitung",
+         "CHF 1'600"
+        ],
+        [
+         "Inhouse-Fortbildung, Ganztag",
+         "bis 60 Personen, inklusive Vorbereitung",
+         "CHF 2'400"
+        ]
+       ],
+       "gruppe": null
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Bei Terminen vor Ort kommen Fahrspesen dazu. Eine Inhouse-Fortbildung ist fast immer ein einmaliger Auftrag, deshalb kostet der halbe Tag hier CHF 1'600. In der Begleitung beim Bündner Standard kostet er CHF 1'400, weil er dort zu einem Gesamtprojekt gehört, das über mehrere Phasen läuft und mehrere Schulungen umfassen kann. Es kommt keine Mehrwertsteuer dazu. Die Rechnung folgt nach dem durchgeführten Tag, zahlbar innert 30 Tagen. Bei mehr als 60 Personen zieht Walter Uehli eine weitere Fachperson bei. Einzelheiten und Kosten klären Sie im Erstgespräch.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Bei Terminen vor Ort kommen Fahrspesen dazu. Eine Inhouse-Fortbildung ist fast immer ein einmaliger Auftrag, deshalb kostet der halbe Tag hier CHF 1'600. In der Begleitung beim Bündner Standard kostet er CHF 1'400, weil er dort zu einem Gesamtprojekt gehört, das über mehrere Phasen läuft und mehrere Schulungen umfassen kann. Es kommt keine Mehrwertsteuer dazu. Die Rechnung folgt nach dem durchgeführten Tag, zahlbar innert 30 Tagen. Bei mehr als 60 Personen zieht Walter Uehli eine weitere Fachperson bei. Einzelheiten und Kosten klären Sie im Erstgespräch."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "7. Person",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Wer den Tag leitet",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Wer den Tag leitet"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Walter Uehli bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen. Bis 31. Juli 2026 war er Gesamtleiter der Schule Friedheim. Er ist Coach für Neue Autorität (Weiterbildung von 115 Stunden am Systemischen Institut für Neue Autorität®, 2019) und akkreditierter Berater Bündner Standard: Die Stiftung Bündner Standard hat ihn berechtigt, Einrichtungen bei der Einführung dieses Qualitätssystems für den Umgang mit Grenzverletzungen zu begleiten und Teams dazu zu schulen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen. Bis 31. Juli 2026 war er Gesamtleiter der Schule Friedheim. Er ist Coach für Neue Autorität (Weiterbildung von 115 Stunden am Systemischen Institut für Neue Autorität®, 2019) und akkreditierter Berater Bündner Standard: Die Stiftung Bündner Standard hat ihn berechtigt, Einrichtungen bei der Einführung dieses Qualitätssystems für den Umgang mit Grenzverletzungen zu begleiten und Teams dazu zu schulen."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Link",
+       "wert": "Mehr über Walter Uehli [PLATZHALTER: Link `/walter-uehli/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Mehr über Walter Uehli",
+         "href": "/walter-uehli/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/walter-uehli/"
+         ],
+         "roh": "Link `/walter-uehli/`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Foto",
+       "wert": "[PLATZHALTER: Foto `portrait-business-01.webp`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Foto `portrait-business-01.webp`"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "foto",
+         "datei": "portrait-business-01.webp",
+         "roh": "Foto `portrait-business-01.webp`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "alt",
+       "wert": "Walter Uehli, Porträt vor weissem Hintergrund",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli, Porträt vor weissem Hintergrund"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "8. Aufruf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Ein Thema und ein möglicher Termin reichen für das Erstgespräch.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Ein Thema und ein möglicher Termin reichen für das Erstgespräch."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "In 30 Minuten klären Sie, ob der Tag zu Ihrem Team passt. Das Erstgespräch kostet nichts.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "In 30 Minuten klären Sie, ob der Tag zu Ihrem Team passt. Das Erstgespräch kostet nichts."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Fuss",
+     "knoten": []
+    }
+   ]
+  },
+  "/fachwelt/institutionen/fachinput/": {
+   "titel": "Fachinput",
+   "quelle": "texte-institutionen-person-v1.md",
+   "title": "Fachinput für Ihr Team: 45, 60 oder 90 Minuten | B&U BundU®",
+   "description": "Ein Fachinput von Walter Uehli für Ihre Teamsitzung, Fachgruppe oder Ihren Anlass: 45, 60 oder 90 Minuten, CHF 220, 290 oder 440, Vorbereitung inklusive. Erstgespräch kostenlos.",
+   "anrede": "Sie in jedem Satz mit Anrede. Herkunft: Seite 2 der Fassung in `texte-fachpersonen-v1.md`, nach B-3 ins Sie und auf die Leitung umgeschrieben.",
+   "abschnitte": [
+    {
+     "name": "1. Kopf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "Dachzeile",
+       "wert": "Fachinput",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Fachinput"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "H1",
+       "wert": "Ein Fachinput von 45, 60 oder 90 Minuten, die Vorbereitung inklusive.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Ein Fachinput von 45, 60 oder 90 Minuten, die Vorbereitung inklusive."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Unterzeile",
+       "wert": "Walter Uehli hält einen Input zu einer Frage aus dem Berufsalltag Ihres Teams, zum Beispiel in einer Teamsitzung, einer Fachgruppe oder an einem Anlass, den Sie organisieren. Dahinter stehen über 30 Jahre Sozialpädagogik, davon mehr als 15 Jahre in Leitungsfunktionen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli hält einen Input zu einer Frage aus dem Berufsalltag Ihres Teams, zum Beispiel in einer Teamsitzung, einer Fachgruppe oder an einem Anlass, den Sie organisieren. Dahinter stehen über 30 Jahre Sozialpädagogik, davon mehr als 15 Jahre in Leitungsfunktionen."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Kleintext unter dem CTA",
+       "wert": "30 Minuten, kostenlos und unverbindlich.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "30 Minuten, kostenlos und unverbindlich."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Foto",
+       "wert": "[PLATZHALTER: Foto `portrait-business-01.webp`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Foto `portrait-business-01.webp`"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "foto",
+         "datei": "portrait-business-01.webp",
+         "roh": "Foto `portrait-business-01.webp`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "alt",
+       "wert": "Walter Uehli, Porträt vor weissem Hintergrund",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli, Porträt vor weissem Hintergrund"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "2. Wofür",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Wofür ein Fachinput da ist",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Wofür ein Fachinput da ist"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Die Inhouse-Fortbildung füllt einen Tag. Der Fachinput passt in eine Sitzung.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Die Inhouse-Fortbildung füllt einen Tag. Der Fachinput passt in eine Sitzung."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Zweiter Absatz",
+       "wert": "Er setzt ein Thema in einen Rahmen, den Sie schon haben: die Teamsitzung, die Fachgruppe, den Anlass. Brauchen Sie einen halben oder ganzen Tag, ist die Inhouse-Fortbildung der Weg: Zur Inhouse-Fortbildung [PLATZHALTER: Link `/fachwelt/institutionen/inhouse-fortbildung/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Er setzt ein Thema in einen Rahmen, den Sie schon haben: die Teamsitzung, die Fachgruppe, den Anlass. Brauchen Sie einen halben oder ganzen Tag, ist die Inhouse-Fortbildung der Weg: "
+        },
+        {
+         "t": "link",
+         "s": "Zur Inhouse-Fortbildung",
+         "href": "/fachwelt/institutionen/inhouse-fortbildung/"
+        },
+        {
+         "t": "text",
+         "s": ""
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/fachwelt/institutionen/inhouse-fortbildung/"
+         ],
+         "roh": "Link `/fachwelt/institutionen/inhouse-fortbildung/`"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "3. Für wen",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Für wen",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für wen"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Für Teamleitungen, Bereichsleitungen und Institutionsleitungen, die einen Input für ihr Team oder ihre Fachgruppe buchen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für Teamleitungen, Bereichsleitungen und Institutionsleitungen, die einen Input für ihr Team oder ihre Fachgruppe buchen."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "4. Themen",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Themen",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Themen"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Das Thema wählen Sie. Im Erstgespräch legen Sie es mit Walter Uehli fest, zusammen mit der Länge.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Das Thema wählen Sie. Im Erstgespräch legen Sie es mit Walter Uehli fest, zusammen mit der Länge."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "5. Ablauf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "So läuft es",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "So läuft es"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Erstgespräch.",
+       "text": "30 Minuten, kostenlos und unverbindlich. Sie schildern den Anlass und legen mit Walter Uehli Thema und Länge fest.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "30 Minuten, kostenlos und unverbindlich. Sie schildern den Anlass und legen mit Walter Uehli Thema und Länge fest."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Vorbereitung.",
+       "text": "Walter Uehli bereitet den Input vor. Die Vorbereitung ist im Preis enthalten.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli bereitet den Input vor. Die Vorbereitung ist im Preis enthalten."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Fachinput.",
+       "text": "45, 60 oder 90 Minuten, online oder bei Ihnen vor Ort.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "45, 60 oder 90 Minuten, online oder bei Ihnen vor Ort."
+        }
+       ],
+       "text_ph": []
+      }
+     ]
+    },
+    {
+     "name": "6. Preise",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Preise",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Preise"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "tabelle",
+       "kopf": [
+        "Leistung",
+        "Dauer",
+        "Preis"
+       ],
+       "zeilen": [
+        [
+         "Erstgespräch",
+         "30 Minuten",
+         "kostenlos"
+        ],
+        [
+         "Fachinput",
+         "45 Minuten, inklusive Vorbereitung",
+         "CHF 220"
+        ],
+        [
+         "Fachinput",
+         "60 Minuten, inklusive Vorbereitung",
+         "CHF 290"
+        ],
+        [
+         "Fachinput",
+         "90 Minuten, inklusive Vorbereitung",
+         "CHF 440"
+        ]
+       ],
+       "gruppe": null
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Bei Terminen vor Ort kommen Fahrspesen dazu. Es kommt keine Mehrwertsteuer dazu.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Bei Terminen vor Ort kommen Fahrspesen dazu. Es kommt keine Mehrwertsteuer dazu."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "7. Person",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Wer zu Ihrem Team spricht",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Wer zu Ihrem Team spricht"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Walter Uehli bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen. Bis 31. Juli 2026 war er Gesamtleiter der Schule Friedheim. Er ist Coach für Neue Autorität (Weiterbildung von 115 Stunden am Systemischen Institut für Neue Autorität®, 2019), einer Haltung nach Haim Omer: Präsenz statt Kontrolle und Beziehung statt Strafe. Ausserdem ist er akkreditierter Berater Bündner Standard: Die Stiftung Bündner Standard hat ihn berechtigt, Einrichtungen bei der Einführung dieses Qualitätssystems für den Umgang mit Grenzverletzungen zu begleiten und Teams dazu zu schulen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen. Bis 31. Juli 2026 war er Gesamtleiter der Schule Friedheim. Er ist Coach für Neue Autorität (Weiterbildung von 115 Stunden am Systemischen Institut für Neue Autorität®, 2019), einer Haltung nach Haim Omer: Präsenz statt Kontrolle und Beziehung statt Strafe. Ausserdem ist er akkreditierter Berater Bündner Standard: Die Stiftung Bündner Standard hat ihn berechtigt, Einrichtungen bei der Einführung dieses Qualitätssystems für den Umgang mit Grenzverletzungen zu begleiten und Teams dazu zu schulen."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Link",
+       "wert": "Mehr über Walter Uehli [PLATZHALTER: Link `/walter-uehli/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Mehr über Walter Uehli",
+         "href": "/walter-uehli/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/walter-uehli/"
+         ],
+         "roh": "Link `/walter-uehli/`"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "8. Aufruf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Ein Anlass und ein Thema reichen für das Erstgespräch.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Ein Anlass und ein Thema reichen für das Erstgespräch."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "In 30 Minuten klären Sie Thema, Länge und Rahmen. Das Erstgespräch kostet nichts.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "In 30 Minuten klären Sie Thema, Länge und Rahmen. Das Erstgespräch kostet nichts."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Fuss",
+     "knoten": []
+    }
+   ]
+  },
+  "/fachwelt/institutionen/stark-im-team/": {
+   "titel": "STARK im Team",
+   "quelle": "texte-institutionen-person-v1.md",
+   "title": "STARK im Team: Teamentwicklung für pädagogische Teams | B&U BundU®",
+   "description": "Teamentwicklung für pädagogische Teams: ein bis sechs Monate, vier bis sechs Termine, offeriert mit Kostendach. Erstgespräch 30 Minuten, kostenlos.",
+   "anrede": "Sie in jedem Satz mit Anrede.",
+   "abschnitte": [
+    {
+     "name": "1. Kopf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "Dachzeile",
+       "wert": "STARK im Team · Teamentwicklung für pädagogische Teams",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "STARK im Team · Teamentwicklung für pädagogische Teams"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "H1",
+       "wert": "Wenn es im Team klemmt: ein Prozess mit dem ganzen Team, über ein bis sechs Monate.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Wenn es im Team klemmt: ein Prozess mit dem ganzen Team, über ein bis sechs Monate."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Unterzeile",
+       "wert": "Walter Uehli begleitet Ihr Team in einem Prozess, nicht nur an einem Tag. Er war bis 31. Juli 2026 Gesamtleiter einer Einrichtung mit rund 45 Mitarbeitenden. Der Name STARK steht für Sicherheit geben, Talente entdecken, Achtsamkeit üben, Respekt zeigen und Kontakt pflegen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli begleitet Ihr Team in einem Prozess, nicht nur an einem Tag. Er war bis 31. Juli 2026 Gesamtleiter einer Einrichtung mit rund 45 Mitarbeitenden. Der Name STARK steht für Sicherheit geben, Talente entdecken, Achtsamkeit üben, Respekt zeigen und Kontakt pflegen."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Kleintext unter dem CTA",
+       "wert": "30 Minuten, kostenlos und unverbindlich.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "30 Minuten, kostenlos und unverbindlich."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "2. Anlass",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Womit Sie kommen",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Womit Sie kommen"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Mit Spannungen oder Konflikten im Team. Mit einer Veränderung: eine neue Leitung, ein neues Team, ein Umbau. Mit einem Vorfall oder einer Belastung, die das ganze Team trägt. Oder vorbeugend, weil Sie die gemeinsame Haltung im Team stärken wollen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Mit Spannungen oder Konflikten im Team. Mit einer Veränderung: eine neue Leitung, ein neues Team, ein Umbau. Mit einem Vorfall oder einer Belastung, die das ganze Team trägt. Oder vorbeugend, weil Sie die gemeinsame Haltung im Team stärken wollen."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "3. Für wen",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Für wen",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für wen"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Für pädagogische Teams in Wohngruppen und Heimen, für Leitungsteams und Geschäftsleitungen. Die Leitung oder die Trägerschaft entscheidet.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für pädagogische Teams in Wohngruppen und Heimen, für Leitungsteams und Geschäftsleitungen. Die Leitung oder die Trägerschaft entscheidet."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "4. Ablauf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "So läuft es",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "So läuft es"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Erstgespräch.",
+       "text": "30 Minuten, kostenlos. Sie schildern den Anlass und Ihr Team.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "30 Minuten, kostenlos. Sie schildern den Anlass und Ihr Team."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Bedarfsanalyse und Ziele.",
+       "text": "Zu Beginn klärt Walter Uehli mit Ihnen und dem Team, wo es steht und woran gearbeitet wird.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "Zu Beginn klärt Walter Uehli mit Ihnen und dem Team, wo es steht und woran gearbeitet wird."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Programm und Termine.",
+       "text": "Daraus entsteht ein Programm für Ihr Team: vier bis sechs Termine, verteilt über ein bis sechs Monate je nach Auftrag.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "Daraus entsteht ein Programm für Ihr Team: vier bis sechs Termine, verteilt über ein bis sechs Monate je nach Auftrag."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Auswertung.",
+       "text": "Am Ende werten Sie gemeinsam aus, was erreicht ist und was offen bleibt.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "Am Ende werten Sie gemeinsam aus, was erreicht ist und was offen bleibt."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Satz unter dem Ablauf",
+       "wert": "Vier bis sechs Termine sind Arbeitszeit Ihres Teams. Planen Sie sie ein, bevor der Prozess beginnt.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Vier bis sechs Termine sind Arbeitszeit Ihres Teams. Planen Sie sie ein, bevor der Prozess beginnt."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "5. Grenzen",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Was STARK im Team nicht ist",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Was STARK im Team nicht ist"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Keine Mediation zwischen einzelnen Personen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Keine Mediation zwischen einzelnen Personen."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Keine Beurteilung von Mitarbeitenden und keine Personalentscheide.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Keine Beurteilung von Mitarbeitenden und keine Personalentscheide."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Keine Therapie, kein Einzelcoaching und keine Krisenintervention.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Keine Therapie, kein Einzelcoaching und keine Krisenintervention."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Kein Schutzkonzept nach Bündner Standard. Dafür gibt es die Begleitung beim Bündner Standard [PLATZHALTER: Link `/fachwelt/institutionen/buendner-standard/`].",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Kein Schutzkonzept nach Bündner Standard. Dafür gibt es die "
+        },
+        {
+         "t": "link",
+         "s": "Begleitung beim Bündner Standard",
+         "href": "/fachwelt/institutionen/buendner-standard/"
+        },
+        {
+         "t": "text",
+         "s": "."
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/fachwelt/institutionen/buendner-standard/"
+         ],
+         "roh": "Link `/fachwelt/institutionen/buendner-standard/`"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "6. Preis",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Preis",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Preis"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "tabelle",
+       "kopf": [
+        "Leistung",
+        "Umfang",
+        "Preis"
+       ],
+       "zeilen": [
+        [
+         "Erstgespräch",
+         "30 Minuten",
+         "kostenlos"
+        ]
+       ],
+       "gruppe": null
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Wie viel Begleitung ein Prozess braucht, hängt von Ihrem Team und Ihrem Vorhaben ab, deshalb steht hier kein Gesamtpreis. Im kostenlosen Erstgespräch nennt Ihnen Walter Uehli eine Preisspanne für Ihren Prozess. Dazu kommen die Vor- und Nachbereitung und, bei Terminen vor Ort, Fahrspesen. Den Preis nennt die Offerte nach dem Erstgespräch, nach Aufwand und immer mit einem Kostendach: Das ist der Höchstbetrag in der Offerte, Sie kennen ihn, bevor der Prozess beginnt. Es kommt keine Mehrwertsteuer dazu.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Wie viel Begleitung ein Prozess braucht, hängt von Ihrem Team und Ihrem Vorhaben ab, deshalb steht hier kein Gesamtpreis. Im kostenlosen Erstgespräch nennt Ihnen Walter Uehli eine Preisspanne für Ihren Prozess. Dazu kommen die Vor- und Nachbereitung und, bei Terminen vor Ort, Fahrspesen. Den Preis nennt die Offerte nach dem Erstgespräch, nach Aufwand und immer mit einem Kostendach: Das ist der Höchstbetrag in der Offerte, Sie kennen ihn, bevor der Prozess beginnt. Es kommt keine Mehrwertsteuer dazu."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "7. Person",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Wer Ihr Team begleitet",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Wer Ihr Team begleitet"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Walter Uehli war bis 31. Juli 2026 Gesamtleiter der Schule Friedheim. Davor führte er als Pädagogischer Leiter drei Wohngruppen mit ihren Teams. Er ist Coach für Neue Autorität (Weiterbildung von 115 Stunden am Systemischen Institut für Neue Autorität®, 2019), einer Haltung nach Haim Omer: Präsenz statt Kontrolle und Beziehung statt Strafe.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli war bis 31. Juli 2026 Gesamtleiter der Schule Friedheim. Davor führte er als Pädagogischer Leiter drei Wohngruppen mit ihren Teams. Er ist Coach für Neue Autorität (Weiterbildung von 115 Stunden am Systemischen Institut für Neue Autorität®, 2019), einer Haltung nach Haim Omer: Präsenz statt Kontrolle und Beziehung statt Strafe."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Link",
+       "wert": "Mehr über Walter Uehli [PLATZHALTER: Link `/walter-uehli/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Mehr über Walter Uehli",
+         "href": "/walter-uehli/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/walter-uehli/"
+         ],
+         "roh": "Link `/walter-uehli/`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Foto",
+       "wert": "[PLATZHALTER: Foto `portrait-business-01.webp`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Foto `portrait-business-01.webp`"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "foto",
+         "datei": "portrait-business-01.webp",
+         "roh": "Foto `portrait-business-01.webp`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "alt",
+       "wert": "Walter Uehli, Porträt vor weissem Hintergrund",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli, Porträt vor weissem Hintergrund"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "8. Aufruf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Ein Satz zur Lage in Ihrem Team reicht für das Erstgespräch.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Ein Satz zur Lage in Ihrem Team reicht für das Erstgespräch."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "In 30 Minuten klären Sie, ob STARK im Team passt oder ein anderes Angebot. Das Erstgespräch kostet nichts.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "In 30 Minuten klären Sie, ob STARK im Team passt oder ein anderes Angebot. Das Erstgespräch kostet nichts."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Fuss",
+     "knoten": []
+    }
+   ]
+  },
+  "/fachwelt/institutionen/buendner-standard/": {
+   "titel": "Begleitung beim Bündner Standard",
+   "quelle": "texte-institutionen-person-v1.md",
+   "title": "Bündner Standard: Begleitung der Einführung | B&U BundU®",
+   "description": "Begleitung und Prüfung bei der Einführung des Bündner Standards durch einen akkreditierten Berater, 12 bis 18 Monate. Erstgespräch 30 Minuten kostenlos.",
+   "anrede": "Sie in jedem Satz mit Anrede.",
+   "abschnitte": [
+    {
+     "name": "1. Kopf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "Dachzeile",
+       "wert": "Bündner Standard: Einführung und Implementierung",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Bündner Standard: Einführung und Implementierung"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "H1",
+       "wert": "Den Bündner Standard einführen, mit einem akkreditierten Berater, der begleitet und prüft.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Den Bündner Standard einführen, mit einem akkreditierten Berater, der begleitet und prüft."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Unterzeile",
+       "wert": "Walter Uehli begleitet die Einführung in Ihrer Einrichtung, schult Ihr Team und prüft die Umsetzung. Akkreditierter Berater heisst: Die Stiftung Bündner Standard hat ihn nach einer Weiterbildung von 37 Stunden berechtigt, Einrichtungen bei der Einführung zu begleiten und Teams zu schulen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli begleitet die Einführung in Ihrer Einrichtung, schult Ihr Team und prüft die Umsetzung. Akkreditierter Berater heisst: Die Stiftung Bündner Standard hat ihn nach einer Weiterbildung von 37 Stunden berechtigt, Einrichtungen bei der Einführung zu begleiten und Teams zu schulen."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Kleintext unter dem CTA",
+       "wert": "30 Minuten, kostenlos und unverbindlich.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "30 Minuten, kostenlos und unverbindlich."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "2. Worum es geht",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Worum es geht",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Worum es geht"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Der Bündner Standard ist ein Qualitätssystem für den Umgang mit Grenzverletzungen in Einrichtungen, die mit Kindern und Jugendlichen arbeiten. Er umfasst zehn Kernelemente. Die Marke gehört der Stiftung Bündner Standard, nicht BundU®.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Der Bündner Standard ist ein Qualitätssystem für den Umgang mit Grenzverletzungen in Einrichtungen, die mit Kindern und Jugendlichen arbeiten. Er umfasst zehn Kernelemente. Die Marke gehört der Stiftung Bündner Standard, nicht BundU®."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Zweiter Absatz",
+       "wert": "Das Label «Wir arbeiten nach Bündner Standard» ist ein Zeichen der Stiftung, das eine Einrichtung nach der Einführung führen darf, wenn die Stiftung es ihr vergibt. Die Umsetzung prüft eine Fachperson, das Label vergibt die Stiftung Bündner Standard, nicht Walter Uehli.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Das Label «Wir arbeiten nach Bündner Standard» ist ein Zeichen der Stiftung, das eine Einrichtung nach der Einführung führen darf, wenn die Stiftung es ihr vergibt. Die Umsetzung prüft eine Fachperson, das Label vergibt die Stiftung Bündner Standard, nicht Walter Uehli."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Dritter Absatz",
+       "wert": "Zum Label gibt es zwei Wege. Auf dem ersten begleitet und führt eine akkreditierte Beraterin oder ein akkreditierter Berater die Einführung in Ihrer Einrichtung. Nach dem erfolgreichen Abschluss kann Ihre Einrichtung das Label bei der Stiftung Bündner Standard beantragen. Auf dem zweiten führen Fachpersonen Ihrer Einrichtung, die den Standard umfassend kennen, ihn selbst ein. Danach prüft eine akkreditierte Beraterin oder ein akkreditierter Berater die Umsetzung, und erst dann kann Ihre Einrichtung das Label beantragen. Walter Uehli begleitet Einrichtungen auf dem ersten Weg. Nach einer erfolgreichen Einführung kann er die Prüfung übernehmen, auch wenn Ihre Einrichtung den Standard selbst eingeführt hat. Die Stiftung Bündner Standard vergibt das Label zurzeit für vier Jahre. Danach ist eine erneute Prüfung nötig: Eine akkreditierte Beraterin oder ein akkreditierter Berater prüft dann alle Kriterien noch einmal.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Zum Label gibt es zwei Wege. Auf dem ersten begleitet und führt eine akkreditierte Beraterin oder ein akkreditierter Berater die Einführung in Ihrer Einrichtung. Nach dem erfolgreichen Abschluss kann Ihre Einrichtung das Label bei der Stiftung Bündner Standard beantragen. Auf dem zweiten führen Fachpersonen Ihrer Einrichtung, die den Standard umfassend kennen, ihn selbst ein. Danach prüft eine akkreditierte Beraterin oder ein akkreditierter Berater die Umsetzung, und erst dann kann Ihre Einrichtung das Label beantragen. Walter Uehli begleitet Einrichtungen auf dem ersten Weg. Nach einer erfolgreichen Einführung kann er die Prüfung übernehmen, auch wenn Ihre Einrichtung den Standard selbst eingeführt hat. Die Stiftung Bündner Standard vergibt das Label zurzeit für vier Jahre. Danach ist eine erneute Prüfung nötig: Eine akkreditierte Beraterin oder ein akkreditierter Berater prüft dann alle Kriterien noch einmal."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "3. Anlass",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Womit Sie kommen",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Womit Sie kommen"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Mit einer Auflage von Kanton, Aufsicht oder Trägerschaft. Nach einem Vorfall oder einem Verdacht in Ihrer Einrichtung. Aus eigener Initiative der Leitung. Oder weil jemand aus Ihrem Team oder Ihrem Netzwerk es empfohlen hat.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Mit einer Auflage von Kanton, Aufsicht oder Trägerschaft. Nach einem Vorfall oder einem Verdacht in Ihrer Einrichtung. Aus eigener Initiative der Leitung. Oder weil jemand aus Ihrem Team oder Ihrem Netzwerk es empfohlen hat."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "4. Für wen",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Für wen",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für wen"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Für Kinder- und Jugendheime und Sonderschulheime, für Schulen, Kitas und Tagesstrukturen, für Jugendarbeit, Vereine und Verbände. Entscheiden können Trägerschaft, Vorstand, Gesamtleitung oder Geschäftsführung, bezahlt wird durch die Einrichtung.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für Kinder- und Jugendheime und Sonderschulheime, für Schulen, Kitas und Tagesstrukturen, für Jugendarbeit, Vereine und Verbände. Entscheiden können Trägerschaft, Vorstand, Gesamtleitung oder Geschäftsführung, bezahlt wird durch die Einrichtung."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "5. Ablauf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "So läuft die Einführung",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "So läuft die Einführung"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Erstgespräch.",
+       "text": "30 Minuten, kostenlos. Sie schildern Ihren Anlass und den Stand in Ihrer Einrichtung.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "30 Minuten, kostenlos. Sie schildern Ihren Anlass und den Stand in Ihrer Einrichtung."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Erstanalyse.",
+       "text": "Eine Standortbestimmung Ihrer Einrichtung: Dokumentenanalyse, Gespräch und Einschätzung, auf Wunsch als halber Tag vor Ort mit Fahrplan. Den Preis nennt Walter Uehli im Erstgespräch. Kommt die Einführung zustande, wird er angerechnet.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "Eine Standortbestimmung Ihrer Einrichtung: Dokumentenanalyse, Gespräch und Einschätzung, auf Wunsch als halber Tag vor Ort mit Fahrplan. Den Preis nennt Walter Uehli im Erstgespräch. Kommt die Einführung zustande, wird er angerechnet."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Implementierung.",
+       "text": "Mit allen Beteiligten, entlang der zehn Kernelemente. Überwiegend online, einzelne Termine vor Ort, im Rhythmus der jeweiligen Phase.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "Mit allen Beteiligten, entlang der zehn Kernelemente. Überwiegend online, einzelne Termine vor Ort, im Rhythmus der jeweiligen Phase."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Schulung.",
+       "text": "Ihr Team wird zu den Kernelementen geschult, an einem halben oder ganzen Tag.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "Ihr Team wird zu den Kernelementen geschult, an einem halben oder ganzen Tag."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Prüfung.",
+       "text": "Nach der erfolgreichen Einführung prüft eine Fachperson die Umsetzung. In dieser Begleitung kann das Walter Uehli als akkreditierter Berater übernehmen.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "Nach der erfolgreichen Einführung prüft eine Fachperson die Umsetzung. In dieser Begleitung kann das Walter Uehli als akkreditierter Berater übernehmen."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "schritt",
+       "titel": "Label.",
+       "text": "Das Label vergibt die Stiftung Bündner Standard.",
+       "gruppe": null,
+       "text_teile": [
+        {
+         "t": "text",
+         "s": "Das Label vergibt die Stiftung Bündner Standard."
+        }
+       ],
+       "text_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Satz unter dem Ablauf",
+       "wert": "Rechnen Sie mit 12 bis 18 Monaten und mit Arbeit für das ganze Team. Eine Einführung, an der nur die Leitung arbeitet, ist keine.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Rechnen Sie mit 12 bis 18 Monaten und mit Arbeit für das ganze Team. Eine Einführung, an der nur die Leitung arbeitet, ist keine."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "6. Grenzen",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Was die Begleitung nicht ist",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Was die Begleitung nicht ist"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Keine Rechtsberatung.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Keine Rechtsberatung."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Keine therapeutische Hilfe für Betroffene und keine Krisenintervention. Bei einem akuten Vorfall ist eine Fachstelle die richtige Adresse.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Keine therapeutische Hilfe für Betroffene und keine Krisenintervention. Bei einem akuten Vorfall ist eine Fachstelle die richtige Adresse."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Keine Zusage für das Label. Darüber entscheidet die Stiftung Bündner Standard.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Keine Zusage für das Label. Darüber entscheidet die Stiftung Bündner Standard."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "7. Preise",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Preise",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Preise"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "tabelle",
+       "kopf": [
+        "Leistung",
+        "Umfang",
+        "Preis"
+       ],
+       "zeilen": [
+        [
+         "Erstgespräch",
+         "30 Minuten",
+         "kostenlos"
+        ],
+        [
+         "Schulung des Teams, halber Tag",
+         "im Rahmen der Einführung, bis 60 Personen, bis 4 Stunden, pauschal",
+         "CHF 1'400"
+        ],
+        [
+         "Schulung des Teams, ganzer Tag",
+         "im Rahmen der Einführung, bis 60 Personen, bis 8,5 Stunden, pauschal",
+         "CHF 2'400"
+        ]
+       ],
+       "gruppe": null
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Wie viel Begleitung die Einführung braucht, hängt von Ihrer Einrichtung ab, deshalb steht hier kein Gesamtpreis. Im kostenlosen Erstgespräch nennt Ihnen Walter Uehli eine Preisspanne für Ihr Vorhaben. Die Begleitung offeriert er nach Aufwand und immer mit einem Kostendach: Das ist der Höchstbetrag in der Offerte, Sie kennen ihn, bevor die Einführung beginnt. Die Preise für die Erstanalyse und die Prüfung nennt er im Erstgespräch. Bei Terminen vor Ort kommen Fahrspesen dazu. In den Pauschalen der Schulung sind Vor- und Nachbereitung und die Schulungsunterlagen enthalten. Die Kopien erstellt Ihre Einrichtung, sonst werden die effektiven Kosten verrechnet. Bei mehr als 60 Personen zieht Walter Uehli eine weitere Beraterin oder einen weiteren Berater bei. Einzelheiten und Kosten klären Sie im Erstgespräch. Der halbe Tag Schulung kostet hier CHF 1'400 und nicht CHF 1'600 wie bei einer Inhouse-Fortbildung. Die Einführung ist ein Gesamtprojekt, das über mehrere Phasen läuft und mehrere Schulungen umfassen kann. Eine Inhouse-Fortbildung ist fast immer ein einmaliger Auftrag. Einen Info-Halbtag oder Info-Tag zum Bündner Standard ohne Einführung buchen Sie als Inhouse-Fortbildung, bis 60 Personen: Zur Inhouse-Fortbildung [PLATZHALTER: Link `/fachwelt/institutionen/inhouse-fortbildung/`]. Für das Label fallen Gebühren der Stiftung Bündner Standard an. Sie zahlt Ihre Einrichtung an die Stiftung, sie sind nicht Teil des Honorars. Es kommt keine Mehrwertsteuer dazu.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Wie viel Begleitung die Einführung braucht, hängt von Ihrer Einrichtung ab, deshalb steht hier kein Gesamtpreis. Im kostenlosen Erstgespräch nennt Ihnen Walter Uehli eine Preisspanne für Ihr Vorhaben. Die Begleitung offeriert er nach Aufwand und immer mit einem Kostendach: Das ist der Höchstbetrag in der Offerte, Sie kennen ihn, bevor die Einführung beginnt. Die Preise für die Erstanalyse und die Prüfung nennt er im Erstgespräch. Bei Terminen vor Ort kommen Fahrspesen dazu. In den Pauschalen der Schulung sind Vor- und Nachbereitung und die Schulungsunterlagen enthalten. Die Kopien erstellt Ihre Einrichtung, sonst werden die effektiven Kosten verrechnet. Bei mehr als 60 Personen zieht Walter Uehli eine weitere Beraterin oder einen weiteren Berater bei. Einzelheiten und Kosten klären Sie im Erstgespräch. Der halbe Tag Schulung kostet hier CHF 1'400 und nicht CHF 1'600 wie bei einer Inhouse-Fortbildung. Die Einführung ist ein Gesamtprojekt, das über mehrere Phasen läuft und mehrere Schulungen umfassen kann. Eine Inhouse-Fortbildung ist fast immer ein einmaliger Auftrag. Einen Info-Halbtag oder Info-Tag zum Bündner Standard ohne Einführung buchen Sie als Inhouse-Fortbildung, bis 60 Personen: "
+        },
+        {
+         "t": "link",
+         "s": "Zur Inhouse-Fortbildung",
+         "href": "/fachwelt/institutionen/inhouse-fortbildung/"
+        },
+        {
+         "t": "text",
+         "s": ". Für das Label fallen Gebühren der Stiftung Bündner Standard an. Sie zahlt Ihre Einrichtung an die Stiftung, sie sind nicht Teil des Honorars. Es kommt keine Mehrwertsteuer dazu."
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/fachwelt/institutionen/inhouse-fortbildung/"
+         ],
+         "roh": "Link `/fachwelt/institutionen/inhouse-fortbildung/`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "8. Person",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Wer Ihre Einrichtung begleitet",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Wer Ihre Einrichtung begleitet"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Walter Uehli bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen. Bis 31. Juli 2026 war er Gesamtleiter der Schule Friedheim. Die Akkreditierung umfasst neben der Begleitung und den Schulungen auch die Beratung von Einzelpersonen, Teams und Organisationen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen. Bis 31. Juli 2026 war er Gesamtleiter der Schule Friedheim. Die Akkreditierung umfasst neben der Begleitung und den Schulungen auch die Beratung von Einzelpersonen, Teams und Organisationen."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Link",
+       "wert": "Mehr über Walter Uehli [PLATZHALTER: Link `/walter-uehli/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Mehr über Walter Uehli",
+         "href": "/walter-uehli/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/walter-uehli/"
+         ],
+         "roh": "Link `/walter-uehli/`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Foto",
+       "wert": "[PLATZHALTER: Foto `portrait-business-01.webp`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Foto `portrait-business-01.webp`"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "foto",
+         "datei": "portrait-business-01.webp",
+         "roh": "Foto `portrait-business-01.webp`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "alt",
+       "wert": "Walter Uehli, Porträt vor weissem Hintergrund",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli, Porträt vor weissem Hintergrund"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "9. Aufruf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Im Erstgespräch klären Sie, wie die Einführung bei Ihnen beginnen kann.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Im Erstgespräch klären Sie, wie die Einführung bei Ihnen beginnen kann."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "30 Minuten, kostenlos. Danach entscheiden Sie, ob eine Erstanalyse folgt.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "30 Minuten, kostenlos. Danach entscheiden Sie, ob eine Erstanalyse folgt."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Fuss",
+     "knoten": []
+    }
+   ]
+  },
+  "/fachwelt/institutionen/kontakt/": {
+   "titel": "Kontakt Institutionen",
+   "quelle": "texte-institutionen-person-v1.md",
+   "title": "Kontakt für Einrichtungen | B&U BundU®",
+   "description": "Erstgespräch für Schulen, Heime und Einrichtungen: 30 Minuten, kostenlos, mit Walter Uehli. Zu Inhouse-Fortbildung, Fachinput, STARK im Team und Bündner Standard.",
+   "anrede": "Sie in jedem Satz mit Anrede.",
+   "abschnitte": [
+    {
+     "name": "1. Kopf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H1",
+       "wert": "30 Minuten für Ihre Frage, kostenlos.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "30 Minuten für Ihre Frage, kostenlos."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Im Erstgespräch schildern Sie Ihr Anliegen, und Walter Uehli sagt Ihnen, welches Angebot passt und wie es weitergeht. Danach entscheiden Sie. Das Erstgespräch verpflichtet zu nichts.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Im Erstgespräch schildern Sie Ihr Anliegen, und Walter Uehli sagt Ihnen, welches Angebot passt und wie es weitergeht. Danach entscheiden Sie. Das Erstgespräch verpflichtet zu nichts."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Erstgespräch buchen [PLATZHALTER: Link Buchungsweg]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Erstgespräch buchen"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [],
+         "roh": "Link Buchungsweg"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Kleintext unter dem CTA",
+       "wert": "30 Minuten, kostenlos und unverbindlich.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "30 Minuten, kostenlos und unverbindlich."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Foto",
+       "wert": "[PLATZHALTER: Foto `portrait-arbeitsplatz-02.webp`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Foto `portrait-arbeitsplatz-02.webp`"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "foto",
+         "datei": "portrait-arbeitsplatz-02.webp",
+         "roh": "Foto `portrait-arbeitsplatz-02.webp`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "alt",
+       "wert": "Walter Uehli am Schreibtisch mit Headset, vor ihm Bildschirm und Maus",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli am Schreibtisch mit Headset, vor ihm Bildschirm und Maus"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "2. Formular",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Lieber schreiben",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Lieber schreiben"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Auf Ihre Nachricht antwortet Walter Uehli werktags innert 24 Stunden.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Auf Ihre Nachricht antwortet Walter Uehli werktags innert 24 Stunden."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Felder",
+       "wert": "Name · Einrichtung · Funktion · E-Mail · Telefon (freiwillig) · Anliegen · Nachricht",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Name · Einrichtung · Funktion · E-Mail · Telefon (freiwillig) · Anliegen · Nachricht"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Auswahl Anliegen",
+       "wert": "Inhouse-Fortbildung · Fachinput · STARK im Team · Begleitung beim Bündner Standard · Etwas anderes",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Inhouse-Fortbildung · Fachinput · STARK im Team · Begleitung beim Bündner Standard · Etwas anderes"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Button",
+       "wert": "Nachricht senden",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Nachricht senden"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Hinweis unter dem Formular",
+       "wert": "[PLATZHALTER: Datenschutzhinweis mit Link `/datenschutz/`, Wortlaut von der Fachperson nach Entscheid S-5]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Datenschutzhinweis mit Link `/datenschutz/`, Wortlaut von der Fachperson nach Entscheid S-5"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "flaeche",
+         "roh": "Datenschutzhinweis mit Link `/datenschutz/`, Wortlaut von der Fachperson nach Entscheid S-5"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "3. Direkt",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Direkt",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Direkt"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Telefon",
+       "wert": "+41 (0)55 505 62 03 [PLATZHALTER: Link `tel:+41555056203`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "+41 (0)55 505 62 03"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "tel:+41555056203"
+         ],
+         "roh": "Link `tel:+41555056203`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "E-Mail",
+       "wert": "info@bundu.ch [PLATZHALTER: Link `mailto:info@bundu.ch`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "info@bundu.ch"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "mailto:info@bundu.ch"
+         ],
+         "roh": "Link `mailto:info@bundu.ch`"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Fuss",
+     "knoten": []
+    }
+   ]
+  },
+  "/walter-uehli/": {
+   "titel": "Person",
+   "quelle": "texte-institutionen-person-v1.md",
+   "title": "Walter Uehli | B&U BundU®",
+   "description": "Walter Uehli: über 30 Jahre Sozialpädagogik, davon mehr als 15 Jahre in Leitungsfunktionen. Coach für Neue Autorität und akkreditierter Berater Bündner Standard.",
+   "anrede": "keine. Dritte Person, für Eltern und Fachwelt lesbar. Genau zwei Absätze (Entscheid T-4).",
+   "abschnitte": [
+    {
+     "name": "Kopf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H1",
+       "wert": "Walter Uehli",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Zeile unter der H1",
+       "wert": "Inhaber von B&U BundU®, Sozialpädagoge und Coach für Neue Autorität",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Inhaber von B&U BundU®, Sozialpädagoge und Coach für Neue Autorität"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Foto",
+       "wert": "[PLATZHALTER: Foto `portrait-business-01.webp`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Foto `portrait-business-01.webp`"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "foto",
+         "datei": "portrait-business-01.webp",
+         "roh": "Foto `portrait-business-01.webp`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "alt",
+       "wert": "Walter Uehli, Porträt vor weissem Hintergrund",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli, Porträt vor weissem Hintergrund"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "Absatz 1: Leitung (für die Fachwelt)",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Leitung",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Leitung"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Walter Uehli bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen. Von 2015 bis 31. Juli 2026 war er Gesamtleiter der Schule Friedheim, einer Einrichtung mit Platz für 32 Kinder und Jugendliche und rund 45 Mitarbeitenden. Davor war er von 2009 bis 2015 Pädagogischer Leiter und Stellvertreter der Gesamtleitung am Standort Redlikon der Villa RA. Er hat einen MAS ZFH in Sozialmanagement und ist Coach für Neue Autorität (Weiterbildung von 115 Stunden am Systemischen Institut für Neue Autorität®, 2019), einer Haltung nach Haim Omer: Präsenz statt Kontrolle und Beziehung statt Strafe. Als akkreditierter Berater Bündner Standard hat ihn die Stiftung Bündner Standard berechtigt, Einrichtungen bei der Einführung dieses Qualitätssystems für den Umgang mit Grenzverletzungen zu begleiten und Teams zu schulen. Heute arbeitet er mit seiner Einzelfirma BundU®, die er seit 2021 führt, für Einrichtungen, Schulen und Fachpersonen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Walter Uehli bringt über 30 Jahre Sozialpädagogik mit, davon mehr als 15 Jahre in Leitungsfunktionen. Von 2015 bis 31. Juli 2026 war er Gesamtleiter der Schule Friedheim, einer Einrichtung mit Platz für 32 Kinder und Jugendliche und rund 45 Mitarbeitenden. Davor war er von 2009 bis 2015 Pädagogischer Leiter und Stellvertreter der Gesamtleitung am Standort Redlikon der Villa RA. Er hat einen MAS ZFH in Sozialmanagement und ist Coach für Neue Autorität (Weiterbildung von 115 Stunden am Systemischen Institut für Neue Autorität®, 2019), einer Haltung nach Haim Omer: Präsenz statt Kontrolle und Beziehung statt Strafe. Als akkreditierter Berater Bündner Standard hat ihn die Stiftung Bündner Standard berechtigt, Einrichtungen bei der Einführung dieses Qualitätssystems für den Umgang mit Grenzverletzungen zu begleiten und Teams zu schulen. Heute arbeitet er mit seiner Einzelfirma BundU®, die er seit 2021 führt, für Einrichtungen, Schulen und Fachpersonen."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Link",
+       "wert": "Zur Fachwelt [PLATZHALTER: Link `/fachwelt/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Zur Fachwelt",
+         "href": "/fachwelt/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/fachwelt/"
+         ],
+         "roh": "Link `/fachwelt/`"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Absatz 2: Kinder und Teams (für Eltern)",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Alltag mit Kindern und Jugendlichen",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Alltag mit Kindern und Jugendlichen"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Den Alltag mit Kindern und Jugendlichen kennt Walter Uehli seit 1993 aus der Nähe, unter anderem aus der Schulsozialarbeit in Dottikon, aus dem Schulheim Schloss Kasteln und aus drei Wohngruppen in Redlikon, die er mit Teams von je vier bis fünf Fachpersonen geführt hat. Ausgebildet ist er als Sozialpädagoge HFS, das Basic Training in Neuer Autorität hat er bei Haim Omer absolviert. Sein Grundsatz: Wenn Verhalten auffällt, braucht es Beziehung, nicht Strafe. Heute begleitet er Eltern von Kindern zwischen 6 und 16 im Online Eltern-Coaching.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Den Alltag mit Kindern und Jugendlichen kennt Walter Uehli seit 1993 aus der Nähe, unter anderem aus der Schulsozialarbeit in Dottikon, aus dem Schulheim Schloss Kasteln und aus drei Wohngruppen in Redlikon, die er mit Teams von je vier bis fünf Fachpersonen geführt hat. Ausgebildet ist er als Sozialpädagoge HFS, das Basic Training in Neuer Autorität hat er bei Haim Omer absolviert. Sein Grundsatz: Wenn Verhalten auffällt, braucht es Beziehung, nicht Strafe. Heute begleitet er Eltern von Kindern zwischen 6 und 16 im Online Eltern-Coaching."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Link",
+       "wert": "Zum Bereich Eltern [PLATZHALTER: Link `/eltern/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Zum Bereich Eltern",
+         "href": "/eltern/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/eltern/"
+         ],
+         "roh": "Link `/eltern/`"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Fuss",
+     "knoten": [
+      {
+       "k": "punkt",
+       "wert": "B&U BundU®",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "B&U BundU®"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Für Eltern: Zum Bereich Eltern · Für Fachpersonen und Einrichtungen: Zur Fachwelt [PLATZHALTER: Links `/eltern/`, `/fachwelt/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Für Eltern: "
+        },
+        {
+         "t": "link",
+         "s": "Zum Bereich Eltern",
+         "href": "/eltern/"
+        },
+        {
+         "t": "text",
+         "s": " · "
+        },
+        {
+         "t": "text",
+         "s": "Für Fachpersonen und Einrichtungen: "
+        },
+        {
+         "t": "link",
+         "s": "Zur Fachwelt",
+         "href": "/fachwelt/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/eltern/",
+          "/fachwelt/"
+         ],
+         "roh": "Links `/eltern/`, `/fachwelt/`"
+        }
+       ]
+      },
+      {
+       "k": "punkt",
+       "wert": "Impressum · Datenschutz [PLATZHALTER: Links `/impressum/`, `/datenschutz/`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Impressum",
+         "href": "/impressum/"
+        },
+        {
+         "t": "text",
+         "s": " · "
+        },
+        {
+         "t": "link",
+         "s": "Datenschutz",
+         "href": "/datenschutz/"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "/impressum/",
+          "/datenschutz/"
+         ],
+         "roh": "Links `/impressum/`, `/datenschutz/`"
+        }
+       ]
+      },
+      {
+       "k": "punkt",
+       "wert": "© 2026 B&U BundU®",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "© 2026 B&U BundU®"
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "fuesse": {
+  "Fuss des Bereichs Eltern": [
+   {
+    "teile": [
+     {
+      "t": "text",
+      "s": "B&U BundU®"
+     }
+    ]
+   },
+   {
+    "teile": [
+     {
+      "t": "link",
+      "s": "Online Eltern-Coaching",
+      "href": "/eltern/coaching/"
+     },
+     {
+      "t": "text",
+      "s": " · "
+     },
+     {
+      "t": "link",
+      "s": "Online-Kurse",
+      "href": "/eltern/kurse/"
+     },
+     {
+      "t": "text",
+      "s": " · "
+     },
+     {
+      "t": "link",
+      "s": "Kontakt",
+      "href": "/eltern/kontakt/"
+     }
+    ]
+   },
+   {
+    "teile": [
+     {
+      "t": "text",
+      "s": "Du suchst etwas für dein Team? "
+     },
+     {
+      "t": "link",
+      "s": "Zur Fachwelt",
+      "href": "/fachwelt/"
+     },
+     {
+      "t": "text",
+      "s": ""
+     }
+    ]
+   },
+   {
+    "teile": [
+     {
+      "t": "link",
+      "s": "Walter Uehli",
+      "href": "/walter-uehli/"
+     },
+     {
+      "t": "text",
+      "s": " · "
+     },
+     {
+      "t": "link",
+      "s": "Impressum",
+      "href": "/impressum/"
+     },
+     {
+      "t": "text",
+      "s": " · "
+     },
+     {
+      "t": "link",
+      "s": "Datenschutz",
+      "href": "/datenschutz/"
+     }
+    ]
+   },
+   {
+    "teile": [
+     {
+      "t": "text",
+      "s": "© 2026 B&U BundU®"
+     }
+    ]
+   }
+  ],
+  "Fuss des Bereichs Fachpersonen (alle drei Seiten)": [
+   {
+    "teile": [
+     {
+      "t": "text",
+      "s": "B&U BundU®"
+     }
+    ]
+   },
+   {
+    "teile": [
+     {
+      "t": "text",
+      "s": "Du suchst eine Fortbildung oder einen Fachinput für dein ganzes Team? Das bucht die Leitung: "
+     },
+     {
+      "t": "link",
+      "s": "Zu den Angeboten für Einrichtungen",
+      "href": "/fachwelt/institutionen/"
+     },
+     {
+      "t": "text",
+      "s": ""
+     }
+    ]
+   },
+   {
+    "teile": [
+     {
+      "t": "text",
+      "s": "Du fragst als Mutter oder Vater und nicht als Fachperson? "
+     },
+     {
+      "t": "link",
+      "s": "Zur Startseite",
+      "href": "/"
+     },
+     {
+      "t": "text",
+      "s": ""
+     }
+    ]
+   },
+   {
+    "teile": [
+     {
+      "t": "link",
+      "s": "Walter Uehli",
+      "href": "/walter-uehli/"
+     },
+     {
+      "t": "text",
+      "s": " · "
+     },
+     {
+      "t": "link",
+      "s": "Impressum",
+      "href": "/impressum/"
+     },
+     {
+      "t": "text",
+      "s": " · "
+     },
+     {
+      "t": "link",
+      "s": "Datenschutz",
+      "href": "/datenschutz/"
+     }
+    ]
+   },
+   {
+    "teile": [
+     {
+      "t": "text",
+      "s": "© 2026 B&U BundU®"
+     }
+    ]
+   }
+  ],
+  "Fuss des Bereichs Institutionen (gilt für die Seiten 1 bis 6)": [
+   {
+    "teile": [
+     {
+      "t": "text",
+      "s": "B&U BundU®"
+     }
+    ]
+   },
+   {
+    "teile": [
+     {
+      "t": "text",
+      "s": "Sie sind Elternteil? "
+     },
+     {
+      "t": "link",
+      "s": "Zur Startseite",
+      "href": "/"
+     },
+     {
+      "t": "text",
+      "s": ""
+     }
+    ]
+   },
+   {
+    "teile": [
+     {
+      "t": "text",
+      "s": "Sie möchten als Fachperson für sich selbst buchen? "
+     },
+     {
+      "t": "link",
+      "s": "Zum Online-Coaching für Fachpersonen",
+      "href": "/fachwelt/fachpersonen/online-coaching/"
+     },
+     {
+      "t": "text",
+      "s": ""
+     }
+    ]
+   },
+   {
+    "teile": [
+     {
+      "t": "link",
+      "s": "Walter Uehli",
+      "href": "/walter-uehli/"
+     },
+     {
+      "t": "text",
+      "s": " · "
+     },
+     {
+      "t": "link",
+      "s": "Impressum",
+      "href": "/impressum/"
+     },
+     {
+      "t": "text",
+      "s": " · "
+     },
+     {
+      "t": "link",
+      "s": "Datenschutz",
+      "href": "/datenschutz/"
+     }
+    ]
+   },
+   {
+    "teile": [
+     {
+      "t": "text",
+      "s": "© 2026 B&U BundU®"
+     }
+    ]
+   }
+  ]
+ },
+ "navigation": {
+  "Navigation des Bereichs": "Übersicht · Inhouse-Fortbildung · Fachinput · STARK im Team · Bündner Standard · Kontakt [PLATZHALTER: Links nach `trennung-v3.md` §4, Fachinput auf `/fachwelt/institutionen/fachinput/`]"
+ }
+}

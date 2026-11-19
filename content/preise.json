@@ -1,0 +1,158 @@
+{
+  "eltern-coaching": {
+    "titel": "Eltern-Coaching",
+    "bereich": "eltern",
+    "zeilen": [
+      {
+        "leistung": "Erstgespräch",
+        "umfang": "15 Minuten",
+        "preisart": "kostenlos"
+      },
+      {
+        "leistung": "Einzelsitzung",
+        "umfang": "60 Minuten",
+        "preisart": "betrag",
+        "betrag": 135
+      },
+      {
+        "leistung": "5er-Paket",
+        "umfang": "5 × 60 Minuten",
+        "preisart": "betrag",
+        "betrag": 620
+      },
+      {
+        "leistung": "10er-Paket",
+        "umfang": "10 × 60 Minuten",
+        "preisart": "betrag",
+        "betrag": 1150
+      }
+    ]
+  },
+  "online-coaching-fachpersonen": {
+    "titel": "Online-Coaching Fachpersonen",
+    "bereich": "fachpersonen",
+    "zeilen": [
+      {
+        "leistung": "Erstgespräch",
+        "umfang": "30 Minuten",
+        "preisart": "kostenlos"
+      },
+      {
+        "leistung": "Online-Coaching",
+        "umfang": "60 Minuten",
+        "preisart": "betrag",
+        "betrag": 165
+      },
+      {
+        "leistung": "Online-Coaching",
+        "umfang": "90 Minuten",
+        "preisart": "betrag",
+        "betrag": 250
+      },
+      {
+        "leistung": "5er-Paket",
+        "umfang": "5 × 90 Minuten",
+        "preisart": "betrag",
+        "betrag": 1150
+      },
+      {
+        "leistung": "Team- oder Gruppen-Coaching",
+        "umfang": "90 Minuten, bis 10 Personen",
+        "preisart": "betrag",
+        "betrag": 320
+      },
+      {
+        "leistung": "Team- oder Gruppen-Coaching",
+        "umfang": "90 Minuten, 11 bis 20 Personen, mit 40 Prozent Zuschlag",
+        "preisart": "betrag",
+        "betrag": 448
+      }
+    ]
+  },
+  "inhouse-fortbildung": {
+    "titel": "Inhouse-Fortbildung",
+    "bereich": "institutionen",
+    "zeilen": [
+      {
+        "leistung": "Erstgespräch",
+        "umfang": "30 Minuten",
+        "preisart": "kostenlos"
+      },
+      {
+        "leistung": "Inhouse-Fortbildung, Halbtag",
+        "umfang": "bis 60 Personen, inklusive Vorbereitung",
+        "preisart": "betrag",
+        "betrag": 1600
+      },
+      {
+        "leistung": "Inhouse-Fortbildung, Ganztag",
+        "umfang": "bis 60 Personen, inklusive Vorbereitung",
+        "preisart": "betrag",
+        "betrag": 2400
+      }
+    ]
+  },
+  "fachinput": {
+    "titel": "Fachinput",
+    "bereich": "institutionen",
+    "zeilen": [
+      {
+        "leistung": "Erstgespräch",
+        "umfang": "30 Minuten",
+        "preisart": "kostenlos"
+      },
+      {
+        "leistung": "Fachinput",
+        "umfang": "45 Minuten, inklusive Vorbereitung",
+        "preisart": "betrag",
+        "betrag": 220
+      },
+      {
+        "leistung": "Fachinput",
+        "umfang": "60 Minuten, inklusive Vorbereitung",
+        "preisart": "betrag",
+        "betrag": 290
+      },
+      {
+        "leistung": "Fachinput",
+        "umfang": "90 Minuten, inklusive Vorbereitung",
+        "preisart": "betrag",
+        "betrag": 440
+      }
+    ]
+  },
+  "stark-im-team": {
+    "titel": "STARK im Team",
+    "bereich": "institutionen",
+    "zeilen": [
+      {
+        "leistung": "Erstgespräch",
+        "umfang": "30 Minuten",
+        "preisart": "kostenlos"
+      }
+    ]
+  },
+  "buendner-standard": {
+    "titel": "Bündner Standard",
+    "bereich": "institutionen",
+    "zeilen": [
+      {
+        "leistung": "Erstgespräch",
+        "umfang": "30 Minuten",
+        "preisart": "kostenlos"
+      },
+      {
+        "leistung": "Schulung des Teams, halber Tag",
+        "umfang": "im Rahmen der Einführung, bis 60 Personen, bis 4 Stunden, pauschal",
+        "preisart": "betrag",
+        "betrag": 1400
+      },
+      {
+        "leistung": "Schulung des Teams, ganzer Tag",
+        "umfang": "im Rahmen der Einführung, bis 60 Personen, bis 8,5 Stunden, pauschal",
+        "preisart": "betrag",
+        "betrag": 2400
+      }
+    ]
+  }
+}

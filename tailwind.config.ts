@@ -1,24 +1,21 @@
 import type { Config } from 'tailwindcss'
 
+// Tailwind 4 liest die Tokens aus app/globals.css (@theme). Diese Datei spiegelt sie nur.
 const config: Config = {
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  content: ['./components/**/*.{ts,tsx}', './app/**/*.{ts,tsx}'],
   theme: {
     extend: {
       colors: {
-        navy:  '#0F2040',
-        teal:  '#079BB8',
+        navy: '#0F2040',
+        teal: '#079BB8',
         amber: '#E8921A',
-        ink:   '#1a1a2e',
-        light: '#f5f7fa',
-        muted: '#6b7280',
+        'grey-light': '#F8F9FA',
+        'grey-deep': '#4A4A4A',
+        'grey-mid': '#666666',
       },
       fontFamily: {
-        heading: ['var(--font-heading)', 'Georgia', 'serif'],
-        body:    ['var(--font-body)', 'system-ui', 'sans-serif'],
+        heading: ['var(--font-heading-var)', 'system-ui', 'sans-serif'],
+        body: ['var(--font-body-var)', 'system-ui', 'sans-serif'],
       },
     },
   },

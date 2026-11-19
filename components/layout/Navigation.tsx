@@ -1,51 +1,43 @@
-'use client'
 import Link from 'next/link'
-import Image from 'next/image'
-import { useState } from 'react'
+import { NAV, WORTMARKE } from '@/content/texte'
 
-const links = [
-  { href: '/', label: 'Start' },
-  { href: '/angebote', label: 'Angebote' },
-  { href: '/themen', label: 'Themen' },
-  { href: '/fuer-eltern', label: 'Für Eltern' },
-  { href: '/fuer-fachpersonen', label: 'Für Fachpersonen' },
-  { href: '/fuer-institutionen', label: 'Für Institutionen' },
-  { href: '/impulse', label: 'Impulse' },
-]
+export type NavBereich = 'weiche' | 'eltern' | 'fachwelt' | 'fachpersonen' | 'institutionen'
 
-export default function Navigation() {
-  const [open, setOpen] = useState(false)
+// Je Bereich eine eigene Hauptnavigation. Die Wortmarke ist immer Link auf "/".
+// Keine Links auf Angebote der anderen Seite: der Wechsel läuft nur über den Fuss.
+// Auf dem Telefon laufen die Links in eine zweite Zeile um (kein Menüwort, kein seitliches Scrollen).
+export default function Navigation({ bereich = 'weiche', aktuell }: { bereich?: NavBereich; aktuell?: string }) {
+  const links = bereich === 'weiche' ? [] : NAV[bereich]
   return (
-    <nav className="bg-white border-b border-gray-100 sticky top-0 z-50 shadow-sm">
-      <div className="max-w-6xl mx-auto px-4">
-        <div className="flex justify-between h-16 items-center">
-          <Link href="/" className="flex items-center gap-2">
-            <span className="font-heading text-xl font-bold text-navy">B&U BundU</span>
-          </Link>
-          <div className="hidden lg:flex lg:items-center lg:gap-5">
-            {links.map(l => (
-              <Link key={l.href} href={l.href} className="text-sm font-medium text-ink hover:text-teal transition-colors">{l.label}</Link>
-            ))}
-            <Link href="/kontakt" className="btn-primary text-sm py-2 px-4">Kontakt</Link>
-          </div>
-          <button onClick={() => setOpen(!open)} className="lg:hidden p-2 rounded-md text-ink hover:bg-light" aria-label="Menü">
-            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              {open
-                ? <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12"/>
-                : <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16"/>}
-            </svg>
-          </button>
-        </div>
+    <header className="bg-white">
+      <div className="container-b flex flex-wrap items-center justify-between gap-x-6">
+        <Link
+          href="/"
+          className="nowrap flex h-12 items-center rounded-sm font-heading text-xl font-bold text-navy no-underline hover:underline hover:decoration-2 hover:underline-offset-4 active:text-grey-deep lg:h-16"
+        >
+          {WORTMARKE}
+        </Link>
+        {links.length ? (
+          <nav aria-label="Hauptnavigation">
+            <ul className="flex flex-wrap items-center gap-x-5 lg:gap-x-8">
+              {links.map(([text, href]) => {
+                const istAktuell = aktuell === href
+                return (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      aria-current={istAktuell ? 'page' : undefined}
+                      className={`nowrap flex min-h-[44px] items-center rounded-sm font-heading text-navy underline-offset-4 hover:underline hover:decoration-2 active:text-grey-deep ${istAktuell ? 'font-bold underline decoration-2' : 'font-semibold no-underline'}`}
+                    >
+                      {text}
+                    </Link>
+                  </li>
+                )
+              })}
+            </ul>
+          </nav>
+        ) : null}
       </div>
-      {open && (
-        <div className="lg:hidden border-t border-gray-100 bg-white px-4 py-4 space-y-2">
-          {links.map(l => (
-            <Link key={l.href} href={l.href} onClick={() => setOpen(false)}
-              className="block px-3 py-2 rounded-md text-sm font-medium text-ink hover:bg-light">{l.label}</Link>
-          ))}
-          <Link href="/kontakt" onClick={() => setOpen(false)} className="block btn-primary text-center text-sm py-2">Kontakt</Link>
-        </div>
-      )}
-    </nav>
+    </header>
   )
 }

@@ -51,3 +51,11 @@ export const REFERENZEN_QUERY = `*[_type == "referenz"] | order(reihenfolge asc)
 export const DOWNLOADS_QUERY = `*[_type == "download"] | order(reihenfolge asc) {
   _id, title, beschreibung, datei, kategorie
 }`
+
+// Phase 3: Preise holt `scripts/preise-holen.mjs` beim Bau (kein Aufruf zur Laufzeit). Diese Abfrage dient dem Studio und Tests.
+export const PREISANGEBOTE_QUERY = `*[_type == "preisangebot"]{schluessel, titel, bereich, zeilen[]{leistung, umfang, preisart, betrag}}`
+
+// Termine (Entscheid E-4): Abfrage steht, keine Seite ruft sie auf, es wird nichts angezeigt.
+export const TERMINE_QUERY = `*[_type == "termin" && sichtbar == true && datum >= now()] | order(datum asc) {
+  _id, titel, datum, ort, bereich, link
+}`

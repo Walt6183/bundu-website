@@ -1,113 +1,78 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
+import Footer from '@/components/layout/Footer'
+import Navigation from '@/components/layout/Navigation'
+import Buehne from '@/components/ui/Buehne'
+import Foto from '@/components/ui/Foto'
+import Tuer from '@/components/ui/Tuer'
+import Personenzeile from '@/components/ui/Personenzeile'
+import T from '@/components/ui/T'
+import { FOTO, LINKS, SEITE1 as S } from '@/content/texte'
 
-export const revalidate = 3600
+export const metadata: Metadata = {
+  title: { absolute: S.title },
+  description: S.description,
+}
 
-const angebotePreview = [
-  { slug: 'online-eltern-coaching', title: 'Online Eltern-Coaching', subtitle: 'Individuelle Beratung bei Erziehungsfragen per geschütztem Video-Call.', zielgruppe: 'Eltern' },
-  { slug: 'online-kurse', title: 'Online-Kurse', subtitle: 'Strukturierte Kurse zu Erziehung, Neuer Autorität und Beziehungsgestaltung.', zielgruppe: 'Eltern' },
-  { slug: 'bundner-standard-einfuhrung-und-implementierung', title: 'Bündner Standard', subtitle: 'Zertifizierte Implementierung für ein sicheres institutionelles Umfeld.', zielgruppe: 'Institutionen' },
-  { slug: 'online-supervision', title: 'Online Supervision', subtitle: 'Professionelle Fallbesprechung für Fachpersonen.', zielgruppe: 'Fachpersonen' },
-  { slug: 'webinare-workshops', title: 'Webinare und Workshops', subtitle: 'Praxisnahe Weiterbildungen zu Neuer Autorität.', zielgruppe: 'Fachpersonen' },
-  { slug: 'stark-im-team', title: 'STARK im Team', subtitle: 'Teamentwicklung für pädagogische Teams.', zielgruppe: 'Institutionen' },
-]
-
-export default function HomePage() {
+export default function Weiche() {
   return (
     <>
-      <section className="bg-navy text-white py-24 min-h-screen flex items-center">
-        <div className="container mx-auto px-4 max-w-5xl">
-          <p className="text-teal font-semibold tracking-widest uppercase text-sm mb-4">BundU® – Bildung und Entwicklung</p>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Beziehungsstärke.<br />
-            <span className="text-teal">Wachstum.</span><br />
-            Verantwortung.
-          </h1>
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl">
-            Professionelle Beratung, Coaching und Weiterbildung für Eltern, Fachpersonen und Institutionen.
-          </p>
-          <div className="flex flex-wrap gap-4">
-            <Link href="/angebote" className="bg-teal text-white font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block">Alle Angebote</Link>
-            <a href="https://bookings.cloud.microsoft/book/BUBundUBeratung@WalterUehli.onmicrosoft.com/?ismsaljsauthenabled" target="_blank" rel="noopener noreferrer" className="border-2 border-white text-white font-bold px-8 py-3 rounded-lg hover:bg-white hover:text-navy transition-colors inline-block">Kostenlos anfragen</a>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4 max-w-5xl">
-          <h2 className="text-3xl font-bold text-navy text-center mb-4">Für wen ist BundU®?</h2>
-          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Ob Eltern, Fachpersonen oder Institutionen – BundU® begleitet Sie mit massgeschneiderten Angeboten.</p>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="rounded-xl shadow-md p-8 text-center">
-              <div className="text-4xl mb-4">&#128106;</div>
-              <h3 className="text-xl font-bold text-navy mb-3">Für Eltern</h3>
-              <p className="text-gray-600 mb-4">Coaching und Kurse, die Sie in Ihrer Erziehungsarbeit stärken.</p>
-              <Link href="/fuer-eltern" className="text-teal font-semibold hover:underline">Mehr erfahren</Link>
+      <Navigation bereich="weiche" />
+      <main>
+        <Buehne
+          kopf={
+            <h1 className="max-w-[40ch] text-[1.375rem] lg:text-[2rem]">
+              <T>{S.h1}</T>
+            </h1>
+          }
+          karten={
+            <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-4">
+              <Tuer schild={S.tuer1.schild} cta={S.tuer1.cta} href={LINKS.eltern}>
+                <p className="font-semibold text-navy">
+                  <T>{S.tuer1.angebot}</T>
+                </p>
+                <p>
+                  <T>{S.tuer1.satz}</T>
+                </p>
+              </Tuer>
+              <Tuer schild={S.tuer2.schild} cta={S.tuer2.cta} href={LINKS.fachwelt}>
+                <p className="font-semibold text-navy">
+                  <T>{S.tuer2.angebote}</T>
+                </p>
+                <p>
+                  <T>{S.tuer2.satz}</T>
+                </p>
+              </Tuer>
             </div>
-            <div className="rounded-xl shadow-md p-8 text-center">
-              <div className="text-4xl mb-4">&#127891;</div>
-              <h3 className="text-xl font-bold text-navy mb-3">Für Fachpersonen</h3>
-              <p className="text-gray-600 mb-4">Supervision und Weiterbildungen für Profis.</p>
-              <Link href="/fuer-fachpersonen" className="text-teal font-semibold hover:underline">Mehr erfahren</Link>
-            </div>
-            <div className="rounded-xl shadow-md p-8 text-center">
-              <div className="text-4xl mb-4">&#127963;</div>
-              <h3 className="text-xl font-bold text-navy mb-3">Für Institutionen</h3>
-              <p className="text-gray-600 mb-4">Inhouse-Schulungen und Teamentwicklung.</p>
-              <Link href="/fuer-institutionen" className="text-teal font-semibold hover:underline">Mehr erfahren</Link>
-            </div>
-          </div>
-        </div>
-      </section>
+          }
+        />
 
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4 max-w-5xl">
-          <h2 className="text-3xl font-bold text-navy text-center mb-4">Unsere Angebote</h2>
-          <p className="text-center text-gray-600 mb-12">Professionelle Begleitung auf allen Ebenen</p>
-          <div className="grid md:grid-cols-3 gap-6">
-            {angebotePreview.map((a) => (
-              <Link key={a.slug} href={"/angebote/" + a.slug} className="rounded-xl shadow-md p-6 bg-white hover:shadow-lg transition-shadow block">
-                <span className="inline-block bg-teal/10 text-teal text-xs font-semibold px-3 py-1 rounded-full mb-3">{a.zielgruppe}</span>
-                <h3 className="text-lg font-bold text-navy mb-2">{a.title}</h3>
-                <p className="text-gray-600 text-sm">{a.subtitle}</p>
-              </Link>
-            ))}
-          </div>
-          <div className="text-center mt-10">
-            <Link href="/angebote" className="bg-navy text-white font-bold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity inline-block">Alle Angebote ansehen</Link>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-20 bg-navy text-white">
-        <div className="container mx-auto px-4 max-w-5xl">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6">Das BundU® Prinzip</h2>
-              <p className="text-gray-300 mb-4">
-                BundU® verbindet Neue Autorität nach Haim Omer, Lösungsorientierung und Gewaltfreie Kommunikation.
+        <section className="container-b py-12">
+          <div className="flex flex-col items-start gap-6 md:flex-row md:items-center">
+            <div className="flex w-full max-w-[320px] shrink-0 flex-col gap-3">
+              <div className="w-[200px] rounded-lg bg-grey-light">
+                <Foto
+                  foto={FOTO.business}
+                  sizes="200px"
+                  className="h-auto w-[200px] rounded-lg"
+                />
+              </div>
+              <Personenzeile />
+            </div>
+            <div className="flex max-w-[800px] flex-col gap-3">
+              <p className="font-heading text-xl font-semibold text-navy">
+                <T>{S.achse.satz}</T>
               </p>
-              <Link href="/themen/neue-autoritaet" className="border-2 border-teal text-teal font-bold px-6 py-2 rounded-lg hover:bg-teal hover:text-white transition-colors inline-block">Mehr über Neue Autorität</Link>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              {["Neue Autorität", "Lösungsorientierung", "Gewaltfreie Kommunikation", "Systemische Beratung"].map((t) => (
-                <div key={t} className="bg-white/10 rounded-xl p-4 text-center">
-                  <p className="font-semibold text-sm">{t}</p>
-                </div>
-              ))}
+              <p>
+                <Link href={LINKS.person} className="textlink">
+                  {S.achse.link}
+                </Link>
+              </p>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section className="py-20 bg-amber text-white text-center">
-        <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-bold mb-4">Bereit für den nächsten Schritt?</h2>
-          <p className="text-xl mb-8 opacity-90">Das kostenlose Erstgespräch ist unverbindlich und dauert 15 Minuten.</p>
-          <a href="https://bookings.cloud.microsoft/book/BUBundUBeratung@WalterUehli.onmicrosoft.com/?ismsaljsauthenabled" target="_blank" rel="noopener noreferrer" className="bg-white text-amber font-bold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors inline-block">
-            Jetzt kostenlos Erstgespräch buchen
-          </a>
-        </div>
-      </section>
+        </section>
+      </main>
+      <Footer {...S.fuss} />
     </>
   )
 }

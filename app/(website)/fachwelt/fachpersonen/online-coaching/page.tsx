@@ -14,6 +14,7 @@ import { FOTO, LINKS, SEITE3 as S } from '@/content/texte'
 export const metadata: Metadata = {
   title: { absolute: S.title },
   description: S.description,
+  alternates: { canonical: '/fachwelt/fachpersonen/online-coaching/' },
 }
 
 const h2Klasse = 'text-[1.5rem] lg:text-[2rem]'

@@ -11,6 +11,7 @@ import { FOTO, LINKS, SEITE2 as S } from '@/content/texte'
 export const metadata: Metadata = {
   title: { absolute: S.title },
   description: S.description,
+  alternates: { canonical: '/fachwelt/' },
 }
 
 export default function Fachwelt() {

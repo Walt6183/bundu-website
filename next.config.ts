@@ -39,7 +39,13 @@ const nextConfig: NextConfig = {
   // Der automatische 308 auf den Schrägstrich entfällt, damit eine alte Adresse ohne Schrägstrich in einem einzigen 301 auf das Ziel führt.
   skipTrailingSlashRedirect: true,
   async redirects() {
-    return PAARE.map(([source, destination]) => ({ source: source + '{/}?', destination, statusCode: 301 }))
+    return [
+      // www.bundu.ch führt mit 301 auf bundu.ch. Pfad und Abfrage bleiben erhalten. Steht vor den Paaren, ohne Host www.bundu.ch greift diese Regel nicht.
+      { source: '/', has: [{ type: 'host' as const, value: 'www.bundu.ch' }], destination: 'https://bundu.ch/', statusCode: 301 },
+      { source: '/:path+/', has: [{ type: 'host' as const, value: 'www.bundu.ch' }], destination: 'https://bundu.ch/:path+/', statusCode: 301 },
+      { source: '/:path+', has: [{ type: 'host' as const, value: 'www.bundu.ch' }], destination: 'https://bundu.ch/:path+', statusCode: 301 },
+      ...PAARE.map(([source, destination]) => ({ source: source + '{/}?', destination, statusCode: 301 })),
+    ]
   },
 }
 

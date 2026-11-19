@@ -12,6 +12,7 @@ import { FOTO, LINKS, SEITE1 as S } from '@/content/texte'
 export const metadata: Metadata = {
   title: { absolute: S.title },
   description: S.description,
+  alternates: { canonical: '/' },
 }
 
 export default function Weiche() {

@@ -1,47 +1,50 @@
+import type { ReactNode } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
+import PrivacyLink from '@/components/layout/PrivacyLink'
+import { LINKS, LOGO } from '@/content/texte'
 
-export default function Footer() {
+type Props = {
+  marke: string
+  zeile: readonly [string, string, string]
+  copyright: string
+  vorne?: ReactNode // Verweiszeile (Seite 2 und 3), steht zwischen Marke und Personenzeile
+}
+
+// Der Fuss ist grey-light, das Logo steht nur auf dieser hellen Fläche (nie auf Navy).
+// Das Logo ist 160 px gross und hat 160 px Abstand zum nächsten Element (Schutzzone). Das Fusspolster oben und unten ist 80 px: Abweichung von der Schutzzone der CI, Entscheid des Inhabers (LO-3).
+export default function Footer({ marke, zeile, copyright, vorne }: Props) {
   return (
-    <footer className="bg-navy text-white mt-16">
-      <div className="max-w-6xl mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
-            <h3 className="font-heading text-lg font-bold mb-4">B&U BundU</h3>
-            <p className="text-gray-300 text-sm leading-relaxed">
-              Starke Eltern – starke Kinder: Erziehung mit Haltung statt Härte.
-              Systemische Beratung, Neue Autorität und Coaching.
-            </p>
-          </div>
-          <div>
-            <h3 className="font-heading text-lg font-bold mb-4">Angebote</h3>
-            <ul className="space-y-2 text-sm text-gray-300">
-              {['Online Eltern-Coaching','Online-Kurse','Bündner Standard','Online Supervision','Webinare & Workshops','STARK im Team','Inhouse-Fortbildung'].map(a => (
-                <li key={a}><Link href="/angebote" className="hover:text-teal transition-colors">{a}</Link></li>
-              ))}
-            </ul>
-          </div>
-          <div>
-            <h3 className="font-heading text-lg font-bold mb-4">Kontakt</h3>
-            <address className="text-sm text-gray-300 not-italic space-y-1">
-              <p>Klosterstrasse 5</p>
-              <p>CH-5626 Bremgarten</p>
-              <p className="mt-2"><a href="tel:+415****6203" className="hover:text-teal">+41 (0)55 505 62 03</a></p>
-              <p><a href="mailto:info@bundu.ch" className="hover:text-teal">info@bundu.ch</a></p>
-            </address>
-          </div>
-        </div>
-        <div className="border-t border-gray-700 mt-8 pt-6">
-          <p className="text-xs text-gray-400 leading-relaxed mb-6">
-            <strong className="text-gray-300">KI-Transparenzhinweis:</strong> Zur Unterstützung unserer Prozesse nutzen wir teilweise Künstliche Intelligenz. Durch den Einsatz rein lokaler Sprachmodelle gewährleisten wir maximale Datensicherheit und die Einhaltung der DSGVO sowie des Schweizer Datenschutzgesetzes (DSG), da keine Daten an externe Cloud-Anbieter übermittelt werden.
+    <footer className="bg-grey-light text-grey-deep">
+      <div className="container-b flex flex-col gap-[160px] py-[80px] md:flex-row md:items-start md:justify-between">
+        <div className="flex flex-col gap-3">
+          <p className="nowrap font-heading text-xl font-bold text-navy">{marke}</p>
+          {vorne ? <p className="max-w-[800px]">{vorne}</p> : null}
+          <p>
+            <Link href={LINKS.person} className="textlink">
+              {zeile[0]}
+            </Link>
+            {' · '}
+            <Link href={LINKS.impressum} className="textlink">
+              {zeile[1]}
+            </Link>
+            {' · '}
+            <Link href={LINKS.datenschutz} className="textlink">
+              {zeile[2]}
+            </Link>
+            {' · '}
+            <PrivacyLink />
           </p>
-          <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-            <p>© 2026 B&U BundU. Alle Rechte vorbehalten.</p>
-            <div className="flex gap-4 mt-4 md:mt-0">
-              <Link href="/impressum" className="hover:text-teal">Impressum</Link>
-              <Link href="/datenschutz" className="hover:text-teal">Datenschutz</Link>
-            </div>
-          </div>
+          <p>{copyright}</p>
         </div>
+        <Image
+          src={LOGO.src}
+          width={LOGO.width}
+          height={LOGO.height}
+          alt={LOGO.alt}
+          sizes="160px"
+          className="h-[160px] w-[160px] shrink-0"
+        />
       </div>
     </footer>
   )

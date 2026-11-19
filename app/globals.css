@@ -1,35 +1,123 @@
 @import "tailwindcss";
 
 @theme {
-  --color-navy:  #0F2040;
-  --color-teal:  #079BB8;
+  --color-navy: #0F2040;
+  --color-teal: #079BB8;
   --color-amber: #E8921A;
-  --color-ink:   #1a1a2e;
-  --color-light: #f5f7fa;
-  --color-muted: #6b7280;
-  --font-heading: var(--font-heading-var), Georgia, serif;
+  --color-grey-light: #F8F9FA;
+  --color-grey-deep: #4A4A4A;
+  --color-grey-mid: #666666;
+  --font-heading: var(--font-heading-var), system-ui, sans-serif;
   --font-body: var(--font-body-var), system-ui, sans-serif;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
 }
 
 @layer base {
   html { scroll-behavior: smooth; }
-  body { color: var(--color-ink); background: white; font-family: var(--font-body); }
-  h1,h2,h3,h4 { font-family: var(--font-heading); }
+  body {
+    color: var(--color-grey-deep);
+    background: #FFFFFF;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    color: var(--color-navy);
+    text-wrap: balance;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  p, li, td { text-wrap: pretty; }
+  a, button { font-family: inherit; }
+  :focus-visible {
+    outline: 3px solid var(--color-navy);
+    outline-offset: 2px;
+  }
 }
 
 @layer components {
-  .btn-primary {
-    @apply inline-flex items-center px-6 py-3 bg-teal text-white font-medium rounded-lg hover:bg-navy transition-colors duration-200;
+  .knopf {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 8px 32px;
+    border-radius: 25px;
+    background: var(--color-amber);
+    color: var(--color-navy);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    line-height: 1.25;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 150ms, color 150ms, box-shadow 150ms;
   }
-  .btn-secondary {
-    @apply inline-flex items-center px-6 py-3 border-2 border-teal text-teal font-medium rounded-lg hover:bg-teal hover:text-white transition-colors duration-200;
+  .knopf:hover { background: var(--color-navy); color: #FFFFFF; }
+  .knopf:active { background: var(--color-navy); color: #FFFFFF; box-shadow: inset 0 0 0 3px #FFFFFF; }
+
+  /* Zweite Stufe: Navy-Umriss (innen gezeichnet, Grösse bleibt wie .knopf), Tinte Navy auf Weiss */
+  .knopf-zwei { background: #FFFFFF; color: var(--color-navy); box-shadow: inset 0 0 0 2px var(--color-navy); }
+  .knopf-zwei:hover { background: var(--color-navy); color: #FFFFFF; }
+  .knopf-zwei:active { background: var(--color-navy); color: #FFFFFF; box-shadow: inset 0 0 0 3px #FFFFFF; }
+
+  .textlink,
+  .privacybee-display-preferences {
+    color: var(--color-navy);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
   }
-  .btn-amber {
-    @apply inline-flex items-center px-6 py-3 bg-amber text-white font-medium rounded-lg hover:opacity-90 transition-opacity duration-200;
+  .textlink:hover,
+  .privacybee-display-preferences:hover { text-decoration-thickness: 3px; }
+  .textlink:active,
+  .privacybee-display-preferences:active { color: var(--color-grey-deep); text-decoration-thickness: 3px; }
+
+  .nowrap { white-space: nowrap; }
+
+  /* Aufklappblock: bis 767 px zugeklappt, ab 768 px offen und ohne Schalter */
+  .aufklapp > summary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    cursor: pointer;
+    list-style: none;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    color: var(--color-navy);
   }
-  .card {
-    @apply bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-200;
+  .aufklapp > summary::-webkit-details-marker { display: none; }
+  .aufklapp > summary::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid var(--color-navy);
+    border-bottom: 2px solid var(--color-navy);
+    transform: rotate(45deg) translateY(-2px);
   }
-  .section { @apply py-16 px-4 max-w-6xl mx-auto; }
-  .section-narrow { @apply py-16 px-4 max-w-3xl mx-auto; }
+  .aufklapp[open] > summary::after { transform: rotate(-135deg) translateY(-2px); }
+  .aufklapp > summary:hover { text-decoration: underline; text-underline-offset: 4px; }
+  @media (min-width: 768px) {
+    .aufklapp > summary { display: none; }
+    .aufklapp::details-content { content-visibility: visible; display: block; }
+  }
+  /* Preistabelle: bis 767 px je Zeile ein Block, ab 768 px normale Tabelle */
+  @media (max-width: 767px) {
+    .preise, .preise tbody, .preise tr, .preise td { display: block; width: 100%; }
+    /* Kopfzeile nur für Hilfstechnik: Schriftgrösse 0, 1 px gross, ohne Rand. Kein Überlauf, kein Kind ausserhalb. */
+    .preise-kopf { position: absolute; display: block; width: 1px; height: 1px; overflow: hidden; font-size: 0; line-height: 0; }
+    .preise-kopf tr { display: flex; width: 1px; }
+    .preise-kopf th { flex: none; width: 0; padding: 0 !important; border: 0 !important; overflow: hidden; }
+    .preise td[data-label] { display: flex; justify-content: space-between; gap: 16px; padding-block: 2px; }
+    .preise td[data-label] .zellinhalt { text-align: right; min-width: 0; }
+    .preise td[data-label]::before { content: attr(data-label); color: var(--color-grey-deep); font-weight: 400; flex: none; }
+  }
+  @media (min-width: 768px) {
+    .preise td { padding: 12px 12px 12px 0; }
+    .preise td:last-child { padding-right: 0; }
+  }
+  .container-b { margin-inline: auto; width: 100%; max-width: 1200px; padding-inline: 24px; }
 }

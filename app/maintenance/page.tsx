@@ -14,7 +14,7 @@ export default function MaintenancePage() {
           Die Seite wird gerade überarbeitet
         </h1>
         <p style={{ fontSize: '1.25rem', lineHeight: 1.6, marginBottom: '2rem', color: '#e5edf5' }}>
-          Die Seite wird gerade überarbeitet und ist am Montag, 16. November 2026 wieder live.
+          Die Seite wird gerade überarbeitet und ist am Montag, 23. November 2026 wieder live.
         </p>
         <p style={{ fontSize: '1rem', color: '#079BB8' }}>
           Dringende Anliegen: <a href="mailto:info@bundu.ch" style={{ color: '#079BB8' }}>info@bundu.ch</a> oder +41 (0)55 505 62 03

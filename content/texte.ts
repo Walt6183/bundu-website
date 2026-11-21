@@ -49,6 +49,12 @@ export const STUB = {
   satz: 'Diese Seite folgt.',
 } as const
 
+// Rückmeldung einer Familie (Einwilligung schriftlich, nur in dieser Form). Wortlaut nicht verändern.
+export const RUECKMELDUNG = {
+  zitat: '«Die Zusammenarbeit war sehr angenehm und hat uns gestärkt»',
+  herkunft: 'Familie M. aus S.',
+} as const
+
 export const SEITE1 = {
   title: 'B&U BundU® | Coaching und Beratung mit Walter Uehli',
   description:

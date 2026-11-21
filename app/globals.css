@@ -76,6 +76,7 @@
   .privacybee-display-preferences:active { color: var(--color-grey-deep); text-decoration-thickness: 3px; }
 
   .nowrap { white-space: nowrap; }
+  .ausgewogen { text-wrap: balance; }
 
   /* Aufklappblock: bis 767 px zugeklappt, ab 768 px offen und ohne Schalter */
   .aufklapp > summary {

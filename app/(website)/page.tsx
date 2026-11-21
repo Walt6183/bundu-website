@@ -6,8 +6,9 @@ import Buehne from '@/components/ui/Buehne'
 import Foto from '@/components/ui/Foto'
 import Tuer from '@/components/ui/Tuer'
 import Personenzeile from '@/components/ui/Personenzeile'
+import Rueckmeldung from '@/components/ui/Rueckmeldung'
 import T from '@/components/ui/T'
-import { FOTO, LINKS, SEITE1 as S } from '@/content/texte'
+import { FOTO, LINKS, RUECKMELDUNG, SEITE1 as S } from '@/content/texte'
 
 export const metadata: Metadata = {
   title: { absolute: S.title },
@@ -35,6 +36,7 @@ export default function Weiche() {
                 <p>
                   <T>{S.tuer1.satz}</T>
                 </p>
+                <Rueckmeldung zitat={RUECKMELDUNG.zitat} herkunft={RUECKMELDUNG.herkunft} klein />
               </Tuer>
               <Tuer schild={S.tuer2.schild} cta={S.tuer2.cta} href={LINKS.fachwelt}>
                 <p className="font-semibold text-navy">

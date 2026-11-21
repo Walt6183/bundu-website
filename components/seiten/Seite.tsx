@@ -10,6 +10,7 @@ import { formularFelder, type Feld, type FormBereich } from '@/lib/formulare'
 import Knopf from '@/components/ui/Knopf'
 import Personenzeile from '@/components/ui/Personenzeile'
 import Preistabelle from '@/components/ui/Preistabelle'
+import Rueckmeldung from '@/components/ui/Rueckmeldung'
 import T from '@/components/ui/T'
 import Teile, { Flaeche, type Platzhalter, type Teil } from '@/components/ui/Teile'
 import { FOTO } from '@/content/texte'
@@ -27,6 +28,7 @@ const BUCHUNGSKNOPF = 'Erstgespräch buchen'
 
 const H2 = 'text-[1.5rem] lg:text-[2rem]'
 const AUFKLAPP_NAMEN = /Themen|Ablauf|Grenzen/
+const RUECKMELDUNG_NAME = /Rückmeldung/
 
 type Ctx = { route: string }
 
@@ -65,6 +67,15 @@ function fotoVon(knoten: Knoten[]) {
   const datei = ph(f)[0]?.datei ?? ''
   const art = datei.includes('business') ? FOTO.business : FOTO.arbeitsplatz
   return { foto: { ...art, alt: a ? text(a) : art.alt }, business: datei.includes('business') }
+}
+
+// Abschnitt «Rückmeldung»: Felder Kontext (kleine Zeile darüber), Zitat, Herkunft.
+function rueckmeldungVon(knoten: Knoten[]) {
+  const f = (l: string) => {
+    const n = knoten.find((k) => k.k === 'feld' && k.label === l)
+    return n ? text(n) : ''
+  }
+  return { kontext: f('Kontext'), zitat: f('Zitat'), herkunft: f('Herkunft') }
 }
 
 function Liste({ kinder }: { kinder: Kind[] }) {
@@ -473,18 +484,24 @@ export default function Seite({ route }: { route: string }) {
 
         {rest.map((a, idx) => {
           // Wechsel von hinten gezählt: der letzte Abschnitt ist weiss, damit er sich vom Fuss (grey-light) abhebt.
-          const hell = (rest.length - 1 - idx) % 2 === 1
+          // Der Abschnitt «Rückmeldung» zählt nicht mit: er hat die Farbe des Abschnitts davor, damit sich die Farben
+          // der übrigen Abschnitte nicht verschieben.
+          const gezaehlt = rest.filter((x) => !RUECKMELDUNG_NAME.test(x.name))
+          const istRm = RUECKMELDUNG_NAME.test(a.name)
+          const bezug = istRm ? rest.slice(0, idx).filter((x) => !RUECKMELDUNG_NAME.test(x.name)).pop() ?? a : a
+          const hell = (gezaehlt.length - 1 - gezaehlt.indexOf(bezug)) % 2 === 1
           const foto = fotoVon(a.knoten)
           const klappt = aufklappbar && AUFKLAPP_NAMEN.test(a.name)
           const h2 = a.knoten.find((n) => n.k === 'feld' && n.label === 'H2')
           const ohneH2 = { ...a, knoten: a.knoten.filter((n) => n !== h2) }
           const id = h2 && text(h2) === 'Wenn jemand in Gefahr ist' ? 'gefahr' : undefined
+          const rm = istRm ? rueckmeldungVon(a.knoten) : null
           const zeileHier = foto && !zeileVergeben
           if (foto) zeileVergeben = true
           return (
             <section key={a.name} id={id} className={hell ? 'bg-grey-light' : 'bg-white'}>
               <div
-                className={`container-b py-12 lg:py-16 ${foto ? 'grid gap-8 md:grid-cols-[1fr_minmax(0,480px)] md:items-center' : ''}`}
+                className={`container-b ${istRm ? 'pb-12 lg:pb-16' : 'py-12 lg:py-16'} ${foto ? 'grid gap-8 md:grid-cols-[1fr_minmax(0,480px)] md:items-center' : ''}`}
               >
                 <div className="flex flex-col gap-4">
                   {h2 ? (
@@ -492,7 +509,8 @@ export default function Seite({ route }: { route: string }) {
                       <T>{text(h2)}</T>
                     </h2>
                   ) : null}
-                  {klappt ? (
+                  {rm ? <Rueckmeldung {...rm} /> : null}
+                  {rm ? null : klappt ? (
                     <Aufklapp label={AUFKLAPP_LABEL}>
                       <Fluss a={ohneH2} ctx={ctx} hell={hell} />
                     </Aufklapp>

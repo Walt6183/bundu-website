@@ -30,5 +30,11 @@
     "eslint-config-next": "16.4.6",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "overrides": {
+    "undici": "7.30.2",
+    "js-yaml": "3.15.2",
+    "adm-zip": "0.6.1",
+    "smol-toml": "1.9.1"
   }
 }

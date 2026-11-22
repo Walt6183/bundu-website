@@ -103,6 +103,8 @@ Wichtig: `FORMULAR_AKTIV` wirkt zweimal. Beim **Bau** entscheidet es, ob das For
 
 **Bauweise der Pakete:** hPanel installiert mit `npm install`, nicht mit `npm ci`. Deshalb muss `package.json` immer zur Lockdatei `package-lock.json` passen: Wer eine Abhängigkeit ändert, erzeugt die Lockdatei im selben Commit neu und prüft mit `npm ci` aus sauberem Klon. Vorschlag für den Inhaber: Erlaubt hPanel `npm ci` als Installationsbefehl, dort eintragen (wird hier nicht selbst eingestellt).
 
+**Bau mit webpack:** hPanel baut mit webpack (`next build --webpack`, Skript `build` in `package.json`), weil Turbopack dort beim Start seiner PostCSS-Prozesse abbricht (Build 01a2033f, 2026-11-22).
+
 ## E. Umschaltung (nicht vor deiner Freigabe)
 
 Es gibt keine Testadresse und keine zweite Anwendung (F-3). Die Umschaltung ist deshalb der Moment, in dem die neue Seite zum ersten Mal auf dem echten Hosting läuft. Plane sie für eine ruhige Zeit.

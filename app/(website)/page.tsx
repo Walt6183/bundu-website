@@ -6,9 +6,10 @@ import Buehne from '@/components/ui/Buehne'
 import Foto from '@/components/ui/Foto'
 import Tuer from '@/components/ui/Tuer'
 import Personenzeile from '@/components/ui/Personenzeile'
-import Rueckmeldung from '@/components/ui/Rueckmeldung'
+import ReferenzenWechsel from '@/components/ui/ReferenzenWechsel'
 import T from '@/components/ui/T'
-import { FOTO, LINKS, RUECKMELDUNG, SEITE1 as S } from '@/content/texte'
+import { FOTO, LINKS, SEITE1 as S } from '@/content/texte'
+import { referenzenStart } from '@/lib/referenzen'
 
 export const metadata: Metadata = {
   title: { absolute: S.title },
@@ -36,7 +37,6 @@ export default function Weiche() {
                 <p>
                   <T>{S.tuer1.satz}</T>
                 </p>
-                <Rueckmeldung zitat={RUECKMELDUNG.zitat} herkunft={RUECKMELDUNG.herkunft} />
               </Tuer>
               <Tuer schild={S.tuer2.schild} cta={S.tuer2.cta} href={LINKS.fachwelt}>
                 <p className="font-semibold text-navy">
@@ -71,6 +71,15 @@ export default function Weiche() {
                   {S.achse.link}
                 </Link>
               </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Weiss wie jeder letzte Abschnitt (hebt sich vom Fuss ab), zum Porträt trennt eine feine Linie. */}
+        <section className="bg-white">
+          <div className="container-b pb-12 lg:pb-16">
+            <div className="border-t border-navy/20 pt-12 lg:pt-16">
+              <ReferenzenWechsel eintraege={referenzenStart()} hell={false} />
             </div>
           </div>
         </section>

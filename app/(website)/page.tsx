@@ -30,7 +30,7 @@ export default function Weiche() {
           }
           karten={
             <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-4">
-              <Tuer schild={S.tuer1.schild} cta={S.tuer1.cta} href={LINKS.eltern}>
+              <Tuer schild={S.tuer1.schild} cta={S.tuer1.cta} href={LINKS.eltern} knopfUnten>
                 <p className="font-semibold text-navy">
                   <T>{S.tuer1.angebot}</T>
                 </p>
@@ -38,7 +38,7 @@ export default function Weiche() {
                   <T>{S.tuer1.satz}</T>
                 </p>
               </Tuer>
-              <Tuer schild={S.tuer2.schild} cta={S.tuer2.cta} href={LINKS.fachwelt}>
+              <Tuer schild={S.tuer2.schild} cta={S.tuer2.cta} href={LINKS.fachwelt} knopfUnten>
                 <p className="font-semibold text-navy">
                   <T>{S.tuer2.angebote}</T>
                 </p>

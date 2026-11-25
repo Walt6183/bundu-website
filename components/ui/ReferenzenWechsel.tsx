@@ -5,13 +5,13 @@ import { KNOPF, Kaestchen, Pfeil, REIHE, UEBERSCHRIFT } from '@/components/ui/Re
 import type { Referenz } from '@/lib/referenzen'
 
 // Referenzen der Startseite. Ab 1024 px drei Kästchen nebeneinander, gruppenweise, darunter wischbar mit Anschnitt.
-// Wechselt alle 10 Sekunden zur nächsten Station, nach der letzten wieder zur ersten. Bewegt wird nur die Reihe, nie die Seite.
+// Wechselt alle 15 Sekunden zur nächsten Station, nach der letzten wieder zur ersten. Bewegt wird nur die Reihe, nie die Seite.
 // Automatik hält bei Maus oder Fokus im Block, Berührung, unsichtbarem Abschnitt oder Tab. Nach Blättern von Hand bleibt sie aus.
 // Der Anhalten-Knopf selbst hält nicht, sonst liefe nach «starten» nichts, solange der Zeiger darauf steht.
 // prefers-reduced-motion: keine Automatik, kein Anhalten-Knopf (per CSS). Kein aria-live.
 // Ohne JavaScript bleibt die Reihe von Hand scrollbar, alle Einträge stehen im HTML.
 // Alle Kästchen liegen in einer Reihe und sind so hoch wie das höchste, deshalb ist die Höhe bei jeder Station gleich.
-const TAKT = 10000
+const TAKT = 15000
 
 export default function ReferenzenWechsel({ eintraege, hell }: { eintraege: Referenz[]; hell: boolean }) {
   const id = useId()
@@ -62,7 +62,7 @@ export default function ReferenzenWechsel({ eintraege, hell }: { eintraege: Refe
     }
   }, [])
 
-  // Uhr neu stellen. Nach jeder Pause beginnen die 10 Sekunden von vorn.
+  // Uhr neu stellen. Nach jeder Pause beginnen die 15 Sekunden von vorn.
   const planen = useCallback(() => {
     clearTimeout(uhr.current)
     const h = halt.current

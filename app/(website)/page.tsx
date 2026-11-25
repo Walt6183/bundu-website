@@ -36,7 +36,7 @@ export default function Weiche() {
                 <p>
                   <T>{S.tuer1.satz}</T>
                 </p>
-                <Rueckmeldung zitat={RUECKMELDUNG.zitat} herkunft={RUECKMELDUNG.herkunft} klein />
+                <Rueckmeldung zitat={RUECKMELDUNG.zitat} herkunft={RUECKMELDUNG.herkunft} />
               </Tuer>
               <Tuer schild={S.tuer2.schild} cta={S.tuer2.cta} href={LINKS.fachwelt}>
                 <p className="font-semibold text-navy">

@@ -6,9 +6,11 @@ import Buehne from '@/components/ui/Buehne'
 import Foto from '@/components/ui/Foto'
 import Knopf from '@/components/ui/Knopf'
 import Preistabelle from '@/components/ui/Preistabelle'
+import Referenzen from '@/components/ui/Referenzen'
 import T from '@/components/ui/T'
 import { BUCHUNG } from '@/content/konfig'
 import { preiszeilen } from '@/lib/preise'
+import { referenzenFuer } from '@/lib/referenzen'
 import { FOTO, LINKS, SEITE3 as S } from '@/content/texte'
 
 export const metadata: Metadata = {
@@ -105,6 +107,12 @@ export default function OnlineCoaching() {
             <p>
               <Knopf href={BUCHUNG.fachpersonen}>{S.preise.cta}</Knopf>
             </p>
+          </div>
+        </section>
+
+        <section className="bg-white">
+          <div className="container-b pb-16">
+            <Referenzen eintraege={referenzenFuer('/fachwelt/fachpersonen/online-coaching/')} hell={false} />
           </div>
         </section>
 

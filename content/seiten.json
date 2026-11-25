@@ -1115,53 +1115,6 @@
      ]
     },
     {
-     "name": "7a. Rückmeldung",
-     "knoten": [
-      {
-       "k": "feld",
-       "label": "Kontext",
-       "wert": "Rückmeldung nach einem 5er-Paket",
-       "kinder": [],
-       "gruppe": null,
-       "wert_teile": [
-        {
-         "t": "text",
-         "s": "Rückmeldung nach einem 5er-Paket"
-        }
-       ],
-       "wert_ph": []
-      },
-      {
-       "k": "feld",
-       "label": "Zitat",
-       "wert": "«Die Zusammenarbeit war sehr angenehm und hat uns gestärkt»",
-       "kinder": [],
-       "gruppe": null,
-       "wert_teile": [
-        {
-         "t": "text",
-         "s": "«Die Zusammenarbeit war sehr angenehm und hat uns gestärkt»"
-        }
-       ],
-       "wert_ph": []
-      },
-      {
-       "k": "feld",
-       "label": "Herkunft",
-       "wert": "Familie M. aus S.",
-       "kinder": [],
-       "gruppe": null,
-       "wert_teile": [
-        {
-         "t": "text",
-         "s": "Familie M. aus S."
-        }
-       ],
-       "wert_ph": []
-      }
-     ]
-    },
-    {
      "name": "8. Person",
      "knoten": [
       {

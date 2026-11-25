@@ -14,6 +14,7 @@ export type Knoten = {
   text_ph?: Platzhalter[]
   titel?: string
   name?: string
+  bild?: 'kursbox' // nur Gruppe: Kursbox in der Karte
   kopf?: string[]
   zeilen?: string[][]
   kinder?: Kind[]

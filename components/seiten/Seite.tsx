@@ -45,10 +45,15 @@ function ph(n: Knoten): Platzhalter[] {
 function leer(ts: Teil[]) {
   return ts.every((t) => t.t !== 'flaeche' && t.s.trim() === '')
 }
+// Ziel aus der Quelle: Seite des Baums oder externe Adresse (https).
 // Buchungsknopf: kein Seitenziel in der Quelle, Text «Erstgespräch buchen»: Adresse des Bereichs aus content/konfig.ts.
+const EXTERN = /^https:\/\//
+function ctaZiel(n: Knoten): string {
+  return ph(n).flatMap((p) => p.ziele ?? [])[0] ?? ''
+}
 function ctaHref(n: Knoten, route: string): string {
-  const z = ph(n).flatMap((p) => p.ziele ?? [])[0]
-  if (z && z.startsWith('/')) return z
+  const z = ctaZiel(n)
+  if (z.startsWith('/') || EXTERN.test(z)) return z
   return /Erstgespräch\s+buchen/.test(ctaText(n)) ? buchungFuer(route) : '#'
 }
 function ctaText(n: Knoten): string {
@@ -58,6 +63,14 @@ function ctaText(n: Knoten): string {
     .join('')
     .trim()
 }
+// Externe Ziele aus der Quelle öffnen im selben Fenster, der Buchungsweg aus content/konfig.ts weiter in einem neuen.
+function CtaKnopf({ n, route, zweite }: { n: Knoten; route: string; zweite?: boolean }) {
+  return (
+    <Knopf href={ctaHref(n, route)} zweite={zweite} gleichesFenster={EXTERN.test(ctaZiel(n))}>
+      {ctaText(n)}
+    </Knopf>
+  )
+}
 function istFoto(n: Knoten) {
   return n.k === 'feld' && (n.label === 'Foto' || n.label === 'alt')
 }
@@ -66,8 +79,8 @@ function fotoVon(knoten: Knoten[]) {
   const a = knoten.find((n) => n.k === 'feld' && n.label === 'alt')
   if (!f) return null
   const datei = ph(f)[0]?.datei ?? ''
-  const art = datei.includes('business') ? FOTO.business : FOTO.arbeitsplatz
-  return { foto: { ...art, alt: a ? text(a) : art.alt }, business: datei.includes('business') }
+  const art = datei.includes('business') ? 'business' : datei.includes('kursbox') ? 'kursbox' : 'arbeitsplatz'
+  return { foto: { ...FOTO[art], alt: a ? text(a) : FOTO[art].alt }, art }
 }
 
 function Liste({ kinder }: { kinder: Kind[] }) {
@@ -126,46 +139,77 @@ function formFelder(knoten: Knoten[], bereich: string): { felder: Feld[]; hinwei
 const FORM_SKIP = /^(Bestätigung nach dem Senden|Fehlermeldung)$/
 
 // ---- Karten (Bereichsstart) ----
-function Karte({ knoten, name, hell, route }: { knoten: Knoten[]; name: string | null; hell: boolean; route: string }) {
-  const klein = name === null
+// Mit Kursbox: Das Bild hat einen weissen Grund und steht als weisse, runde Fläche neben der Überschrift,
+// ab 1024 px neben dem ganzen Text. Der Knopf bleibt am Boden, auf einer Linie mit der Nachbarkarte.
+function Karte({
+  knoten,
+  name,
+  kursbox,
+  hell,
+  route,
+}: {
+  knoten: Knoten[]
+  name: string
+  kursbox: boolean
+  hell: boolean
+  route: string
+}) {
+  const inhalt = knoten.map((n, i) => <KartenZeile key={i} n={n} route={route} />)
+  const cta = knoten.findIndex((n) => n.label === 'CTA')
+  const h3 = <h3 className="text-[1.25rem] lg:text-[1.375rem]">{name}</h3>
   return (
-    <article
-      className={`flex h-full flex-col gap-3 rounded-lg p-6 ${hell ? 'bg-white' : 'bg-grey-light'} ${klein ? 'lg:p-4' : ''}`}
-    >
-      {name ? <h3 className="text-[1.25rem] lg:text-[1.375rem]">{name}</h3> : null}
-      {knoten.map((n, i) => {
-        const l = n.label ?? ''
-        if (l === 'CTA') {
-          return (
-            <p key={i} className="mt-auto pt-2">
-              <Knopf href={ctaHref(n, route)} zweite>
-                {ctaText(n)}
-              </Knopf>
-            </p>
-          )
-        }
-        if (l === 'Link') {
-          return (
-            <p key={i} className="mt-auto">
-              <Teile teile={teile(n)} ph={ph(n)} />
-            </p>
-          )
-        }
-        if (l === 'Status') {
-          return (
-            <p key={i} className="font-heading font-semibold text-navy">
-              <T>{text(n)}</T>
-            </p>
-          )
-        }
-        const stark = l === 'Preis' || l === 'Preiszeile'
-        return (
-          <p key={i} className={stark ? 'font-semibold text-navy' : ''}>
-            <Teile teile={teile(n)} ph={ph(n)} />
-          </p>
-        )
-      })}
+    <article className={`flex h-full flex-col gap-3 rounded-lg p-6 ${hell ? 'bg-white' : 'bg-grey-light'}`}>
+      {kursbox ? (
+        <>
+          <div className="grid items-start gap-x-4 gap-y-3 min-[360px]:grid-cols-[1fr_104px] lg:grid-cols-[1fr_160px] lg:grid-rows-[auto_1fr]">
+            {h3}
+            <Foto
+              foto={FOTO.kursbox}
+              sizes="(min-width: 1024px) 160px, 104px"
+              className="h-auto w-[104px] rounded-lg bg-white lg:row-span-2 lg:w-[160px]"
+            />
+            <div className="flex flex-col gap-3 min-[360px]:col-span-2 lg:col-span-1">{inhalt.slice(0, cta)}</div>
+          </div>
+          {inhalt.slice(cta)}
+        </>
+      ) : (
+        <>
+          {h3}
+          {inhalt}
+        </>
+      )}
     </article>
+  )
+}
+
+function KartenZeile({ n, route }: { n: Knoten; route: string }) {
+  const l = n.label ?? ''
+  if (l === 'CTA') {
+    return (
+      <p className="mt-auto pt-2">
+        <CtaKnopf n={n} route={route} zweite />
+      </p>
+    )
+  }
+  if (l === 'Link') {
+    return (
+      <p className="mt-auto">
+        <Teile teile={teile(n)} ph={ph(n)} />
+      </p>
+    )
+  }
+  if (l === 'Status') {
+    return (
+      <p className="font-heading font-semibold text-navy">
+        <T>{text(n)}</T>
+      </p>
+    )
+  }
+  const stark = l === 'Preis' || l === 'Preiszeile'
+  return (
+    <p className={stark ? 'font-semibold text-navy' : ''}>
+      <Teile teile={teile(n)} ph={ph(n)} />
+    </p>
   )
 }
 
@@ -189,23 +233,22 @@ function Fluss({ a, ctx, hell }: { a: Abschnitt; ctx: Ctx; hell: boolean }) {
     const n = knoten[i]
     if (n.k === 'gruppe') {
       // Karten: alle Gruppen bis zum "Satz unter den Angeboten"
-      const gruppen: { name: string | null; knoten: Knoten[] }[] = []
+      const gruppen: { name: string; kursbox: boolean; knoten: Knoten[] }[] = []
       while (i < knoten.length && !(knoten[i].k === 'feld' && knoten[i].label === 'Satz unter den Angeboten')) {
         const g = knoten[i]
         if (g.k === 'gruppe') {
           const nm = g.name ?? ''
           const mk = nm.match(/^Kachel \d+: (.*)$/)
-          gruppen.push({ name: /kleinste/.test(nm) ? null : mk ? mk[1] : nm, knoten: [] })
+          gruppen.push({ name: mk ? mk[1] : nm, kursbox: g.bild === 'kursbox', knoten: [] })
         } else if (gruppen.length) {
           gruppen[gruppen.length - 1].knoten.push(g)
         }
         i++
       }
-      const alleBenannt = gruppen.every((g) => g.name)
       out.push(
-        <div key={'karten' + i} className={`grid gap-4 ${alleBenannt ? 'md:auto-rows-fr md:grid-cols-2' : ''}`}>
+        <div key={'karten' + i} className="grid gap-4 md:auto-rows-fr md:grid-cols-2">
           {gruppen.map((g, j) => (
-            <Karte key={j} knoten={g.knoten} name={g.name} hell={hell} route={ctx.route} />
+            <Karte key={j} knoten={g.knoten} name={g.name} kursbox={g.kursbox} hell={hell} route={ctx.route} />
           ))}
         </div>,
       )
@@ -303,7 +346,7 @@ function Knotenzeile({ n, ctx }: { n: Knoten; ctx: Ctx }): ReactNode {
   if (l === 'CTA') {
     return (
       <p>
-        <Knopf href={ctaHref(n, ctx.route)}>{ctaText(n)}</Knopf>
+        <CtaKnopf n={n} route={ctx.route} />
       </p>
     )
   }
@@ -415,7 +458,7 @@ function KopfInhalt({ a, route, breit = false }: { a: Abschnitt; route: string; 
           const klein = nk.find((m) => /^Kleintext/.test(m.label ?? ''))
           return (
             <div key={i} className="flex flex-col items-start gap-3">
-              <Knopf href={ctaHref(n, route)}>{ctaText(n)}</Knopf>
+              <CtaKnopf n={n} route={route} />
               {klein ? (
                 <p>
                   <T>{text(klein)}</T>
@@ -448,7 +491,7 @@ export default function Seite({ route }: { route: string }) {
     <>
       <Navigation bereich={bereich} aktuell={route} />
       <main>
-        {kopfFoto && !kopfFoto.business ? (
+        {kopfFoto?.art === 'arbeitsplatz' ? (
           <Buehne zeile mittig kopf={<KopfInhalt a={kopf} route={route} />} />
         ) : (
           <section className="bg-white">
@@ -460,7 +503,7 @@ export default function Seite({ route }: { route: string }) {
               </div>
               {kopfFoto ? (
                 <div className="flex w-full max-w-[360px] flex-col gap-2 md:justify-self-end">
-                  <div className="rounded-lg bg-grey-light">
+                  <div className={`rounded-lg ${kopfFoto.art === 'kursbox' ? 'bg-white' : 'bg-grey-light'}`}>
                     <Foto
                       foto={kopfFoto.foto}
                       priority
@@ -468,7 +511,7 @@ export default function Seite({ route }: { route: string }) {
                       className="h-auto w-full rounded-lg"
                     />
                   </div>
-                  {istPerson ? null : <Personenzeile className="text-base" />}
+                  {istPerson || kopfFoto.art === 'kursbox' ? null : <Personenzeile className="text-base" />}
                 </div>
               ) : null}
             </div>

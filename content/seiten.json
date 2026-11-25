@@ -291,32 +291,47 @@
       },
       {
        "k": "gruppe",
-       "name": "Kachel 2: kleinste Kachel, unter der Kachel Online Eltern-Coaching, ohne eigene Überschrift"
+       "name": "Kachel 2: Online-Kurs: Ruhig bleiben, wenn es kracht",
+       "bild": "kursbox"
       },
       {
        "k": "feld",
        "label": "Text",
-       "wert": "Online-Kurse für Eltern sind in Vorbereitung, noch ohne Thema, Termin und Preis.",
+       "wert": "Selbstlernkurs mit 16 kurzen Videos, rund 140 Minuten, in deinem Tempo.",
        "kinder": [],
-       "gruppe": "Kachel 2: kleinste Kachel, unter der Kachel Online Eltern-Coaching, ohne eigene Überschrift",
+       "gruppe": "Kachel 2: Online-Kurs: Ruhig bleiben, wenn es kracht",
        "wert_teile": [
         {
          "t": "text",
-         "s": "Online-Kurse für Eltern sind in Vorbereitung, noch ohne Thema, Termin und Preis."
+         "s": "Selbstlernkurs mit 16 kurzen Videos, rund 140 Minuten, in deinem Tempo."
         }
        ],
        "wert_ph": []
       },
       {
        "k": "feld",
-       "label": "Link",
-       "wert": "Zum Stand der Kurse [PLATZHALTER: Link `/eltern/kurse/`]",
+       "label": "Preiszeile",
+       "wert": "199 €, einmalig, inkl. MwSt.",
        "kinder": [],
-       "gruppe": "Kachel 2: kleinste Kachel, unter der Kachel Online Eltern-Coaching, ohne eigene Überschrift",
+       "gruppe": "Kachel 2: Online-Kurs: Ruhig bleiben, wenn es kracht",
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "199 €, einmalig, inkl. MwSt."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Zum Kurs [PLATZHALTER: Link `/eltern/kurse/`]",
+       "kinder": [],
+       "gruppe": "Kachel 2: Online-Kurs: Ruhig bleiben, wenn es kracht",
        "wert_teile": [
         {
          "t": "link",
-         "s": "Zum Stand der Kurse",
+         "s": "Zum Kurs",
          "href": "/eltern/kurse/"
         }
        ],
@@ -1275,9 +1290,9 @@
   },
   "/eltern/kurse/": {
    "titel": "Online-Kurse für Eltern",
-   "quelle": "texte-eltern-v1.md",
-   "title": "Online-Kurse für Eltern | B&U BundU®",
-   "description": "Die Online-Kurse für Eltern sind in Vorbereitung. Bis dahin gibt es das Online Eltern-Coaching mit Walter Uehli, Erstgespräch 15 Minuten kostenlos.",
+   "quelle": "kurs-texte.md",
+   "title": "Online-Kurs für Eltern: Ruhig bleiben, wenn es kracht | B&U BundU®",
+   "description": "Selbstlernkurs für Eltern von Kindern zwischen 5 und 14: 16 kurze Videos, rund 140 Minuten, in deinem Tempo. 199 €, einmalig.",
    "anrede": "",
    "abschnitte": [
     {
@@ -1300,27 +1315,98 @@
       {
        "k": "feld",
        "label": "H1",
-       "wert": "Online-Kurse für Eltern: in Vorbereitung",
+       "wert": "120 Minuten – Ruhig bleiben, wenn es kracht",
        "kinder": [],
        "gruppe": null,
        "wert_teile": [
         {
          "t": "text",
-         "s": "Online-Kurse für Eltern: in Vorbereitung"
+         "s": "120 Minuten – Ruhig bleiben, wenn es kracht"
         }
        ],
        "wert_ph": []
       },
       {
        "k": "feld",
-       "label": "Text",
-       "wert": "Ein Thema, einen Termin und einen Preis gibt es noch nicht. Sobald die Kurse stehen, findest du sie hier.",
+       "label": "Unterzeile",
+       "wert": "Ein Selbstlernkurs für Eltern von Kindern zwischen 5 und 14 Jahren. Du übst, deine Frühwarnzeichen zu erkennen, klar zu bleiben und nach einem Streit wieder Kontakt anzubieten.",
        "kinder": [],
        "gruppe": null,
        "wert_teile": [
         {
          "t": "text",
-         "s": "Ein Thema, einen Termin und einen Preis gibt es noch nicht. Sobald die Kurse stehen, findest du sie hier."
+         "s": "Ein Selbstlernkurs für Eltern von Kindern zwischen 5 und 14 Jahren. Du übst, deine Frühwarnzeichen zu erkennen, klar zu bleiben und nach einem Streit wieder Kontakt anzubieten."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Zum Kurs [PLATZHALTER: Link `https://academy.bundu.ch/120-minuten-ruhig-bleiben-wenn-es-kracht-9652f256`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Zum Kurs",
+         "href": "https://academy.bundu.ch/120-minuten-ruhig-bleiben-wenn-es-kracht-9652f256"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "https://academy.bundu.ch/120-minuten-ruhig-bleiben-wenn-es-kracht-9652f256"
+         ],
+         "roh": "Link `https://academy.bundu.ch/120-minuten-ruhig-bleiben-wenn-es-kracht-9652f256`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "Kleintext unter dem CTA",
+       "wert": "199 €, einmalig, inkl. MwSt. Bestellung und Zahlung über Digistore24.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "199 €, einmalig, inkl. MwSt. Bestellung und Zahlung über Digistore24."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Foto",
+       "wert": "[PLATZHALTER: Foto `kursbox-ruhig-bleiben.webp`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "flaeche",
+         "s": "Foto `kursbox-ruhig-bleiben.webp`"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "foto",
+         "datei": "kursbox-ruhig-bleiben.webp",
+         "roh": "Foto `kursbox-ruhig-bleiben.webp`"
+        }
+       ]
+      },
+      {
+       "k": "feld",
+       "label": "alt",
+       "wert": "Kursbox «120 Minuten – Ruhig bleiben, wenn es kracht», der Online-Kurs von Walter Uehli",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Kursbox «120 Minuten – Ruhig bleiben, wenn es kracht», der Online-Kurs von Walter Uehli"
         }
        ],
        "wert_ph": []
@@ -1328,18 +1414,159 @@
      ]
     },
     {
-     "name": "2. Bis dahin",
+     "name": "2. Was du übst",
      "knoten": [
       {
        "k": "feld",
        "label": "H2",
-       "wert": "Wenn du nicht warten willst",
+       "wert": "Was du im Kurs übst",
        "kinder": [],
        "gruppe": null,
        "wert_teile": [
         {
          "t": "text",
-         "s": "Wenn du nicht warten willst"
+         "s": "Was du im Kurs übst"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Den heissen Moment früher erkennen: Frühwarnzeichen wahrnehmen und einen eigenen Anker setzen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Den heissen Moment früher erkennen: Frühwarnzeichen wahrnehmen und einen eigenen Anker setzen."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Klar bleiben, ohne zu drohen: eine klare Ansage machen und Veränderungen ruhig ankündigen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Klar bleiben, ohne zu drohen: eine klare Ansage machen und Veränderungen ruhig ankündigen."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Nach dem Streit wieder in Kontakt kommen: Verantwortung für den eigenen Anteil übernehmen und gemeinsam eine Wiedergutmachung suchen.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Nach dem Streit wieder in Kontakt kommen: Verantwortung für den eigenen Anteil übernehmen und gemeinsam eine Wiedergutmachung suchen."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "punkt",
+       "wert": "Die Werkzeuge auf deinen Alltag übertragen: Hausaufgaben, Bildschirmzeit und Geschwisterstreit.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Die Werkzeuge auf deinen Alltag übertragen: Hausaufgaben, Bildschirmzeit und Geschwisterstreit."
+        }
+       ],
+       "wert_ph": []
+      }
+     ]
+    },
+    {
+     "name": "3. Ablauf",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "So läuft der Kurs",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "So läuft der Kurs"
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Text",
+       "wert": "Eine Willkommenslektion und vier Module, zusammen 16 kurze Videos mit rund 140 Minuten. Dazu Hilfe-Karte, Satzkarten, eine Vorlage für Ankündigungen und ein Vier-Wochen-Plan zum Herunterladen. Du lernst in deinem Tempo, ohne Abo.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Eine Willkommenslektion und vier Module, zusammen 16 kurze Videos mit rund 140 Minuten. Dazu Hilfe-Karte, Satzkarten, eine Vorlage für Ankündigungen und ein Vier-Wochen-Plan zum Herunterladen. Du lernst in deinem Tempo, ohne Abo."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "Zweiter Absatz",
+       "wert": "Der Kurs richtet den Blick auf das, was du als Elternteil beeinflussen kannst. Er verspricht nicht, dass dein Kind sich ruhiger verhält, und ersetzt keine persönliche Beratung oder Therapie.",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Der Kurs richtet den Blick auf das, was du als Elternteil beeinflussen kannst. Er verspricht nicht, dass dein Kind sich ruhiger verhält, und ersetzt keine persönliche Beratung oder Therapie."
+        }
+       ],
+       "wert_ph": []
+      },
+      {
+       "k": "feld",
+       "label": "CTA",
+       "wert": "Zum Kurs [PLATZHALTER: Link `https://academy.bundu.ch/120-minuten-ruhig-bleiben-wenn-es-kracht-9652f256`]",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "link",
+         "s": "Zum Kurs",
+         "href": "https://academy.bundu.ch/120-minuten-ruhig-bleiben-wenn-es-kracht-9652f256"
+        }
+       ],
+       "wert_ph": [
+        {
+         "art": "link",
+         "ziele": [
+          "https://academy.bundu.ch/120-minuten-ruhig-bleiben-wenn-es-kracht-9652f256"
+         ],
+         "roh": "Link `https://academy.bundu.ch/120-minuten-ruhig-bleiben-wenn-es-kracht-9652f256`"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "4. Bis dahin",
+     "knoten": [
+      {
+       "k": "feld",
+       "label": "H2",
+       "wert": "Wenn du lieber persönlich sprichst",
+       "kinder": [],
+       "gruppe": null,
+       "wert_teile": [
+        {
+         "t": "text",
+         "s": "Wenn du lieber persönlich sprichst"
         }
        ],
        "wert_ph": []

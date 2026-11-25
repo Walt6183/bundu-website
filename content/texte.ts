@@ -15,6 +15,13 @@ export const FOTO = {
     height: 1086,
     alt: 'Walter Uehli am Schreibtisch mit Headset, vor ihm Bildschirm und Maus',
   },
+  // Weisser Bildgrund mit Schatten: steht immer auf Weiss.
+  kursbox: {
+    src: '/images/kursbox-ruhig-bleiben.webp',
+    width: 1254,
+    height: 1254,
+    alt: 'Kursbox «120 Minuten – Ruhig bleiben, wenn es kracht», der Online-Kurs von Walter Uehli',
+  },
 } as const
 
 // Zeile unter dem Foto (zwei Zeilen: Name fett, Funktion darunter). Der Text der Datei

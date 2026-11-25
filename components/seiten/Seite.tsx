@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react'
+import { Fragment, type ReactNode } from 'react'
 import Link from 'next/link'
 import Footer from '@/components/layout/FussBereich'
 import Navigation from '@/components/layout/Navigation'
@@ -10,13 +10,14 @@ import { formularFelder, type Feld, type FormBereich } from '@/lib/formulare'
 import Knopf from '@/components/ui/Knopf'
 import Personenzeile from '@/components/ui/Personenzeile'
 import Preistabelle from '@/components/ui/Preistabelle'
-import Rueckmeldung from '@/components/ui/Rueckmeldung'
+import Referenzen from '@/components/ui/Referenzen'
 import T from '@/components/ui/T'
 import Teile, { Flaeche, type Platzhalter, type Teil } from '@/components/ui/Teile'
 import { FOTO } from '@/content/texte'
 import { AUFKLAPP_LABEL } from '@/components/ui/Tuer'
 import { DATENSCHUTZ_HINWEIS, FORMULAR_TEXTE, buchungFuer } from '@/content/konfig'
 import { TABELLE_VON_ROUTE, preiszeilen } from '@/lib/preise'
+import { referenzenFuer } from '@/lib/referenzen'
 import { bereichFuer, fussFuer, seite, type Abschnitt, type Kind, type Knoten } from '@/lib/seiten'
 
 // Rendert eine Seite aus content/seiten.json (erzeugt aus den freigegebenen Textdateien).
@@ -28,7 +29,7 @@ const BUCHUNGSKNOPF = 'Erstgespräch buchen'
 
 const H2 = 'text-[1.5rem] lg:text-[2rem]'
 const AUFKLAPP_NAMEN = /Themen|Ablauf|Grenzen/
-const RUECKMELDUNG_NAME = /Rückmeldung/
+const PREISE_NAME = /Preise/
 
 type Ctx = { route: string }
 
@@ -67,15 +68,6 @@ function fotoVon(knoten: Knoten[]) {
   const datei = ph(f)[0]?.datei ?? ''
   const art = datei.includes('business') ? FOTO.business : FOTO.arbeitsplatz
   return { foto: { ...art, alt: a ? text(a) : art.alt }, business: datei.includes('business') }
-}
-
-// Abschnitt «Rückmeldung»: Felder Kontext (kleine Zeile darüber), Zitat, Herkunft.
-function rueckmeldungVon(knoten: Knoten[]) {
-  const f = (l: string) => {
-    const n = knoten.find((k) => k.k === 'feld' && k.label === l)
-    return n ? text(n) : ''
-  }
-  return { kontext: f('Kontext'), zitat: f('Zitat'), herkunft: f('Herkunft') }
 }
 
 function Liste({ kinder }: { kinder: Kind[] }) {
@@ -447,6 +439,7 @@ export default function Seite({ route }: { route: string }) {
   const kopfFoto = fotoVon(kopf.knoten)
   const istPerson = route === '/walter-uehli/'
   const aufklappbar = route.startsWith('/fachwelt/institutionen/') && rest.length > 2
+  const referenzen = referenzenFuer(route)
   const istInstStart = route === '/fachwelt/institutionen/'
   const zeileSchonGezeigt = !!kopfFoto || istPerson
   let zeileVergeben = zeileSchonGezeigt
@@ -484,50 +477,54 @@ export default function Seite({ route }: { route: string }) {
 
         {rest.map((a, idx) => {
           // Wechsel von hinten gezählt: der letzte Abschnitt ist weiss, damit er sich vom Fuss (grey-light) abhebt.
-          // Der Abschnitt «Rückmeldung» zählt nicht mit: er hat die Farbe des Abschnitts davor, damit sich die Farben
-          // der übrigen Abschnitte nicht verschieben.
-          const gezaehlt = rest.filter((x) => !RUECKMELDUNG_NAME.test(x.name))
-          const istRm = RUECKMELDUNG_NAME.test(a.name)
-          const bezug = istRm ? rest.slice(0, idx).filter((x) => !RUECKMELDUNG_NAME.test(x.name)).pop() ?? a : a
-          const hell = (gezaehlt.length - 1 - gezaehlt.indexOf(bezug)) % 2 === 1
+          // Die Referenzen nach den Preisen zählen nicht mit: sie haben die Farbe des Abschnitts davor, damit sich die
+          // Farben der übrigen Abschnitte nicht verschieben.
+          const hell = (rest.length - 1 - idx) % 2 === 1
           const foto = fotoVon(a.knoten)
           const klappt = aufklappbar && AUFKLAPP_NAMEN.test(a.name)
           const h2 = a.knoten.find((n) => n.k === 'feld' && n.label === 'H2')
           const ohneH2 = { ...a, knoten: a.knoten.filter((n) => n !== h2) }
           const id = h2 && text(h2) === 'Wenn jemand in Gefahr ist' ? 'gefahr' : undefined
-          const rm = istRm ? rueckmeldungVon(a.knoten) : null
           const zeileHier = foto && !zeileVergeben
           if (foto) zeileVergeben = true
           return (
-            <section key={a.name} id={id} className={hell ? 'bg-grey-light' : 'bg-white'}>
-              <div
-                className={`container-b ${istRm ? 'pb-12 lg:pb-16' : 'py-12 lg:py-16'} ${foto ? 'grid gap-8 md:grid-cols-[1fr_minmax(0,480px)] md:items-center' : ''}`}
-              >
-                <div className="flex flex-col gap-4">
-                  {h2 ? (
-                    <h2 className={`max-w-[800px] ${H2}`}>
-                      <T>{text(h2)}</T>
-                    </h2>
-                  ) : null}
-                  {rm ? <Rueckmeldung {...rm} /> : null}
-                  {rm ? null : klappt ? (
-                    <Aufklapp label={AUFKLAPP_LABEL}>
+            <Fragment key={a.name}>
+              <section id={id} className={hell ? 'bg-grey-light' : 'bg-white'}>
+                <div
+                  className={`container-b py-12 lg:py-16 ${foto ? 'grid gap-8 md:grid-cols-[1fr_minmax(0,480px)] md:items-center' : ''}`}
+                >
+                  <div className="flex flex-col gap-4">
+                    {h2 ? (
+                      <h2 className={`max-w-[800px] ${H2}`}>
+                        <T>{text(h2)}</T>
+                      </h2>
+                    ) : null}
+                    {klappt ? (
+                      <Aufklapp label={AUFKLAPP_LABEL}>
+                        <Fluss a={ohneH2} ctx={ctx} hell={hell} />
+                      </Aufklapp>
+                    ) : (
                       <Fluss a={ohneH2} ctx={ctx} hell={hell} />
-                    </Aufklapp>
-                  ) : (
-                    <Fluss a={ohneH2} ctx={ctx} hell={hell} />
-                  )}
-                </div>
-                {foto ? (
-                  <div className="flex w-full max-w-[360px] flex-col gap-2 md:justify-self-end">
-                    <div className={`rounded-lg ${hell ? 'bg-white' : 'bg-grey-light'}`}>
-                      <Foto foto={foto.foto} sizes="(min-width: 768px) 360px, 100vw" className="h-auto w-full rounded-lg" />
-                    </div>
-                    {zeileHier ? <Personenzeile className="text-base" /> : null}
+                    )}
                   </div>
-                ) : null}
-              </div>
-            </section>
+                  {foto ? (
+                    <div className="flex w-full max-w-[360px] flex-col gap-2 md:justify-self-end">
+                      <div className={`rounded-lg ${hell ? 'bg-white' : 'bg-grey-light'}`}>
+                        <Foto foto={foto.foto} sizes="(min-width: 768px) 360px, 100vw" className="h-auto w-full rounded-lg" />
+                      </div>
+                      {zeileHier ? <Personenzeile className="text-base" /> : null}
+                    </div>
+                  ) : null}
+                </div>
+              </section>
+              {referenzen.length && PREISE_NAME.test(a.name) ? (
+                <section className={hell ? 'bg-grey-light' : 'bg-white'}>
+                  <div className="container-b pb-12 lg:pb-16">
+                    <Referenzen eintraege={referenzen} hell={hell} />
+                  </div>
+                </section>
+              ) : null}
+            </Fragment>
           )
         })}
         {istInstStart ? null : null}
